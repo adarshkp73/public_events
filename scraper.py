@@ -4,32 +4,27 @@ import time
 import os
 import re
 import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urljoin, quote
+from urllib.parse import quote
 
 FALLBACK = "data not provided/will be shared upon signup"
 TARGET_CITIES = ["bengaluru", "chennai", "kolkata", "hyderabad", "delhi"] 
 
-# Comprehensive list of tech keywords to filter out non-tech events
+# Strict tech keyword filter
 TECH_KEYWORDS = [
     "ai", "artificial intelligence", "machine learning", "ml", "deep learning", "genai", "llm",
-    "python", "javascript", "typescript", "react", "node", "java", "c++", "golang", "rust", "ruby",
+    "python", "javascript", "typescript", "react", "node", "java", "c++", "golang", "rust",
     "software", "developer", "dev", "code", "coding", "programming", "tech", "technology", 
     "startup", "founder", "hackathon", "web3", "crypto", "blockchain", "cloud", "aws", "azure", 
     "gcp", "devops", "cybersecurity", "security", "data science", "data engineering", "api", 
     "full stack", "frontend", "backend", "saas", "open source", "linux", "git", "database", 
-    "sql", "nosql", "product management", "ui/ux", "scaler", "gdg", "google developer", "aws user group"
+    "sql", "nosql", "product management", "ui/ux", "scaler", "gdg", "google developer"
 ]
 
 def is_tech_event(event_name):
-    """Checks if the event title contains tech-related keywords."""
     if not event_name or event_name == FALLBACK:
         return False
-        
     name_lower = event_name.lower()
-    
     for kw in TECH_KEYWORDS:
-        # For short 2-3 letter words, use word boundaries to avoid false positives (e.g., "mail" matching "ai")
         if len(kw) <= 3:
             if re.search(r'\b' + re.escape(kw) + r'\b', name_lower):
                 return True
@@ -38,42 +33,56 @@ def is_tech_event(event_name):
                 return True
     return False
 
-def sanitize_link(raw_link, base_domain=""):
-    """Ensures registration and image links are fully qualified absolute URLs."""
+def is_in_india(event_info, target_city):
+    """Strictly validates that the event is located in India / target city."""
+    geo = event_info.get('geo_address_info', {}) or {}
+    city_str = str(geo.get('city', '')).lower()
+    country_str = str(geo.get('country', '')).lower()
+    address_str = str(event_info.get('address', '')).lower()
+    name_str = str(event_info.get('name', '')).lower()
+    
+    # Explicit international exclusion guardrails
+    international_markers = ['san francisco', 'sf', 'new york', 'nyc', 'london', 'tokyo', 'berlin', 'singapore', 'usa', 'united states', 'uk', 'germany', 'japan', 'canada', 'toronto', 'sydney', 'australia']
+    combined_text = f"{city_str} {country_str} {address_str}"
+    
+    for marker in international_markers:
+        # If an international city/country marker is explicitly in the address metadata, drop it unless our target city matches it
+        if marker in combined_text and target_city not in combined_text:
+            return False
+
+    # Must match target city or explicitly state India
+    if target_city in combined_text or 'india' in combined_text or 'ind' in country_str:
+        return True
+        
+    # Fallback check if venue description mentions India or local tech hubs
+    local_hubs = ['bengaluru', 'bangalore', 'chennai', 'kolkata', 'hyderabad', 'delhi', 'new delhi', 'gurugram', 'noida', 'mumbai', 'pune']
+    if any(hub in combined_text for hub in local_hubs):
+        return True
+        
+    return False
+
+def sanitize_link(raw_link):
     if not raw_link or raw_link == FALLBACK or raw_link.startswith("#") or "base64" in raw_link:
         return FALLBACK
-    
     if raw_link.startswith("//"):
         return f"https:{raw_link}"
-        
     if raw_link.startswith("http://") or raw_link.startswith("https://"):
         return raw_link
-        
-    if base_domain:
-        return urljoin(base_domain, raw_link)
-        
     return raw_link
 
 def scrape_all_cities():
     events_data = []
     current_id = 1
     
-    # Startup jitter to mimic human execution footprints
-    #jitter = random.randint(300, 600)
-    #print(f"Applying startup jitter: Sleeping for {jitter} seconds...")
-    #time.sleep(jitter)
+    # Startup jitter (5-10 mins)
+    jitter = random.randint(300, 600)
+    print(f"Applying startup jitter: Sleeping for {jitter} seconds...")
+    time.sleep(jitter)
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept": "application/json, text/plain, */*",
         "Accept-Language": "en-US,en;q=0.9"
-    }
-
-    eb_headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Upgrade-Insecure-Requests": "1"
     }
 
     proxies = None
@@ -92,175 +101,55 @@ def scrape_all_cities():
         else:
             proxies = {"http": selected_proxy, "https": selected_proxy}
 
+    luma_base = "https://lu.ma"
+
     for city in TARGET_CITIES:
-        city_lower = city.lower().strip()
-        city_slug = city_lower.replace(" ", "-")
-        print(f"\n--- Scraping tech events for: {city.title()} ---")
-
-        # ==========================================
-        # 1. HEADSTART
-        # ==========================================
+        print(f"\n--- Fetching strict India tech events for: {city.title()} ---")
         try:
-            hs_base = "https://www.headstart.in"
-            hs_url = f"{hs_base}/{city_slug}"
-            res = requests.get(hs_url, headers=headers, proxies=proxies, timeout=15)
-            
-            if res.status_code == 200:
-                soup = BeautifulSoup(res.text, 'html.parser')
-                cards = soup.select('div.event-card, .card, a[href*="/events/"], .event-item')
-                if not cards:
-                    cards = soup.find_all('a', href=True)
-                    
-                for card in cards:
-                    href = card.get('href', '')
-                    if '/events/' in href or card.name == 'div':
-                        title_elem = card.select_one('h2, h3, h4, .title, .event-title')
-                        if title_elem or card.name == 'h3':
-                            title = title_elem.get_text(strip=True) if title_elem else card.get_text(strip=True)
-                            
-                            # Filter for tech relevance
-                            if len(title) > 3 and is_tech_event(title):
-                                img_elem = card.select_one('img')
-                                img_raw = img_elem.get('src') or img_elem.get('data-src') if img_elem else None
-                                date_elem = card.select_one('.date, .time, time')
-                                venue_elem = card.select_one('.location, .venue')
-                                
-                                events_data.append({
-                                    "id": current_id,
-                                    "event name": title,
-                                    "host": "Headstart India",
-                                    "date and time": date_elem.get_text(strip=True) if date_elem else FALLBACK,
-                                    "venue": venue_elem.get_text(strip=True) if venue_elem else city.title(),
-                                    "registration link": sanitize_link(href if href else card.get('href'), hs_base),
-                                    "image url": sanitize_link(img_raw, hs_base)
-                                })
-                                current_id += 1
-        except Exception as e:
-            print(f"Headstart Error ({city}): {e}")
-
-        # ==========================================
-        # 2. EVENTBRITE
-        # ==========================================
-        try:
-            eb_base = "https://www.eventbrite.com"
-            eb_url = f"{eb_base}/d/india--{city_slug}/all-events/"
-            res = requests.get(eb_url, headers=eb_headers, proxies=proxies, timeout=15)
-            
-            if res.status_code == 200:
-                soup = BeautifulSoup(res.text, 'html.parser')
-                script = soup.find('script', string=lambda t: t and 'window.__SERVER_DATA__' in t)
-                if script:
-                    json_str = script.string.split('window.__SERVER_DATA__ = ')[1].split(';')[0]
-                    eb_data = json.loads(json_str)
-                    events = eb_data.get('search_data', {}).get('events', {}).get('results', [])
-                    for event in events:
-                        title = event.get('name', FALLBACK)
-                        
-                        # Filter for tech relevance
-                        if is_tech_event(title):
-                            img_dict = event.get('image') or {}
-                            img_raw = img_dict.get('url') or img_dict.get('original', {}).get('url')
-                            
-                            events_data.append({
-                                "id": current_id,
-                                "event name": title,
-                                "host": event.get('primary_organizer', {}).get('name', FALLBACK),
-                                "date and time": event.get('start_date', FALLBACK),
-                                "venue": event.get('primary_venue', {}).get('name', FALLBACK),
-                                "registration link": sanitize_link(event.get('url'), eb_base),
-                                "image url": sanitize_link(img_raw, eb_base)
-                            })
-                            current_id += 1
-        except Exception as e:
-            print(f"Eventbrite Error ({city}): {e}")
-
-        # ==========================================
-        # 3. ALLEVENTS
-        # ==========================================
-        try:
-            ae_base = "https://allevents.in"
-            ae_url = f"{ae_base}/{city_slug}/all"
-            res = requests.get(ae_url, headers=headers, proxies=proxies, timeout=15)
-            
-            if res.status_code == 200:
-                soup = BeautifulSoup(res.text, 'html.parser')
-                event_cards = soup.select('.event-card, li.card, .discover-card, div[data-event-id]')
-                if not event_cards:
-                    event_cards = soup.select('div.card')
-
-                for card in event_cards:
-                    title_elem = card.select_one('h3, h4, .title, .card-title')
-                    if title_elem:
-                        title = title_elem.get_text(strip=True)
-                        
-                        # Filter for tech relevance
-                        if is_tech_event(title):
-                            link_elem = card.select_one('a[href]')
-                            img_elem = card.select_one('img')
-                            
-                            img_raw = None
-                            if img_elem:
-                                img_raw = (
-                                    img_elem.get('data-src') or 
-                                    img_elem.get('data-original') or 
-                                    img_elem.get('srcset') or 
-                                    img_elem.get('src')
-                                )
-                                if img_raw and ',' in img_raw:
-                                    img_raw = img_raw.split(',')[0].strip().split(' ')[0]
-
-                            date_elem = card.select_one('.date, .sub-title, time')
-                            venue_elem = card.select_one('.venue, .subtitle-location')
-                            
-                            events_data.append({
-                                "id": current_id,
-                                "event name": title,
-                                "host": FALLBACK,
-                                "date and time": date_elem.get_text(strip=True) if date_elem else FALLBACK,
-                                "venue": venue_elem.get_text(strip=True) if venue_elem else city.title(),
-                                "registration link": sanitize_link(link_elem.get('href') if link_elem else None, ae_base),
-                                "image url": sanitize_link(img_raw, ae_base)
-                            })
-                            current_id += 1
-        except Exception as e:
-            print(f"AllEvents Error ({city}): {e}")
-
-        # ==========================================
-        # 4. LUMA
-        # ==========================================
-        try:
-            luma_base = "https://lu.ma"
             luma_api_url = f"https://api.luma.com/discover/get-paginated-events?location={quote(city.title())}&limit=50"
             res = requests.get(luma_api_url, headers=headers, proxies=proxies, timeout=15)
             
             if res.status_code == 200:
                 luma_json = res.json()
-                for entry in luma_json.get('entries', []):
+                entries = luma_json.get('entries', [])
+                city_count = 0
+                
+                for entry in entries:
                     event_info = entry.get('event', {})
                     if event_info:
                         title = event_info.get('name', FALLBACK)
                         
-                        # Filter for tech relevance
-                        if is_tech_event(title):
+                        # Apply strict Tech Filter AND Strict India Location Validator
+                        if is_tech_event(title) and is_in_india(event_info, city):
                             slug = event_info.get('url') or event_info.get('slug') or event_info.get('api_id', '')
                             reg_link = f"{luma_base}/{slug}" if slug else FALLBACK
                             
-                            events_data.append({
-                                "id": current_id,
-                                "event name": title,
-                                "host": event_info.get('hosts', [{'name': FALLBACK}])[0].get('name', FALLBACK),
-                                "date and time": event_info.get('start_at', FALLBACK),
-                                "venue": event_info.get('geo_address_info', {}).get('city', FALLBACK),
-                                "registration link": reg_link,
-                                "image url": sanitize_link(event_info.get('cover_url'), luma_base)
-                            })
-                            current_id += 1
+                            hosts_list = event_info.get('hosts', [])
+                            host_name = hosts_list[0].get('name', FALLBACK) if hosts_list else FALLBACK
+
+                            # Prevent duplicate entries across overlapping city queries
+                            event_venue = event_info.get('geo_address_info', {}).get('city', city.title())
+                            reg_url = reg_link
+                            
+                            if not any(e['registration link'] == reg_url for e in events_data):
+                                events_data.append({
+                                    "id": current_id,
+                                    "event name": title,
+                                    "host": host_name,
+                                    "date and time": event_info.get('start_at', FALLBACK),
+                                    "venue": event_venue,
+                                    "registration link": reg_url,
+                                    "image url": sanitize_link(event_info.get('cover_url'))
+                                })
+                                current_id += 1
+                                city_count += 1
+                
+                print(f"Successfully added {city_count} verified local events for {city.title()}.")
         except Exception as e:
-            print(f"Luma Error ({city}): {e}")
+            print(f"Error fetching {city}: {e}")
 
         time.sleep(2)
 
-    # Output clean JSON with timestamp wrapper
     output_payload = {
         "last_updated": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
         "total_events": len(events_data),
@@ -269,7 +158,7 @@ def scrape_all_cities():
 
     with open('events.json', 'w', encoding='utf-8') as f:
         json.dump(output_payload, f, indent=4, ensure_ascii=False)
-        print(f"\nSuccessfully compiled {len(events_data)} filtered tech events into events.json")
+        print(f"\nPipeline Complete. Compiled {len(events_data)} verified India tech events into events.json")
 
 if __name__ == "__main__":
     scrape_all_cities()
