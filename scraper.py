@@ -2,6 +2,7 @@ import json
 import random
 import time
 import os
+import re
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, quote
@@ -9,12 +10,39 @@ from urllib.parse import urljoin, quote
 FALLBACK = "data not provided/will be shared upon signup"
 TARGET_CITIES = ["bengaluru", "chennai", "kolkata", "hyderabad", "delhi"] 
 
+# Comprehensive list of tech keywords to filter out non-tech events
+TECH_KEYWORDS = [
+    "ai", "artificial intelligence", "machine learning", "ml", "deep learning", "genai", "llm",
+    "python", "javascript", "typescript", "react", "node", "java", "c++", "golang", "rust", "ruby",
+    "software", "developer", "dev", "code", "coding", "programming", "tech", "technology", 
+    "startup", "founder", "hackathon", "web3", "crypto", "blockchain", "cloud", "aws", "azure", 
+    "gcp", "devops", "cybersecurity", "security", "data science", "data engineering", "api", 
+    "full stack", "frontend", "backend", "saas", "open source", "linux", "git", "database", 
+    "sql", "nosql", "product management", "ui/ux", "scaler", "gdg", "google developer", "aws user group"
+]
+
+def is_tech_event(event_name):
+    """Checks if the event title contains tech-related keywords."""
+    if not event_name or event_name == FALLBACK:
+        return False
+        
+    name_lower = event_name.lower()
+    
+    for kw in TECH_KEYWORDS:
+        # For short 2-3 letter words, use word boundaries to avoid false positives (e.g., "mail" matching "ai")
+        if len(kw) <= 3:
+            if re.search(r'\b' + re.escape(kw) + r'\b', name_lower):
+                return True
+        else:
+            if kw in name_lower:
+                return True
+    return False
+
 def sanitize_link(raw_link, base_domain=""):
     """Ensures registration and image links are fully qualified absolute URLs."""
     if not raw_link or raw_link == FALLBACK or raw_link.startswith("#") or "base64" in raw_link:
         return FALLBACK
     
-    # Fix protocol-relative URLs (e.g., "//img.evbuc.com/...")
     if raw_link.startswith("//"):
         return f"https:{raw_link}"
         
@@ -67,7 +95,7 @@ def scrape_all_cities():
     for city in TARGET_CITIES:
         city_lower = city.lower().strip()
         city_slug = city_lower.replace(" ", "-")
-        print(f"\n--- Scraping events for: {city.title()} ---")
+        print(f"\n--- Scraping tech events for: {city.title()} ---")
 
         # ==========================================
         # 1. HEADSTART
@@ -89,7 +117,9 @@ def scrape_all_cities():
                         title_elem = card.select_one('h2, h3, h4, .title, .event-title')
                         if title_elem or card.name == 'h3':
                             title = title_elem.get_text(strip=True) if title_elem else card.get_text(strip=True)
-                            if len(title) > 3:
+                            
+                            # Filter for tech relevance
+                            if len(title) > 3 and is_tech_event(title):
                                 img_elem = card.select_one('img')
                                 img_raw = img_elem.get('src') or img_elem.get('data-src') if img_elem else None
                                 date_elem = card.select_one('.date, .time, time')
@@ -109,7 +139,7 @@ def scrape_all_cities():
             print(f"Headstart Error ({city}): {e}")
 
         # ==========================================
-        # 2. EVENTBRITE (Fixed Image Extraction)
+        # 2. EVENTBRITE
         # ==========================================
         try:
             eb_base = "https://www.eventbrite.com"
@@ -124,25 +154,28 @@ def scrape_all_cities():
                     eb_data = json.loads(json_str)
                     events = eb_data.get('search_data', {}).get('events', {}).get('results', [])
                     for event in events:
-                        # Eventbrite stores image inside nested objects safely
-                        img_dict = event.get('image') or {}
-                        img_raw = img_dict.get('url') or img_dict.get('original', {}).get('url')
+                        title = event.get('name', FALLBACK)
                         
-                        events_data.append({
-                            "id": current_id,
-                            "event name": event.get('name', FALLBACK),
-                            "host": event.get('primary_organizer', {}).get('name', FALLBACK),
-                            "date and time": event.get('start_date', FALLBACK),
-                            "venue": event.get('primary_venue', {}).get('name', FALLBACK),
-                            "registration link": sanitize_link(event.get('url'), eb_base),
-                            "image url": sanitize_link(img_raw, eb_base)
-                        })
-                        current_id += 1
+                        # Filter for tech relevance
+                        if is_tech_event(title):
+                            img_dict = event.get('image') or {}
+                            img_raw = img_dict.get('url') or img_dict.get('original', {}).get('url')
+                            
+                            events_data.append({
+                                "id": current_id,
+                                "event name": title,
+                                "host": event.get('primary_organizer', {}).get('name', FALLBACK),
+                                "date and time": event.get('start_date', FALLBACK),
+                                "venue": event.get('primary_venue', {}).get('name', FALLBACK),
+                                "registration link": sanitize_link(event.get('url'), eb_base),
+                                "image url": sanitize_link(img_raw, eb_base)
+                            })
+                            current_id += 1
         except Exception as e:
             print(f"Eventbrite Error ({city}): {e}")
 
         # ==========================================
-        # 3. ALLEVENTS (Fixed Lazy-Load Image Extraction)
+        # 3. ALLEVENTS
         # ==========================================
         try:
             ae_base = "https://allevents.in"
@@ -158,35 +191,37 @@ def scrape_all_cities():
                 for card in event_cards:
                     title_elem = card.select_one('h3, h4, .title, .card-title')
                     if title_elem:
-                        link_elem = card.select_one('a[href]')
-                        img_elem = card.select_one('img')
+                        title = title_elem.get_text(strip=True)
                         
-                        # Grab lazy-loaded attributes safely
-                        img_raw = None
-                        if img_elem:
-                            img_raw = (
-                                img_elem.get('data-src') or 
-                                img_elem.get('data-original') or 
-                                img_elem.get('srcset') or 
-                                img_elem.get('src')
-                            )
-                            # Handle srcset split if necessary (take first URL)
-                            if img_raw and ',' in img_raw:
-                                img_raw = img_raw.split(',')[0].strip().split(' ')[0]
+                        # Filter for tech relevance
+                        if is_tech_event(title):
+                            link_elem = card.select_one('a[href]')
+                            img_elem = card.select_one('img')
+                            
+                            img_raw = None
+                            if img_elem:
+                                img_raw = (
+                                    img_elem.get('data-src') or 
+                                    img_elem.get('data-original') or 
+                                    img_elem.get('srcset') or 
+                                    img_elem.get('src')
+                                )
+                                if img_raw and ',' in img_raw:
+                                    img_raw = img_raw.split(',')[0].strip().split(' ')[0]
 
-                        date_elem = card.select_one('.date, .sub-title, time')
-                        venue_elem = card.select_one('.venue, .subtitle-location')
-                        
-                        events_data.append({
-                            "id": current_id,
-                            "event name": title_elem.get_text(strip=True),
-                            "host": FALLBACK,
-                            "date and time": date_elem.get_text(strip=True) if date_elem else FALLBACK,
-                            "venue": venue_elem.get_text(strip=True) if venue_elem else city.title(),
-                            "registration link": sanitize_link(link_elem.get('href') if link_elem else None, ae_base),
-                            "image url": sanitize_link(img_raw, ae_base)
-                        })
-                        current_id += 1
+                            date_elem = card.select_one('.date, .sub-title, time')
+                            venue_elem = card.select_one('.venue, .subtitle-location')
+                            
+                            events_data.append({
+                                "id": current_id,
+                                "event name": title,
+                                "host": FALLBACK,
+                                "date and time": date_elem.get_text(strip=True) if date_elem else FALLBACK,
+                                "venue": venue_elem.get_text(strip=True) if venue_elem else city.title(),
+                                "registration link": sanitize_link(link_elem.get('href') if link_elem else None, ae_base),
+                                "image url": sanitize_link(img_raw, ae_base)
+                            })
+                            current_id += 1
         except Exception as e:
             print(f"AllEvents Error ({city}): {e}")
 
@@ -195,7 +230,7 @@ def scrape_all_cities():
         # ==========================================
         try:
             luma_base = "https://lu.ma"
-            luma_api_url = f"https://api.luma.com/discover/get-paginated-events?location={quote(city.title())}&limit=30"
+            luma_api_url = f"https://api.luma.com/discover/get-paginated-events?location={quote(city.title())}&limit=50"
             res = requests.get(luma_api_url, headers=headers, proxies=proxies, timeout=15)
             
             if res.status_code == 200:
@@ -203,19 +238,23 @@ def scrape_all_cities():
                 for entry in luma_json.get('entries', []):
                     event_info = entry.get('event', {})
                     if event_info:
-                        slug = event_info.get('url') or event_info.get('slug') or event_info.get('api_id', '')
-                        reg_link = f"{luma_base}/{slug}" if slug else FALLBACK
+                        title = event_info.get('name', FALLBACK)
                         
-                        events_data.append({
-                            "id": current_id,
-                            "event name": event_info.get('name', FALLBACK),
-                            "host": event_info.get('hosts', [{'name': FALLBACK}])[0].get('name', FALLBACK),
-                            "date and time": event_info.get('start_at', FALLBACK),
-                            "venue": event_info.get('geo_address_info', {}).get('city', FALLBACK),
-                            "registration link": reg_link,
-                            "image url": sanitize_link(event_info.get('cover_url'), luma_base)
-                        })
-                        current_id += 1
+                        # Filter for tech relevance
+                        if is_tech_event(title):
+                            slug = event_info.get('url') or event_info.get('slug') or event_info.get('api_id', '')
+                            reg_link = f"{luma_base}/{slug}" if slug else FALLBACK
+                            
+                            events_data.append({
+                                "id": current_id,
+                                "event name": title,
+                                "host": event_info.get('hosts', [{'name': FALLBACK}])[0].get('name', FALLBACK),
+                                "date and time": event_info.get('start_at', FALLBACK),
+                                "venue": event_info.get('geo_address_info', {}).get('city', FALLBACK),
+                                "registration link": reg_link,
+                                "image url": sanitize_link(event_info.get('cover_url'), luma_base)
+                            })
+                            current_id += 1
         except Exception as e:
             print(f"Luma Error ({city}): {e}")
 
@@ -230,7 +269,7 @@ def scrape_all_cities():
 
     with open('events.json', 'w', encoding='utf-8') as f:
         json.dump(output_payload, f, indent=4, ensure_ascii=False)
-        print(f"\nSuccessfully compiled a total of {len(events_data)} events into events.json")
+        print(f"\nSuccessfully compiled {len(events_data)} filtered tech events into events.json")
 
 if __name__ == "__main__":
     scrape_all_cities()
