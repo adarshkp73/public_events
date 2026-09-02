@@ -1,429 +1,3021 @@
 {
-    "last_updated": "2026-09-02 13:29:28 UTC",
-    "total_events": 47,
+    "last_updated": "2026-09-02 13:34:45 UTC",
+    "total_events": 335,
     "events": [
         {
             "id": 1,
-            "event name": "Women In Tech Mixer - Bengaluru Tech Week 2026",
+            "event name": "Founder’s Meetup I Bangalore I Investor & Founders Networking",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-02T12:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/rkv8fvss",
-            "image url": "https://images.lumacdn.com/uploads/c2/a364f02a-fbb5-4e4c-a851-1b13ff3ac86d.png"
+            "date and time": "2026-09-12",
+            "venue": "Founder Startup House Bangalore",
+            "registration link": "https://www.eventbrite.com/e/founders-meetup-i-bangalore-i-investor-founders-networking-tickets-1983339390507",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189866829%2F2577333415451%2F1%2Foriginal.20260729-111317?crop=focalpoint&fit=crop&w=267&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.025&fp-y=0.078&s=120d8f63c16bf6b820a3feefe66e75a6"
         },
         {
             "id": 2,
-            "event name": "Dungeons and Data",
+            "event name": "Women in Tech Bengaluru - OutGeekWomen",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-02T13:00:00.000Z",
+            "date and time": "2026-11-12",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/318i0hrl",
-            "image url": "https://images.lumacdn.com/uploads/w9/1b1a8173-5c03-4f93-98b2-616967eb6b03.png"
+            "registration link": "https://www.eventbrite.com/e/women-in-tech-bengaluru-outgeekwomen-tickets-1330268963279",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1011537153%2F529664982707%2F1%2Foriginal.20250417-185740?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.0795454545455&fp-y=0.503731343284&s=754129ffbee24be6154535c34d8f901b"
         },
         {
             "id": 3,
-            "event name": "GTM India | Bengaluru Networking Mixer",
+            "event name": "Bangalore's Big Business, Tech & Entrepreneur Professional Networking Event",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-02T13:00:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/sxqqrqio",
-            "image url": "https://images.lumacdn.com/uploads/if/91756ce8-336c-4cd7-be65-b8a11daff3b9.png"
+            "date and time": "2026-09-21",
+            "venue": "JW Marriott Hotel Bengaluru - Hotel Lobby",
+            "registration link": "https://www.eventbrite.com/e/bangalores-big-business-tech-entrepreneur-professional-networking-event-tickets-1260409040369",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F985614953%2F5509431938%2F1%2Foriginal.20250317-153602?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=c95d02160117e2246e11dc37f498e2a6"
         },
         {
             "id": 4,
-            "event name": "AI Everywhere: Edge, Cloud and Humans",
+            "event name": "WELL 2026 Bengaluru Summit",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-02T13:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/r80gqn49",
-            "image url": "https://images.lumacdn.com/uploads/fl/1a9b662b-77cb-4473-ac4b-4b73af5d7843.png"
+            "date and time": "2026-10-28",
+            "venue": "CESSNA BUSINESS PARK CISCO",
+            "registration link": "https://www.eventbrite.com/e/well-2026-bengaluru-summit-tickets-1990788772810",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185865696%2F109240986305%2F1%2Foriginal.20260601-142445?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ed9e952c0c9ef7ee862b0cfa3578c051"
         },
         {
             "id": 5,
-            "event name": "Let's Talk Open Source Security",
+            "event name": "Leveraging Robotics for Success | Bangaluru",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T09:30:00.000Z",
+            "date and time": "2026-09-15",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/pn41vece",
-            "image url": "https://images.lumacdn.com/uploads/de/6af489eb-e7ad-4ccc-806a-57d61e9f2f4a.png"
+            "registration link": "https://www.eventbrite.com.au/e/leveraging-robotics-for-success-bangaluru-tickets-1052210268237",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1021648183%2F2314805913363%2F1%2Foriginal.20250502-081412?crop=focalpoint&fit=crop&w=267&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00494318181818&fp-y=0.00481343283582&s=4962813860ab278a7a04843616a4436b"
         },
         {
             "id": 6,
-            "event name": "Vibe & Build 2026 - Special Edition",
+            "event name": "Harnessing AI for Marketing Innovation | Bangalore",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T09:30:00.000Z",
+            "date and time": "2026-09-08",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/whaok0ow",
-            "image url": "https://images.lumacdn.com/uploads/4z/f5fc215b-0f1e-44ef-8387-5fa0a7db15fc.png"
+            "registration link": "https://www.eventbrite.com.au/e/harnessing-ai-for-marketing-innovation-bangalore-tickets-1052209445777",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1021647963%2F2314805913363%2F1%2Foriginal.20250502-081348?crop=focalpoint&fit=crop&w=267&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00498106060606&fp-y=0.00492537313433&s=2348889f25accbbc5fd65fc6b59143f7"
         },
         {
             "id": 7,
-            "event name": "BTW Impromptu 2026!",
+            "event name": "Generative AI for Society and Workplace | Bengaluru",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T11:30:00.000Z",
+            "date and time": "2026-10-06",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/0iv7f64c",
-            "image url": "https://images.lumacdn.com/uploads/a7/387fcda6-decb-4df0-a027-0f9359422161.jpg"
+            "registration link": "https://www.eventbrite.com.au/e/generative-ai-for-society-and-workplace-bengaluru-tickets-1147825008499",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1021648953%2F2314805913363%2F1%2Foriginal.20250502-081613?w=400&auto=format%2Ccompress&q=75&sharp=10&s=ebfb5e58d91a3c31707cc674a242a01e"
         },
         {
             "id": 8,
-            "event name": "Codex Community Meetup - Bengaluru",
+            "event name": "Sdd",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T11:30:00.000Z",
+            "date and time": "2026-10-25",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/xeulmg0q",
-            "image url": "https://images.lumacdn.com/event-covers/cj/f14c4661-f2dd-4ee3-9acf-827b97645fc1.png"
+            "registration link": "https://www.eventbrite.com/e/sdd-tickets-420234070417",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 9,
-            "event name": "From Signals to Problems: Customer Discovery with Dharmesh Ba",
+            "event name": "Science and Spiritual Quest",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T11:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/dharmesh",
-            "image url": "https://images.lumacdn.com/uploads/nd/9d6fb7c8-70ea-4321-8eed-6df2fd227b4f.png"
+            "date and time": "2026-10-31",
+            "venue": "Jawaharlal Nehru Centre For Advanced Scientific Research",
+            "registration link": "https://www.eventbrite.com/e/science-and-spiritual-quest-tickets-1998107206442",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191146566%2F2999703429283%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=43afe311221fbb87517685ffd0dad63d"
         },
         {
             "id": 10,
-            "event name": "Product Roast at AI House: No AI Was Harmed (Just Embarrassed)",
+            "event name": "Next Generation Testing & AI Bangalore",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T11:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/ProductRoastatAIHouse",
-            "image url": "https://images.lumacdn.com/uploads/4z/f0eb5988-f9fe-4804-b96a-7e7bb542bf6e.jpg"
+            "date and time": "2026-11-26",
+            "venue": "Radisson Blu Hotel, Atria Bengaluru",
+            "registration link": "https://www.eventbrite.co.uk/e/next-generation-testing-ai-bangalore-tickets-1993594225996",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188521497%2F2339087281423%2F1%2Foriginal.20260709-083158?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=00b31c4fc4e32002bc0016f881e3f721"
         },
         {
             "id": 11,
-            "event name": "AI in DeepTech | Bengaluru",
+            "event name": "Leading SAFe 6.0 (Scaled Agilist) Certification Training in Worcester, MA",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T12:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/the-rncj",
-            "image url": "https://images.lumacdn.com/uploads/lr/1ae95a75-18d4-4bbf-ae47-8fa3c1cb9d38.jpg"
+            "date and time": "2026-09-25",
+            "venue": "Regus Business Center",
+            "registration link": "https://www.eventbrite.com/e/leading-safe-60-scaled-agilist-certification-training-in-worcester-ma-tickets-1996180649057",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190024132%2F3009561173823%2F1%2Foriginal.20260731-095001?crop=focalpoint&fit=crop&w=267&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8066384846a229d7d80b13c8348ebaef"
         },
         {
             "id": 12,
-            "event name": "🚶Curious Walking Club - Bengaluru 🇮🇳 #1 | Friends of Screate Labs",
+            "event name": "Apparel Sourcing Week 2026",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T12:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/ad7cskna",
-            "image url": "https://images.lumacdn.com/uploads/bp/39dfb7a7-21ef-43e9-b1be-cc0c38e9f6a7.png"
+            "date and time": "2026-10-07",
+            "venue": "Sheraton Grand Bengaluru Whitefield Hotel & Convention Center",
+            "registration link": "https://www.eventbrite.com/e/apparel-sourcing-week-2026-tickets-1992195924639",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187257741%2F2635257636441%2F1%2Foriginal.20260619-092004?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.446&fp-y=0.831&s=23eab7b6b3922fe2c7465e6cf38ac615"
         },
         {
             "id": 13,
-            "event name": "GTM Engineering: Hackathon for Founders | Inkle x Aspire",
+            "event name": "Spitty: Hello World Tour (Bangalore)",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T12:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/inkle-gtm-hackathon",
-            "image url": "https://images.lumacdn.com/uploads/xx/1541de8e-1f5f-4e62-954a-d6b0ee298642.png"
+            "date and time": "2026-11-28",
+            "venue": "The Raft",
+            "registration link": "https://www.eventbrite.ca/e/spitty-hello-world-tour-bangalore-tickets-1992783049746",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187496102%2F62652207837%2F1%2Foriginal.20260623-171439?crop=focalpoint&fit=crop&w=267&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.493&fp-y=0.295&s=14b86fed78871ba7490a72b7bbc7ce89"
         },
         {
             "id": 14,
-            "event name": "The Hardware Club Bangalore - Robotics & Physical AI Showcase",
+            "event name": "Bengaluru 2026 Venture Capital World Summit",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-04T11:00:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/84xsno2z",
-            "image url": "https://images.lumacdn.com/uploads/c0/7ef10d47-7f05-4d4a-84db-2693a1a08aaf.png"
+            "date and time": "2026-10-07",
+            "venue": "COWRKS Residency Road, Purva Premier",
+            "registration link": "https://www.eventbrite.com/e/bengaluru-2026-venture-capital-world-summit-tickets-1968715980494",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1170794370%2F626217048%2F1%2Foriginal.20251112-162046?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3200%2C1600&s=ac7fb03497f02d904a697cb94cbaf38d"
         },
         {
             "id": 15,
-            "event name": "Founders & Funders: VC Reverse Pitch",
+            "event name": "Join Biggest Community | Investors & Founders | Bengaluru | Online",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-04T11:30:00.000Z",
+            "date and time": "2026-09-03",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/VCReversePitch",
-            "image url": "https://images.lumacdn.com/uploads/sn/40eb0bbc-4644-4f70-8ff8-cb1068ef3620.jpg"
+            "registration link": "https://www.eventbrite.com/e/join-biggest-community-investors-founders-bengaluru-online-tickets-1336224807369",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179266541%2F2837456016251%2F1%2Foriginal.20260307-074419?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cfed2939d55d249f619b4c3810dc1a70"
         },
         {
             "id": 16,
-            "event name": "Memory, Context & Agents (SurrealDB x Contentstack)",
+            "event name": "Open Source India | 7-8 October 2026",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-04T11:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/l9d0ea7m",
-            "image url": "https://images.lumacdn.com/uploads/u4/dfc3cbc0-c2d0-4bc8-a309-c3a5f3c6c33c.png"
+            "date and time": "2026-10-07",
+            "venue": "NIMHANS Convention Centre - Bengaluru",
+            "registration link": "https://www.eventbrite.com/e/open-source-india-7-8-october-2026-tickets-1993648772145",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190773229%2F1103343263843%2F1%2Foriginal.20260811-052827?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5d6894aa1f66943d59139b2c17cb6089"
         },
         {
             "id": 17,
-            "event name": "Prompt to PnL",
+            "event name": "Kubernetes + AI and Beyond : Exploring NextGen Tech Stack",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-04T11:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/dbxsta-b3rx",
-            "image url": "https://images.lumacdn.com/uploads/et/1b494e7d-b976-494e-a500-bddba86ce90d.jpg"
+            "date and time": "2026-09-12",
+            "venue": "Everpure (Pure storage)",
+            "registration link": "https://www.eventbrite.com/e/kubernetes-ai-and-beyond-exploring-nextgen-tech-stack-tickets-1997106785155",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190519176%2F380184883623%2F1%2Foriginal.20260807-040115?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.547&fp-y=0.51&s=d36955386a5f957f8ac78dd60fd1a71f"
         },
         {
             "id": 18,
-            "event name": "Vibes In, Latency Out: A Voice AI Open Mic",
+            "event name": "Collegepond's Global Education Fair - Bangalore 2026",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-04T11:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/8b23fhhm",
-            "image url": "https://images.lumacdn.com/uploads/ym/64fb78d4-cf9e-4431-bd09-0551c6fb2263.png"
+            "date and time": "2026-09-05",
+            "venue": "Hyatt Centric MG Road Bangalore",
+            "registration link": "https://www.eventbrite.it/e/collegeponds-global-education-fair-bangalore-2026-tickets-1992338314531",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190263283%2F2844054353541%2F1%2Foriginal.20260804-081019?w=267&auto=format%2Ccompress&q=75&sharp=10&s=62ab6cc0251e42255c2aab84a93de2a3"
         },
         {
             "id": 19,
-            "event name": "Building Production-Ready GenAI on AWS",
+            "event name": "Cloud Security System",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-04T13:00:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/0majnxqw",
-            "image url": "https://images.lumacdn.com/uploads/0t/68ba22c6-0625-4208-b45c-4a8466e17eac.png"
+            "date and time": "2026-09-05",
+            "venue": "Globussoft Technologies",
+            "registration link": "https://www.eventbrite.com/e/cloud-security-system-tickets-1995443524297",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 20,
-            "event name": "The Agent Autopsy - Breaking and Fixing AI Agents",
+            "event name": "Sri Krishna Janmashtami 2026 | Sarjapur Road, Bangalore",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-04T13:00:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/o5lg4fhp",
-            "image url": "https://images.lumacdn.com/uploads/lz/a9f0350c-4f65-48c4-9da8-b869441f4b38.png"
+            "date and time": "2026-09-04",
+            "venue": "IvyRossa 4 Seasons Hotel and Resort",
+            "registration link": "https://www.eventbrite.com/e/sri-krishna-janmashtami-2026-sarjapur-road-bangalore-tickets-1998541079167",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191589139%2F3011451163787%2F1%2Foriginal.20260821-124154?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.486&fp-y=0.936&s=6f2fdd8e44230dd84d1a24758aae329b"
         },
         {
             "id": 21,
-            "event name": "Dev Days | Bengaluru, India",
+            "event name": "Janmashtami Bhajan Jam - Live with Abby V!",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T03:30:00.000Z",
+            "date and time": "Sat, 05 Sep • 06:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/06l76kwv",
-            "image url": "https://images.lumacdn.com/uploads/qf/c8a882db-f657-4f34-a038-b0de84d232b8.png"
+            "registration link": "https://allevents.in/bangalore/janmashtami-bhajan-jam-live-with-abby-v-tickets/80002238894062",
+            "image url": "https://cdn-az.allevents.in/events2/banners/7f994829fd1b6dbf0ead59e9c725ee4f32756a498ee9ca785576041698844f02-rimg-w200-h126-gmir?v=1602104525"
         },
         {
             "id": 22,
-            "event name": "Hands-On: Build Agentic Workflows and Searchable Apps with Elasticsearch, Jina, and Agent-to-Agent Comm.",
+            "event name": "The Humming Tree presents Easy Wanderlings - Ten Years on the Map",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T04:30:00.000Z",
+            "date and time": "Fri, 11 Sep • 09:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/w2clmx3s",
-            "image url": "https://images.lumacdn.com/uploads/kh/ebf50294-1642-4b73-9a49-1c1916b352e3.png"
+            "registration link": "https://allevents.in/bangalore/the-humming-tree-presents-easy-wanderlings-ten-years-on-the-map/4100030584974311",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 23,
-            "event name": "Design and Drawings",
+            "event name": "Sukoon Wali Qawwali - Live Concert Experience",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T06:00:00.000Z",
+            "date and time": "Sat, 12 Sep • 06:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/2gh2k75t",
-            "image url": "https://images.lumacdn.com/uploads/dj/659e7828-1bdc-4508-85af-1d150b082791.png"
+            "registration link": "https://allevents.in/bangalore/sukoon-wali-qawwali-live-concert-experience/4100030428659212",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 24,
-            "event name": "Awesome CodeRabbit | Bengaluru Tech Week",
+            "event name": "110th Birth Anniversary of Smt. M.S. Subbulakshmi",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T09:30:00.000Z",
+            "date and time": "Wed, 16 Sep • 06:30 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/codera-klde",
-            "image url": "https://images.lumacdn.com/uploads/ey/a8db93f7-2c17-464b-9041-a6c4bfddaa02.png"
+            "registration link": "https://allevents.in/bangalore/110th-birth-anniversary-of-smt-ms-subbulakshmi/3900030437428712",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 25,
-            "event name": "Laravel Bengaluru: Tech Week Meetup",
+            "event name": "TOXIC - Abhishek Upmanyu Live",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T09:30:00.000Z",
+            "date and time": "Sun, 27 Sep • 04:30 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/laravel-f4hn",
-            "image url": "https://images.lumacdn.com/uploads/rt/16058729-abc4-4d78-9168-79dca6d2cae4.png"
+            "registration link": "https://allevents.in/bangalore/toxic-abhishek-upmanyu-live/3900030586179704",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocIR4oYZUvM-UX9yrwTUh0pApyUOLi99U7dwXEk8XriyPEpJq_22=s96-c?sz=200"
         },
         {
             "id": 26,
-            "event name": "Replit Designathon",
+            "event name": "Azeem Banatwalla - Generational",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T10:00:00.000Z",
+            "date and time": "Thu, 10 Sep • 08:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/v31aizgb",
-            "image url": "https://images.lumacdn.com/uploads/i9/690d216b-6e7e-4306-870b-b07a51846e8d.png"
+            "registration link": "https://allevents.in/bangalore/azeem-banatwalla-generational/3900030491708513",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 27,
-            "event name": "AI in HealthTech | Bengaluru",
+            "event name": "LinkedUp : A Dating Show for the Employed",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T12:30:00.000Z",
+            "date and time": "Sun, 06 Sep • 06:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/67jmzygb",
-            "image url": "https://images.lumacdn.com/uploads/27/9d927b6d-a8e6-4881-a62c-b59ee0a85663.jpg"
+            "registration link": "https://allevents.in/bangalore/linkedup-a-dating-show-for-the-employed/3900030599599417",
+            "image url": "https://www.gravatar.com/avatar/a15ff784aec34bcf143b7a4a4248e06e?s=100&d=identicon&r=g"
         },
         {
             "id": 28,
-            "event name": "Escape the Agent",
+            "event name": "Anirban Dasgupta Live",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T12:30:00.000Z",
+            "date and time": "Sun, 13 Sep • 04:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/dk5yztj8",
-            "image url": "https://images.lumacdn.com/uploads/jz/c9de394c-7176-4cbe-b082-937acb63d3d1.jpg"
+            "registration link": "https://allevents.in/bangalore/anirban-dasgupta-live/4100030456141422",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 29,
-            "event name": "AWFK - Bengaluru Tech Walk | Celebrating BTW",
+            "event name": "Rahul Deshpande Music Concert Bengaluru",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-06T02:00:00.000Z",
+            "date and time": "Fri, 11 Sep • 06:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/5zqxmdqn",
-            "image url": "https://images.lumacdn.com/uploads/kf/a9a1e03b-4c57-4690-bb7f-6e0795352a2a.png"
+            "registration link": "https://allevents.in/bangalore/rahul-deshpande-music-concert-bengaluru/3900030373803716",
+            "image url": "https://lh3.googleusercontent.com/a-/ALV-UjWoNfaaThgFUZbMiwemOIfYr7jmFE1QnwGcoEkoBJD2EauP1WmskczSh6illREyG29E_raEFitpeUTLSCCPZfcHpqgLx6oNcrwZYE35cgeDM5YOtGTdjE3UVdqtYFsknPJnx0Q0mHxqXOp_MyEHhYehWdLUmbcbSOLGZ540TYAase1yx4hhLRGfzPUfaAT-m6XW4cWXFMtFwvYJiEUAyZTMxab5JrbYMsN4gAiR7m2eLSSfj0vrvSxqjieaxLRf-7mMUXT0LZYs19Ur09ZAWq6DiHqNueG_6cwk45bxuhEqKB1WnnY2ckkXTfiimANovJrdCWLNBhhsJMcBVBM3mG25THT44ApeldJE8l2IcGMCMwzVh0GdPr0ORW7kxWrFkTuZLU0KPucFOA5jyTcDGB81HcUMA7rxUVThzkWsUVg9p7wayxie53UVHyAQ006Z3VWV0MWRFpu6BVTLyTTcYRTyk1Z560VmiBOZNKKctg589-iLDu7vwdQD-F_5_sPHuZQrMazsjDtDfHRfRBi9fAwoibFE1xi6KPWSd4ln3VsCZaXLuGvg15MrzpWOwXo-hbvKkJpHe_fJ6TGs3ZO_wn6YIcEe-zGgO98Xs1rRazJxzgfS7BG-zic6fCbyohM3XSzDRqhFPuuZFjMlVu3N-tj083hEdj_msXf7YOE4XYxv-J0ZxBsLeJRHuspopXVwu27M3pK5xjj19sGoDEdVMEeL0K_yHMxGRcBGmgsYgR7xvgoddGOx7A0mgeGEndf5QXdeLprka0efBEB-YLXpQTGATJ4du3DD0oRBfO91nWrc7qqM8lo2S9SMbok_IbeHJ3qqg9uN01YydoCrEaGqxj8JSQ4SjYNYYhvRkxB4i6sYlOjzajwybsvyw00Dzzs7D6R_L5bmN003PxLZwFmcRwwLEUFcBaFQqR1Ed_gRJc3R64-i4ChMj1FIIdO3DE9_JCzYQwqilUqL3WT36LO0vhH"
         },
         {
             "id": 30,
-            "event name": "Poha-Jalebi Club x Bengaluru Tech Week",
+            "event name": "One Night One Tribute Lucky Ali X Sonu Nigam Jam",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-06T03:30:00.000Z",
+            "date and time": "Sat, 05 Sep • 07:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/y3ms8qtp",
-            "image url": "https://images.lumacdn.com/uploads/0n/2bc418ea-b2e8-42b3-b7fb-0e7a526cf3e9.png"
+            "registration link": "https://allevents.in/bangalore/one-night-one-tribute-lucky-ali-x-sonu-nigam-jam/3900030548641804",
+            "image url": "https://www.gravatar.com/avatar/d983549ab902c284e80816070c78bf1a?s=100&d=identicon&r=g"
         },
         {
             "id": 31,
-            "event name": "Claude Workshop | ADHD Hacks | Bangalore",
+            "event name": "Mandragora Live In Bangalore",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-06T04:30:00.000Z",
+            "date and time": "Sat, 12 Sep • 06:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/claude-952l",
-            "image url": "https://images.lumacdn.com/uploads/pj/edf10c9c-debc-4e93-9812-c6e2ff8cde84.png"
+            "registration link": "https://allevents.in/bangalore/mandragora-live-in-bangalore/3900030571713844",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 32,
-            "event name": "Coffee Crawl | HSR",
+            "event name": "Tribute to KK Ft Root Three Five",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-06T04:30:00.000Z",
+            "date and time": "Sat, 05 Sep • 09:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/l4aybp2o",
-            "image url": "https://images.lumacdn.com/uploads/12/18529ada-2441-45fd-a8d4-8856b2dadbd5.png"
+            "registration link": "https://allevents.in/bangalore/tribute-to-kk-ft-root-three-five/4100030607717411",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 33,
-            "event name": "import_ bengaluru",
+            "event name": "Office chugli stand-up comedy crowd work show",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-06T05:00:00.000Z",
+            "date and time": "Sat, 05 Sep • 05:00 PM + 1 more",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/5v2wfu9f",
-            "image url": "https://images.lumacdn.com/uploads/pw/96c651ba-a15e-4427-863d-e35caf9c4865.png"
+            "registration link": "https://allevents.in/bangalore/office-chugli-stand-up-comedy-crowd-work-show/3900030604664738",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 34,
-            "event name": "The Writers' Room #14 | Bengaluru Tech Week Edition",
+            "event name": "Abijit Ganguly Live",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-06T06:30:00.000Z",
+            "date and time": "Sun, 13 Sep • 08:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/wjs7e174",
-            "image url": "https://images.lumacdn.com/uploads/1y/f7c7d1d3-39dd-4e0d-bf47-6e47f006cd07.png"
+            "registration link": "https://allevents.in/bangalore/abijit-ganguly-live/3900030491178044",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 35,
-            "event name": "The Local AI and Infra Meetup",
+            "event name": "I AM WORTH IT ft. Rajat Sood",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-06T08:30:00.000Z",
+            "date and time": "Sun, 06 Sep • 06:00 PM + 1 more",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/ttc50ovr",
-            "image url": "https://images.lumacdn.com/uploads/lo/e2accdf5-92d3-4844-9477-7c9ba0b1865a.jpg"
+            "registration link": "https://allevents.in/bangalore/i-am-worth-it-ft-rajat-sood/3900030516139906",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 36,
-            "event name": "Omarchy BLR Meetup 001",
+            "event name": "Out Of ORDER ft. Shashi Dhiman",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-06T12:00:00.000Z",
+            "date and time": "Fri, 04 Sep • 09:01 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/g4g7r719",
-            "image url": "https://images.lumacdn.com/uploads/i4/cb3773ce-1e3f-48f2-8263-97be2f459010.png"
+            "registration link": "https://allevents.in/bangalore/out-of-order-ft-shashi-dhiman/3900030594189841",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 37,
-            "event name": "-1 to 0 | Srinivas Narayanan | Former CTO of B2B Applications (OpenAI), Ex-VP Engineering (Meta)",
+            "event name": "Namma Bengaluru Night Bangalores Biggest Kannada",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-09T11:30:00.000Z",
+            "date and time": "Wed, 02 Sep • 10:30 PM + 2 more",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/SrinivasOpenAI",
-            "image url": "https://images.lumacdn.com/uploads/13/31b74a2f-c5ab-403b-a642-404f19d2aaf5.png"
+            "registration link": "https://allevents.in/bangalore/namma-bengaluru-night-bangalores-biggest-kannada/3900030021357212",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 38,
-            "event name": "Bits n Atoms: The Next Era of Building a Product Career | TPF x Toast",
+            "event name": "90s vs 2k - Tamil jamming Bengaluru",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-11T12:30:00.000Z",
+            "date and time": "Sun, 06 Sep • 04:00 PM + 1 more",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/mmu5ji6f",
-            "image url": "https://images.lumacdn.com/uploads/un/19b71154-535a-413d-a712-ebf9f102077c.jpg"
+            "registration link": "https://allevents.in/bangalore/90s-vs-2k-tamil-jamming-bengaluru/3900030540042026",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 39,
-            "event name": "UNFOLD Walk: Agara Edition",
+            "event name": "TELUGU TASHAN NIGHT FRIDAY",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-12T02:30:00.000Z",
+            "date and time": "Fri, 09 Oct • 08:48 PM + 2 more",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/8unxpcgg",
-            "image url": "https://images.lumacdn.com/uploads/yi/0e75b567-4b26-4d69-a86d-32b6583d8944.png"
+            "registration link": "https://allevents.in/bangalore/telugu-tashan-night-friday/3900030044668223",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 40,
-            "event name": "Agent Labs Buildathon: Phinite × Paytm",
+            "event name": "RUHBARU - Orchestral Qawwali Project",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-12T04:30:00.000Z",
+            "date and time": "Sat, 19 Sep • 07:30 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/ii0pip0d",
-            "image url": "https://images.lumacdn.com/uploads/ls/bd54a62d-b1f4-468f-b557-b8766c99ea2d.png"
+            "registration link": "https://allevents.in/bangalore/ruhbaru-orchestral-qawwali-project/4100030237798533",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 41,
-            "event name": "Be with BitGo: Building Crypto in India",
+            "event name": "Taylor Swift: The Night Of A Showgirl (Fan Event)",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-12T10:00:00.000Z",
+            "date and time": "Sun, 06 Sep • 04:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/wzskhor8",
-            "image url": "https://images.lumacdn.com/uploads/8c/78fc7ddc-91b7-4f40-b46b-d4bd05762f59.png"
+            "registration link": "https://allevents.in/bangalore/taylor-swift-the-night-of-a-showgirl-fan-event/3900030573884452",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocJSmi9tv6vnpHkv_gNvvieLWR6z0DreMBmM_gKDWXFFOQK9YaM=s96-c?sz=200"
         },
         {
             "id": 42,
-            "event name": "Brand Marketing 101 for Founders",
+            "event name": "Bangalore Open Air 2026",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-12T12:00:00.000Z",
+            "date and time": "Sat, 10 Oct • 01:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/498riwxp",
-            "image url": "https://images.lumacdn.com/event-covers/fm/73fb2125-8dbc-4c36-8894-edb1acdeb831.png"
+            "registration link": "https://allevents.in/bangalore/bangalore-open-air-2026/3900030036214659",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocI4294VcO6ocMoWHfP8SteQcXhb2IQuF4sK8iJtGPRN5tpR0A=s96-c?sz=200"
         },
         {
             "id": 43,
-            "event name": "Product-led Growth for Startups",
+            "event name": "Silly Papa By Angad Singh Ranyal",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-12T14:00:00.000Z",
+            "date and time": "Sat, 19 Sep • 05:00 PM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/4eu0oyth",
-            "image url": "https://images.lumacdn.com/uploads/ln/e50bd7eb-0690-4c72-b6fd-5e18e2d2caf8.png"
+            "registration link": "https://allevents.in/bangalore/silly-papa-by-angad-singh-ranyal/3900030491363703",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 44,
-            "event name": "Fireside Chat with Shashank ND of Practo (SPC India)",
+            "event name": "Holly Bolly Ladies Night",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-15T12:30:00.000Z",
+            "date and time": "Sun, 06 Sep • 08:00 PM + 3 more",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/ShashankND",
-            "image url": "https://images.lumacdn.com/uploads/5w/21839e08-c433-4fb9-ada0-31bbeb077bbc.png"
+            "registration link": "https://allevents.in/bangalore/holly-bolly-ladies-night/3900029813088250",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 45,
-            "event name": "Unicorn AI Summit",
+            "event name": "Global Ed Interaction In Bangalore 2026 - Free Entry",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-21T10:30:00.000Z",
+            "date and time": "Sat, 05 Sep • 11:00 AM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/unicornsummit",
-            "image url": "https://images.lumacdn.com/uploads/k0/9f73890e-6262-4291-b8a1-60b9903bbb87.png"
+            "registration link": "https://allevents.in/bangalore/global-ed-interaction-in-bangalore-2026-free-entry-tickets/80002585714326",
+            "image url": "https://cdn2.allevents.in/thumbs/attendeethumb6a94f6c4de6b5.png"
         },
         {
             "id": 46,
-            "event name": "Athera’s Gambit - The Third Move ♟️",
+            "event name": "Global Education Interaction In Bangalore 2026",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-24T10:30:00.000Z",
+            "date and time": "Sat, 05 Sep • 11:00 AM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/kn3542hx",
-            "image url": "https://images.lumacdn.com/uploads/lg/f952002e-c736-46f5-b3f9-efaca294deae.png"
+            "registration link": "https://allevents.in/bengaluru/global-education-interaction-in-bangalore-2026/100001997840266016",
+            "image url": "data not provided/will be shared upon signup"
         },
         {
             "id": 47,
-            "event name": "Bangalore Product Mixer #4 | Product Reactor",
+            "event name": "Best AI Awards 2026- ET AI Awards | AI Awards India",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-10-10T14:30:00.000Z",
+            "date and time": "Thu, 17 Sep • 08:00 AM",
             "venue": "Bengaluru",
-            "registration link": "https://lu.ma/232qy3xn",
-            "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
+            "registration link": "https://allevents.in/bangalore/best-ai-awards-2026-et-ai-awards-ai-awards-india/80003662727814",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 48,
+            "event name": "Art of Storytelling Festival 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 09:00 AM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/art-of-storytelling-festival-2026/4100030363937641",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 49,
+            "event name": "Ticket To Bollywood Saturday Bollywood Party",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 07:00 PM + 5 more",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/ticket-to-bollywood-saturday-bollywood-party/3900030047573213",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 50,
+            "event name": "SRINIVAS PARINAYA",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Thu, 10 Sep • 06:00 PM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/srinivas-parinaya/3900030597256551",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 51,
+            "event name": "Samanvay Arts Festival: Classical Dance",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 05:00 PM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/samanvay-arts-festival-classical-dance/3900030534655403",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 52,
+            "event name": "Bollywood Bachata",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 07:00 PM + 1 more",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/bollywood-bachata/3900030597310749",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 53,
+            "event name": "Uttari Betta By Namma Trip",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 11:00 PM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/uttari-betta-by-namma-trip/3900030140527145",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocJJO3wx1PzDZF4IX_aabvjY-sbmEF10gCGCc8sKkSvW9QZRpWQ38Q=s96-c?sz=200"
+        },
+        {
+            "id": 54,
+            "event name": "Kodachadri Trek",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Multiple Dates",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/kodachadri-trek/3900030140166912",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 55,
+            "event name": "Ooty Conoor trip",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 11:30 PM + 1 more",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/ooty-conoor-trip/3900030139473913",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 56,
+            "event name": "Hampi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 18 Sep • 08:00 PM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/hampi/3900030139591106",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 57,
+            "event name": "Sri Krishna Janmashtami 2026 at Samskruti Pavilion, Sarjapur Road",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 06:00 AM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/sri-krishna-janmashtami-2026-at-samskruti-pavilion-sarjapur-road-tickets/80002100528756",
+            "image url": "https://cdn2.allevents.in/thumbs/attendeethumb6993d73f5dc41.jpg"
+        },
+        {
+            "id": 58,
+            "event name": "Hanuman Chaalisa and Bhajan Sandhya",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 13 Sep • 04:00 PM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/hanuman-chaalisa-and-bhajan-sandhya/3900030555253014",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 59,
+            "event name": "Janmastmi bhajan Jam",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 06:00 PM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/janmastmi-bhajan-jam/3900030621221950",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 60,
+            "event name": "Dandiya Maha Utsav - Palace Grounds",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Tue, 20 Oct • 04:30 PM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/dandiya-maha-utsav-palace-grounds/3900029958130239",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocKzVsVh1MhVYL4OvdMTfGG0pqPtPm7aEvKJVUlQ5LvBQN8mXA=s96-c?sz=200"
+        },
+        {
+            "id": 61,
+            "event name": "Tribute to Jagjit singh - Tajurba Baithak",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 07:30 PM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/tribute-to-jagjit-singh-tajurba-baithak/3900030599894759",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 62,
+            "event name": "Art of Storytelling Festival 2026 | India's Premier Business Storytelling",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 09:00 AM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bengaluru/art-of-storytelling-festival-2026-indias-premier-business-storytelling/100001993004678644",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 63,
+            "event name": "Dekh Behen Part Two",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 03:30 PM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/dekh-behen-part-two/3900030149578653",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 64,
+            "event name": "Telling Lies -A Standup Solo by Aashish Solanki",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 11 Oct • 04:30 PM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/telling-lies-a-standup-solo-by-aashish-solanki/3900030598973409",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 65,
+            "event name": "Gear Up By Flipkart",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 11:00 AM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/gear-up-by-flipkart/3900030554783819",
+            "image url": "https://www.gravatar.com/avatar/27161d8c8828a4b8873ff95248e84665?s=800&d=identicon&r=g"
+        },
+        {
+            "id": 66,
+            "event name": "TechSparks 2026: The New Tech Order",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Tue, 13 Oct • 10:00 AM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/techsparks-2026-the-new-tech-order/3900030511687253",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocL-VWtsjsMCk3j9pUovZCfJZDm8nWzKiFy1FdChQneafmMyDB08Dw=s96-c?sz=200"
+        },
+        {
+            "id": 67,
+            "event name": "Chrysallis Lifestyle Exhibition : Festive Edits",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 10 Oct • 10:00 AM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bengaluru/chrysallis-lifestyle-exhibition-festive-edits/100001998421992977",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 68,
+            "event name": "Asia Jewels Show Bangalore October 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 16 Oct • 10:30 AM",
+            "venue": "Bengaluru",
+            "registration link": "https://allevents.in/bangalore/asia-jewels-show-bangalore-october-2026-tickets/80001221756014",
+            "image url": "https://cdn-az.allevents.in/events5/banners/a7548394807fa217359e6f07a1b857edc3171a8f7fe6f251ee3ca57c8966bcb7-rimg-w200-h200-gmir.jpg?v=1602156124"
+        },
+        {
+            "id": 69,
+            "event name": "Women in Tech Chennai - OutGeekWomen",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-19",
+            "venue": "Chennai",
+            "registration link": "https://www.eventbrite.com/e/women-in-tech-chennai-outgeekwomen-tickets-1330299414359",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1011586173%2F529664982707%2F1%2Foriginal.20250417-195157?crop=focalpoint&fit=crop&w=214&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.261363636364&fp-y=0.597014925373&s=4366199bfd0bdb9f74648bad121085ff"
+        },
+        {
+            "id": 70,
+            "event name": "PADI Marketing Academy 2026 - Chennai",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-08",
+            "venue": "Novotel Chennai Chamiers Road",
+            "registration link": "https://www.eventbrite.com.au/e/padi-marketing-academy-2026-chennai-tickets-1980147061164",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F969470893%2F191104574994%2F1%2Foriginal.20250225-230913?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=c5a49e8e0b0b18f6d3899c7a9b51e862"
+        },
+        {
+            "id": 71,
+            "event name": "AI Implementation in Business | Chennai",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-22",
+            "venue": "Chennai",
+            "registration link": "https://www.eventbrite.com.au/e/ai-implementation-in-business-chennai-tickets-1354016633199",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1021448603%2F2314805913363%2F1%2Foriginal.20250501-232252?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00488636363636&fp-y=0.00507434944238&s=4e995fe6d4a1b56147edff0bcddbe6a7"
+        },
+        {
+            "id": 72,
+            "event name": "International Conference on Advancements in Education Research & Developmen",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-12-07",
+            "venue": "Park Hyatt Chennai",
+            "registration link": "https://www.eventbrite.com/e/international-conference-on-advancements-in-education-research-developmen-tickets-1990840707147",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185935522%2F983813773643%2F1%2Foriginal.20260602-053129?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=105d53e92d0cfeb41d917c75063ace2c"
+        },
+        {
+            "id": 73,
+            "event name": "Join Biggest Community | Investors & Founders | Chennai | Online",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-03",
+            "venue": "Chennai",
+            "registration link": "https://www.eventbrite.com/e/join-biggest-community-investors-founders-chennai-online-tickets-1357333875159",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179266545%2F2837456016251%2F1%2Foriginal.20260307-074443?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ffa2877cf4228cfd5d60e199edc61d48"
+        },
+        {
+            "id": 74,
+            "event name": "September 6",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-06",
+            "venue": "ACA",
+            "registration link": "https://www.eventbrite.com/e/september-6-registration-1999119381886",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192140365%2F494120996351%2F1%2Foriginal.20260828-185209?crop=focalpoint&fit=crop&w=214&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b15daf866c5fa0aaa4d7aa49d1f5efcc"
+        },
+        {
+            "id": 75,
+            "event name": "People's Emergency Briefing",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-30",
+            "venue": "St Lukes Church",
+            "registration link": "https://www.eventbrite.co.uk/e/peoples-emergency-briefing-tickets-1994423841398",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189127740%2F191681347335%2F1%2Foriginal.20260718-162327?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2382a3f05e3f6df33ce8ece8ab988d46"
+        },
+        {
+            "id": 76,
+            "event name": "Study Abroad Fair Chennai: Edvoy Global Beyond Expo 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-05",
+            "venue": "Edvoy - Study Abroad Consultants in Chennai",
+            "registration link": "https://www.eventbrite.com/e/study-abroad-fair-chennai-edvoy-global-beyond-expo-2026-tickets-1998476551162",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191496299%2F1958871924973%2F1%2Foriginal.20260820-090150?w=214&auto=format%2Ccompress&q=75&sharp=10&s=488aab59d47896b6861239b1ed73d732"
+        },
+        {
+            "id": 77,
+            "event name": "Weekend Pool Party, DJ, Ramp Show, Belly Dance, Games, Buffet Dinner, Drink",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-19",
+            "venue": "Chennai",
+            "registration link": "https://www.eventbrite.com/e/weekend-pool-party-dj-ramp-show-belly-dance-games-buffet-dinner-drink-tickets-1983702366177",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178125049%2F2961295839041%2F1%2Foriginal.20260222-034421?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=020082d8f80e563b7ec721054625e73f"
+        },
+        {
+            "id": 78,
+            "event name": "INFRAME Expo 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-04",
+            "venue": "Chennai Trade Centre - Nandambakkam",
+            "registration link": "https://www.eventbrite.com/e/inframe-expo-2026-tickets-1983596910757",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178005454%2F2992494228674%2F1%2Foriginal.20260220-055157?crop=focalpoint&fit=crop&w=214&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ce55d7b81978fb1943245f55bd93f441"
+        },
+        {
+            "id": 79,
+            "event name": "QS Discover Master's Fair in Chennai",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-12-10",
+            "venue": "Hyatt Regency Chennai",
+            "registration link": "https://www.eventbrite.co.uk/e/qs-discover-masters-fair-in-chennai-registration-1998745530687",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1094555523%2F5609178309%2F1%2Foriginal.20250813-085300?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C319%2C6652%2C3326&s=9024ddacb0ab3f25a4bba132413711c9"
+        },
+        {
+            "id": 80,
+            "event name": "Free Two-day training programme on Pranahuti Aided Meditation at Chennai",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-12",
+            "venue": "Institute Of Sri Ramchandra Consciousness",
+            "registration link": "https://www.eventbrite.com/e/free-two-day-training-programme-on-pranahuti-aided-meditation-at-chennai-tickets-1911136784569",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1165103583%2F2973909631811%2F1%2Foriginal.20251029-035212?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a806991b089d8e15491b95cd2ad0a727"
+        },
+        {
+            "id": 81,
+            "event name": "QUANTUM  WORKSHOP",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-09",
+            "venue": "Vellore Institute of Technology",
+            "registration link": "https://www.eventbrite.com/e/quantum-workshop-tickets-1998964211768",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191952665%2F2831677397101%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=cdecc6bc4a724d4f71ba94b3ff168629"
+        },
+        {
+            "id": 82,
+            "event name": "Join Biggest Community | Investors & Founders | Puducherry | Online",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-03",
+            "venue": "Puducherry",
+            "registration link": "https://www.eventbrite.com/e/join-biggest-community-investors-founders-puducherry-online-tickets-1374193703359",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179266571%2F2837456016251%2F1%2Foriginal.20260307-074620?crop=focalpoint&fit=crop&w=214&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=07c1894c1036140fd52a0cc0c2b04403"
+        },
+        {
+            "id": 83,
+            "event name": "ICSE board schools Vellore - BMD JAIN SCHOOL ICSE",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-01",
+            "venue": "BMD Jain School",
+            "registration link": "https://www.eventbrite.com/e/icse-board-schools-vellore-bmd-jain-school-icse-tickets-1999193922840",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192207538%2F3012313997639%2F1%2Foriginal.20260830-045116?crop=focalpoint&fit=crop&w=214&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=79fe4da8edd370ee5be3a37c837cb504"
+        },
+        {
+            "id": 84,
+            "event name": "CHENNAIYIL CHINNA KUYIL",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 06:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/chennaiyil-chinna-kuyil/3900030477407903",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocJ78-Uz0YHc2Zro5EC9lawJ77w1KNK0s8kdPxTadxo6n43FqhWH=s96-c?sz=200"
+        },
+        {
+            "id": 85,
+            "event name": "OG TOUR INDIA WITH THAMAN - LIVE IN CHENNAI",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep, 2026 - 06:30 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/og-tour-india-with-thaman-live-in-chennai/3900029958374931",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocJJcpxFmwXrnnVi9skSOKLgmX7sCLMtlxLnR7SbycNq1XpqSSPN=s96-c?sz=200"
+        },
+        {
+            "id": 86,
+            "event name": "Yuvan’s Walking Through The Rainbow - A Symphonic Experience",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep, 2026 - 07:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/yuvans-walking-through-the-rainbow-a-symphonic-experience/4100030545955103",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 87,
+            "event name": "Naanum Foodie Dhaan by Praveen Kumar",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 06:30 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/naanum-foodie-dhaan-by-praveen-kumar/3900030437503639",
+            "image url": "https://lh3.googleusercontent.com/a/AATXAJwLAaKlq_ViMhpLYLSycB5GetWTUiR-7rHdnMwu=s96-c?sz=200"
+        },
+        {
+            "id": 88,
+            "event name": "Evergreen MSV - The Musical Tribute",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 07:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/evergreen-msv-the-musical-tribute/3900030571302856",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocKAbq2_VPdOTGjHqUGvsIcWGsBFbeydYCaPtyuN-jjLBNP1vA=s96-c?sz=200"
+        },
+        {
+            "id": 89,
+            "event name": "HARISH RAGHAVENDRA - 3 DECADES THE MELLISAI ERA",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 06:30 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/harish-raghavendra-3-decades-the-mellisai-era/3900030418009556",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocLnoqrLcwtxzdA1AlOYNgBtE_qV8WcMip4GT3TwEgMAjJ3xKw=s96-c?sz=200"
+        },
+        {
+            "id": 90,
+            "event name": "MICS MUSIC MARATHON - 4 SHOWS 11 LEGENDS(CHENNAI)",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 26 Sep • 03:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/mics-music-marathon-4-shows-11-legendschennai/3900030456381929",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocILnX_EMvRGkW3VyGL5RSQ_Iz-wDnjCjtpp9m2RPyKMGGL-P9E=s96-c?sz=200"
+        },
+        {
+            "id": 91,
+            "event name": "Harish Raghavendra in Chennai Corporation",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep, 2026 - 06:30 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/harish-raghavendra-in-chennai-corporation/3300030490332446",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 92,
+            "event name": "NAMMA RUN CHENNAI - 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 27 Sep, 2026 - 05:30 AM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/namma-run-chennai-2026/3900030138985255",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocIMa8JaVW1FUkWXOHY_HcztQdlovJ8Tv7kf7UHeAecwkd19UlTc=s96-c?sz=200"
+        },
+        {
+            "id": 93,
+            "event name": "Chennai Fitness Run 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 13 Sep, 2026 - 05:00 AM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/chennai-fitness-run-2026/4100030507469444",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocKwNvNN7vyfGfK6TSmvjtX7JE_UmIPEpkxRH25-5Hid_Km7FFgg=s96-c?sz=200"
+        },
+        {
+            "id": 94,
+            "event name": "Taylor Swift: The Night Of A Showgirl (Fan Event)",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 11 Sep • 04:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/taylor-swift-the-night-of-a-showgirl-fan-event/3900030573884857",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 95,
+            "event name": "Endrendrum Ninaivil SPB",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 20 Sep • 06:05 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/endrendrum-ninaivil-spb/3900030605579232",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 96,
+            "event name": "INFRAME Expo 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep, 2026 - 10:00 AM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/inframe-expo-2026/80002605910073",
+            "image url": "https://www.gravatar.com/avatar/a37f7d7a8ed675407faab95a879b3bfe?s=800&d=identicon&r=g"
+        },
+        {
+            "id": 97,
+            "event name": "Shashi Dhiman Live",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep, 2026 - 06:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/shashi-dhiman-live/3900030209967044",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 98,
+            "event name": "Sukoon Bharat Tour - Chennai",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 08:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/sukoon-bharat-tour-chennai/3900030527086529",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 99,
+            "event name": "TradeIQ : India's Biggest Trading Concert",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep, 2026 - 09:00 AM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/tradeiq-indias-biggest-trading-concert/4100030425291943",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 100,
+            "event name": "Study Abroad Fair Chennai: Edvoy Global Beyond Expo 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep, 2026 - 11:00 AM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/study-abroad-fair-chennai-edvoy-global-beyond-expo-2026/100001998476551162",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 101,
+            "event name": "Gem & Jewellery India International Fair (GJIIF) 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 25 Sep, 2026 - 10:00 AM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/gem-and-jewellery-india-international-fair-gjiif-2026/200030522072906",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 102,
+            "event name": "Sean Roldan's Kodi Aruvi - Live in Concert",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 26 Sep • 04:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/sean-roldans-kodi-aruvi-live-in-concert/3900030511674008",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 103,
+            "event name": "workshop on 3d moon lamp",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep, 2026 - 05:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/workshop-on-3d-moon-lamp-tickets/80002256506336",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 104,
+            "event name": "Jailer2",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Thu, 15 Oct, 2026 - 08:30 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/jailer2/200030442388020",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 105,
+            "event name": "SIRI GAMA PADHA NEE, 3.0",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 06:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/siri-gama-padha-nee-30/3900030586434504",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 106,
+            "event name": "Classic Rock Revival Ft. Madras Rock Collective",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 09:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/classic-rock-revival-ft-madras-rock-collective/3900030619399750",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 107,
+            "event name": "Onam Blast 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep, 2026 - 04:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/onam-blast-2026/4100030617310040",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 108,
+            "event name": "Allow Me!: A Standup Comedy Show by Rahul Dua",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 02 Oct • 07:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/allow-me-a-standup-comedy-show-by-rahul-dua/3900030387700949",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 109,
+            "event name": "Sanity in Diversity ft. Vivek Muralidharan",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 06:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/sanity-in-diversity-ft-vivek-muralidharan/3900030606633227",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 110,
+            "event name": "Rajat Sood Live - Standup Comedy Show",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 07:00 PM + 1 more",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/rajat-sood-live-standup-comedy-show/3900030540044152",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 111,
+            "event name": "Standing Up by Kunal Kamra",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 09 Oct • 06:30 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/standing-up-by-kunal-kamra/3900030389616326",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 112,
+            "event name": "Under the Mangosteen Tree",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep, 2026 - 03:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/under-the-mangosteen-tree/4100030547825827",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 113,
+            "event name": "ImagiNesan - A Live Standup Show By Nesan David",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 04:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/imaginesan-a-live-standup-show-by-nesan-david/3900030387280353",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 114,
+            "event name": "Big Chill Carnival Sunday Brunch",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 12:30 PM + 1 more",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/big-chill-carnival-sunday-brunch/200030259835023",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocLZeo37pa-TnGadyH58_PGHohSV9vmuEJQ2mEZvyR-9tJ_LtA=s96-c?sz=200"
+        },
+        {
+            "id": 115,
+            "event name": "India Retail investors Expo & Conference",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 31 Oct, 2026 - 09:30 AM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/india-retail-investors-expo-and-conference-tickets/80002248641364",
+            "image url": "https://cdn2.allevents.in/transup/66/b80b2d12b74eee9ebdc968a05e77cd/editor-s-pick.svg"
+        },
+        {
+            "id": 116,
+            "event name": "BACK TO HOGWARTS -POTTERHEAD TRIVIA",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 02:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/back-to-hogwarts-potterhead-trivia/3900030574183300",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 117,
+            "event name": "I AM WORTH IT ft. Rajat Sood",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 07:00 PM + 1 more",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/i-am-worth-it-ft-rajat-sood/3900030570928312",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 118,
+            "event name": "Dot mandala art workhop",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep, 2026 - 10:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/dot-mandala-art-workhop-tickets/80001656848194",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 119,
+            "event name": "Onam After Party Jamming by Makesomeochha",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 05:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/onam-after-party-jamming-by-makesomeochha/3900030618762010",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 120,
+            "event name": "Join Biggest Community | Investors & Founders | Chennai | Online",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Thu, 03 Sep, 2026 - 04:30 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/join-biggest-community-investors-and-founders-chennai-online/100001357333875159",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocKQreXRwoJCSf49jpxICgN_4k1e18kPb65ECCO98DuiOyCTC290GA=s96-c?sz=200"
+        },
+        {
+            "id": 121,
+            "event name": "Mere Krishn",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 26 Sep, 2026 - 02:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/mere-krishn/4100030396323728",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocKsUAto_QabsIDc-uSqyayOkdwQrpHw8pw-TT1iucSIyT7Fvg=s96-c?sz=200"
+        },
+        {
+            "id": 122,
+            "event name": "GEN Z APPA - BOOMER PAIYAN",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 06:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/gen-z-appa-boomer-paiyan/3900030524761051",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 123,
+            "event name": "Evolution by Arvind Sunder",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 08:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/evolution-by-arvind-sunder/3900030595852543",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 124,
+            "event name": "Yogi Live- Tamil Standup Comedy",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 06:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/yogi-live-tamil-standup-comedy/3900030534039004",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 125,
+            "event name": "Sukoon Tour",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 06:30 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/sukoon-tour/3900030475052133",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 126,
+            "event name": "Route 143 - Anuv Jain",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 31 Oct • 07:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/route-143-anuv-jain/3900030613942254",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 127,
+            "event name": "Kadhal to Kalyanam - A Tamil Standup Comedy Show",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 06:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/kadhal-to-kalyanam-a-tamil-standup-comedy-show/3900030604584320",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 128,
+            "event name": "Pratyush Chaubey Live",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 02 Oct • 06:00 PM",
+            "venue": "Chennai",
+            "registration link": "https://allevents.in/chennai/pratyush-chaubey-live/3900030613702232",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 129,
+            "event name": "Official staaake Kolkata Founders AI/Tech — Power Walk",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-29",
+            "venue": "Nipponzan Myohoji Buddhist Temple",
+            "registration link": "https://www.eventbrite.ch/e/official-staaake-kolkata-founders-aitech-power-walk-tickets-1996317895565",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190077698%2F159539372520%2F1%2Foriginal.20260801-014240?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1280%2C640&s=52065aba9cd1c14f4572241756a9a803"
+        },
+        {
+            "id": 130,
+            "event name": "Kolkata's Biggest Genz Drunch Party Ft. Smallville",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-06",
+            "venue": "Realityz",
+            "registration link": "https://www.eventbrite.com/e/kolkatas-biggest-genz-drunch-party-ft-smallville-tickets-1997633933871",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190836524%2F1632210993573%2F1%2Foriginal.20260811-204154?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.475&fp-y=0.245&s=5a6644f3c18338e2a3d318744f4acdd6"
+        },
+        {
+            "id": 131,
+            "event name": "Great Education Expo 2027 – Kolkata",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-29",
+            "venue": "Kenilworth Hotel, Kolkata",
+            "registration link": "https://www.eventbrite.com/e/great-education-expo-2027-kolkata-tickets-1998420362099",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191417092%2F3011224004727%2F1%2Foriginal.20260819-120019?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=405fe89308498d4628211b880e32a2e4"
+        },
+        {
+            "id": 132,
+            "event name": "Tiny Stage 1 year anniversary at the Lynq",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-04",
+            "venue": "The Lynq Ultra Lounge",
+            "registration link": "https://www.eventbrite.com/e/tiny-stage-1-year-anniversary-at-the-lynq-tickets-1999238336683",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192250106%2F698441102%2F1%2Foriginal.20260831-024319?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=676424914b32c413c078c12d39e9d501"
+        },
+        {
+            "id": 133,
+            "event name": "Hackathon",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2035-03-30",
+            "venue": "ISOAH Data Securities",
+            "registration link": "https://www.eventbrite.com/e/hackathon-tickets-1996447346757",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 134,
+            "event name": "The Festive Edit 2026 – Kolkata’s Premium Lifestyle Exhibition",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-01",
+            "venue": "Indira Maidan",
+            "registration link": "https://www.eventbrite.com/e/the-festive-edit-2026-kolkatas-premium-lifestyle-exhibition-tickets-1999123240427",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192145895%2F2828024403901%2F1%2Foriginal.20260828-200509?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.402&fp-y=0.099&s=88df3dd58aac2c61d68ada9cfafb4ba8"
+        },
+        {
+            "id": 135,
+            "event name": "Durga Puja Edit 2026 | Pre-Mahalaya Shopping Expo | South Kolkata",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-07",
+            "venue": "Utsav Marriage House",
+            "registration link": "https://www.eventbrite.com/e/durga-puja-edit-2026-pre-mahalaya-shopping-expo-south-kolkata-tickets-1993022728632",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188090632%2F2828024403901%2F1%2Foriginal.20260702-155608?w=400&auto=format%2Ccompress&q=75&sharp=10&s=c4a39088bb4569a4e8bdcf842d84f0ba"
+        },
+        {
+            "id": 136,
+            "event name": "QS Discover Master's Fair in Kolkata",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-12-02",
+            "venue": "The LaLiT Great Eastern Kolkata",
+            "registration link": "https://www.eventbrite.co.uk/e/qs-discover-masters-fair-in-kolkata-registration-1998744568810",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1094555523%2F5609178309%2F1%2Foriginal.20250813-085300?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C319%2C6652%2C3326&s=9024ddacb0ab3f25a4bba132413711c9"
+        },
+        {
+            "id": 137,
+            "event name": "BASANTA UTSAB",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2027-03-03",
+            "venue": "INDIA",
+            "registration link": "https://www.eventbrite.com/e/basanta-utsab-tickets-1991248359446",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186287796%2F3004447695292%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=8d1b20208b19946d05c58040193d1163"
+        },
+        {
+            "id": 138,
+            "event name": "Krishvi Bhajan Jamming Festival",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep, 2026 - 06:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/krishvi-bhajan-jamming-festival/4100030339961432",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocLo2QitZpKzLBwmgXdYM5ihXIBtnkwpNcERDQNHngGI8vc17g=s96-c?sz=200"
+        },
+        {
+            "id": 139,
+            "event name": "Allow Me!: A Standup Comedy Show by Rahul Dua",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep, 2026 - 08:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/allow-me-a-standup-comedy-show-by-rahul-dua/3900030234518533",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 140,
+            "event name": "Rupankar Bagchi, Mir Afsar Ali, Usha Uthup in Kolkata",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep, 2026 - 05:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/rupankar-bagchi-mir-afsar-ali-usha-uthup-in-kolkata/3300030435423614",
+            "image url": "https://cdn-az.allevents.in/events1/banners/d6d56980-a0f8-11f1-8382-27c8b4f8dbac-rimg-w200-h200-dc888898-gmir"
+        },
+        {
+            "id": 141,
+            "event name": "Apne Apne Ram by Dr. Kumar Vishwas",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 11 Sep • 04:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/apne-apne-ram-by-dr-kumar-vishwas/3900030502336611",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 142,
+            "event name": "Onyo Gaaner Sondhe",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 06:00 PM + 1 more",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/onyo-gaaner-sondhe/3900030417997452",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 143,
+            "event name": "Anup Jalota in Kolkata",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep, 2026 - 06:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/anup-jalota-in-kolkata/3300030432541934",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 144,
+            "event name": "Gaane Fusione Season 4 - Burmania",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep, 2026 - 05:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/gaane-fusione-season-4-burmania/3900030276538849",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 145,
+            "event name": "Smritir Sarani",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 06:00 PM + 1 more",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/smritir-sarani/3900030542582617",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocLjOnvsH6Z_thFMmTgz7Vk2EV9HeeEPCvIY12N0lIg9xLNtHmwcuA=s96-c?sz=200"
+        },
+        {
+            "id": 146,
+            "event name": "Kolkata Baarish",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 11 Sep • 05:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/kolkata-baarish/3900030609753033",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 147,
+            "event name": "Maithili Thakur in Kolkata",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep, 2026 - 06:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/maithili-thakur-in-kolkata/3300030474663143",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 148,
+            "event name": "Shataborsher Aloy Mahanayak Uttam Kumar",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Thu, 03 Sep • 05:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/shataborsher-aloy-mahanayak-uttam-kumar/3900030523736015",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 149,
+            "event name": "India Vs Brazil 🇮🇳🇧🇷",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 04 Oct, 2026 - 06:30 AM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/india-vs-brazil/200030595321938",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocKrOHTnF3NJNbWNcsySjzFCFCrma-4K1cSUaXzq9M3GmfwXHMg=s96-c?sz=200"
+        },
+        {
+            "id": 150,
+            "event name": "Shudhu Uttam",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 05:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/shudhu-uttam/3900030542470819",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 151,
+            "event name": "Fossils at Dum Dum Park",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Wed, 02 Sep, 2026 - 07:30 AM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/fossils-at-dum-dum-park/200030187702030",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 152,
+            "event name": "Bondhu Dekha Hobe - Rupankar, Guitar Aar Apnara",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 06:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/bondhu-dekha-hobe-rupankar-guitar-aar-apnara/3900030565199453",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 153,
+            "event name": "মেঘের সঙ্গে  চাঁদের দেখা",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep, 2026 - 04:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/মেঘের-সঙ্গে-চাঁদের-দেখা/200030496713811",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 154,
+            "event name": "Sotoborshe Uttam",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 06:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/sotoborshe-uttam/3900030525920200",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 155,
+            "event name": "VIR DAS - SOUNDS OF INDIA - KOLKATA",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 27 Sep • 07:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/vir-das-sounds-of-india-kolkata/3900030423975744",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 156,
+            "event name": "Gaurav Gupta Live - India Tour",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep, 2026 - 07:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/gaurav-gupta-live-india-tour/3900030296627533",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 157,
+            "event name": "Ananda Sandhya",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 27 Sep • 05:20 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/ananda-sandhya/3900030524577413",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 158,
+            "event name": "Mehfil",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 06:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/mehfil/3900030537082943",
+            "image url": "https://www.gravatar.com/avatar/27161d8c8828a4b8873ff95248e84665?s=800&d=identicon&r=g"
+        },
+        {
+            "id": 159,
+            "event name": "Chandni Bar Meets Bollywood ft. Dj Chetas",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep, 2026 - 09:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/chandni-bar-meets-bollywood-ft-dj-chetas/4100030406312100",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 160,
+            "event name": "The Kolkata Tradition Festival",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 02 Oct • 05:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/the-kolkata-tradition-festival/3900030571030510",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 161,
+            "event name": "JBG Kolkata Marathon 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 29 Nov, 2026 - 04:30 AM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/jbg-kolkata-marathon-2026-tickets/80003108113646",
+            "image url": "https://cdn2.allevents.in/transup/bc/faab96fa2b4eac973661e33e97bc83/selling-fast.svg"
+        },
+        {
+            "id": 162,
+            "event name": "Retro Rewind feat. Aditya Narayan by One Life",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 07:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/retro-rewind-feat-aditya-narayan-by-one-life/3900030531903128",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocL7oOFisGmBuHp-h7ecZ0zfhIGxNiRJyZ73kMw6cnu7V25EJw=s96-c?sz=200"
+        },
+        {
+            "id": 163,
+            "event name": "Macbeth by Rajat Kapoor",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 20 Sep, 2026 - 07:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/macbeth-by-rajat-kapoor/3900030138200620",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 164,
+            "event name": "রুদ্রানী - 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep, 2026 - 01:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/রুদ্রানী-2026/200030485372429",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 165,
+            "event name": "KING-SULTAN-EMPEROR",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 05:45 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/king-sultan-emperor/3900030524423837",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 166,
+            "event name": "Gaan Hoini Sara- Robi Thakurer Gaan-e Borshashesh",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 06:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/gaan-hoini-sara-robi-thakurer-gaan-e-borshashesh/3900030573940534",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 167,
+            "event name": "100 Not Out Uttam",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 13 Sep • 06:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/100-not-out-uttam/3900030572246229",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 168,
+            "event name": "DURGA PUJA 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Thu, 15 Oct, 2026 - 04:00 AM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/durga-puja-2026/200030566377914",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 169,
+            "event name": "Shatoborshe Mohanayak-Golpo Gaane Chirodiner Uttam",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 05:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/shatoborshe-mohanayak-golpo-gaane-chirodiner-uttam/3900030572303118",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 170,
+            "event name": "শারদীয়া শিল্প ও বাণিজ্য মেলা ২০২৬",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Thu, 01 Oct, 2026 - 03:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/শারদীয়া-শিল্প-ও-বাণিজ্য-মেলা-২০২৬/200030485149437",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 171,
+            "event name": "চেনা মুখ অচেনা গান - বাংলা মৌলিক গান শোনাবে আপনাদের প্রিয় শিল্পীরা",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 11 Sep, 2026 - 05:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/চেনা-মুখ-অচেনা-গান-বাংলা-মৌলিক-গান-শোনাবে-আপনাদের-প্রিয়-শিল্পীরা/200030496714011",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 172,
+            "event name": "Noti Binodinis Binodini Opera",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 27 Sep, 2026 - 06:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/noti-binodinis-binodini-opera/3900030138178118",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 173,
+            "event name": "Suhana Safar, a tribute to Salil Chowdhury",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 18 Sep • 07:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/suhana-safar-a-tribute-to-salil-chowdhury/3900030613193605",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 174,
+            "event name": "Cry Daddy by Anirban Dasgupta",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 27 Sep • 05:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/cry-daddy-by-anirban-dasgupta/3900030397612715",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 175,
+            "event name": "Je Janlagulor Akash Chilo by Rahul Arunodoy Baner",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 13 Sep, 2026 - 06:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/je-janlagulor-akash-chilo-by-rahul-arunodoy-baner/3900030138431720",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 176,
+            "event name": "Monche Mitra Sure Biswas",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 13 Sep • 06:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/monche-mitra-sure-biswas/3900030525338139",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 177,
+            "event name": "Ishq Hai By Priya Malik",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 11 Sep, 2026 - 08:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/ishq-hai-by-priya-malik/3900030273737447",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 178,
+            "event name": "Careothon 9.0  2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 13 Dec, 2026 - 04:00 AM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/careothon-90-2026-tickets/80002210616281",
+            "image url": "https://www.gravatar.com/avatar/f25a06a4d06575c6142ca0ce9b549ef7?s=100&d=identicon&r=g"
+        },
+        {
+            "id": 179,
+            "event name": "Kolkata fashion sale present Riwaayaat",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep, 2026 - 01:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/kolkata-fashion-sale-present-riwaayaat/200030524738558",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 180,
+            "event name": "Jamming Unplugged x Socials Kolkata",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 13 Sep • 05:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/jamming-unplugged-x-socials-kolkata/3900030621981602",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 181,
+            "event name": "Sanko",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 20 Sep • 06:30 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/sanko/3900030602119620",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 182,
+            "event name": "Abijit Ganguly Live!",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 26 Sep • 08:00 PM",
+            "venue": "Kolkata",
+            "registration link": "https://allevents.in/kolkata/abijit-ganguly-live/3900030613690801",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 183,
+            "event name": "Women in Tech Hyderabad - OutGeekWomen",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-11",
+            "venue": "Hyderabad",
+            "registration link": "https://www.eventbrite.com/e/women-in-tech-hyderabad-outgeekwomen-tickets-1330296746379",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1011581013%2F529664982707%2F1%2Foriginal.20250417-194537?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.000795454545455&fp-y=0.00541044776119&s=173c9d97aebdcfb82eccbea419357c0a"
+        },
+        {
+            "id": 184,
+            "event name": "AI Implementation in Business | Hyderabad",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-22",
+            "venue": "Hyderabad",
+            "registration link": "https://www.eventbrite.com.au/e/ai-implementation-in-business-hyderabad-tickets-1354009792739",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1021448603%2F2314805913363%2F1%2Foriginal.20250501-232252?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00488636363636&fp-y=0.00507434944238&s=4e2253ecf089b0d0c736133b5ed8f587"
+        },
+        {
+            "id": 185,
+            "event name": "DESIGNATHON 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-12",
+            "venue": "COHORT Coworking @ Kondapur",
+            "registration link": "https://www.eventbrite.com/e/designathon-2026-tickets-1999014285540",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192014498%2F3012000272831%2F1%2Foriginal.20260827-081616?h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&s=ac4f19fa45bb7392395f39fb7e71e52d"
+        },
+        {
+            "id": 186,
+            "event name": "Design Democracy 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-18",
+            "venue": "HITEX",
+            "registration link": "https://www.eventbrite.com/e/design-democracy-2026-tickets-1986621573605",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181352901%2F2997347537678%2F1%2Foriginal.20260403-054619?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.456&fp-y=0.527&s=b66567db9715e38e7075e61b07449ba4"
+        },
+        {
+            "id": 187,
+            "event name": "PharmaNext Global Summit 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-19",
+            "venue": "Le Meridien Hyderabad",
+            "registration link": "https://www.eventbrite.com/e/pharmanext-global-summit-2026-tickets-1995077292889",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189541712%2F3009019330284%2F1%2Foriginal.20260724-115710?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5db254575e92cc9d41270feb7979376c"
+        },
+        {
+            "id": 188,
+            "event name": "PMP",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-15",
+            "venue": "Lemon Tree Premier, HITEC City, Hyderabad",
+            "registration link": "https://www.eventbrite.com/e/pmp-tickets-1998111591558",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191150990%2F2871950891881%2F1%2Foriginal.20260815-191012?crop=focalpoint&fit=crop&h=82&w=213&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fc680d3ef69e2547818420cb3719b970"
+        },
+        {
+            "id": 189,
+            "event name": "India Pharma Global Expo 2027",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2027-06-11",
+            "venue": "HITEX",
+            "registration link": "https://www.eventbrite.com/e/india-pharma-global-expo-2027-tickets-1990867700886",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185949931%2F3004026906244%2F1%2Foriginal.20260602-104839?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d6cc05e0ecc8de9a7db0e870bc1d2569"
+        },
+        {
+            "id": 190,
+            "event name": "Join Biggest Community | Investors & Founders | Hyderabad | Online",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-03",
+            "venue": "Hyderabad",
+            "registration link": "https://www.eventbrite.com/e/join-biggest-community-investors-founders-hyderabad-online-tickets-1351345874889",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179266544%2F2837456016251%2F1%2Foriginal.20260307-074431?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=57d393fb0937807544a80594687a9be8"
+        },
+        {
+            "id": 191,
+            "event name": "Mahan - An Evening of Worship and Filming",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-13",
+            "venue": "Hope Unlimited Church, Hyderbad",
+            "registration link": "https://www.eventbrite.com/e/mahan-an-evening-of-worship-and-filming-tickets-1997457341679",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190780228%2F3010427917856%2F1%2Foriginal.20260811-083315?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5bcd7da5cea6728c903d73aea078c19e"
+        },
+        {
+            "id": 192,
+            "event name": "Collegepond's Global Education Fair - Hyderabad 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-06",
+            "venue": "Hyatt Place Hyderabad Banjara Hills",
+            "registration link": "https://www.eventbrite.it/e/collegeponds-global-education-fair-hyderabad-2026-tickets-1992341190132",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189879799%2F2844054353541%2F1%2Foriginal.20260729-144621?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=262d850553b1d30d623d26b4fe9ef020"
+        },
+        {
+            "id": 193,
+            "event name": "JEWELLERY WORLD EXHIBITIONS HYDERABAD SEPT 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-18",
+            "venue": "Taj Krishna, Hyderabad",
+            "registration link": "https://www.eventbrite.com/e/jewellery-world-exhibitions-hyderabad-sept-2026-tickets-1985131925026",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179768091%2F797663167373%2F1%2Foriginal.20260313-114643?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.03&fp-y=0.513&s=24eee38638937e3be513bcb526e336d1"
+        },
+        {
+            "id": 194,
+            "event name": "Meet Angel Investors in Dubai |Hyderabad  | In-person / Online",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-09",
+            "venue": "Hyderabad",
+            "registration link": "https://www.eventbrite.com/e/meet-angel-investors-in-dubai-hyderabad-in-person-online-tickets-1991051987091",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1011044173%2F2729436536051%2F1%2Foriginal.20250417-070306?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=239339e2218b414fc222ed0744bd0efa"
+        },
+        {
+            "id": 195,
+            "event name": "Inside PGP MFAB | In-Person - Hyderabad Chapter",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-19",
+            "venue": "Indian School of Business",
+            "registration link": "https://www.eventbrite.com/e/inside-pgp-mfab-in-person-hyderabad-chapter-tickets-1992618461458",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191918823%2F284538241233%2F1%2Foriginal.20260826-052915?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.027&fp-y=0.393&s=35caaaa22d107d21c9d541f35e51d9d8"
+        },
+        {
+            "id": 196,
+            "event name": "Pub Meetup Hyderabad",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-12",
+            "venue": "Lord of the Drinks",
+            "registration link": "https://www.eventbrite.com/e/pub-meetup-hyderabad-tickets-1990266012219",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1076998463%2F2235598435203%2F1%2Foriginal.20250719-155748?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bf394b9ed7eb975b06ef224597ba2fc3"
+        },
+        {
+            "id": 197,
+            "event name": "Accelerate your career with an MBA at Access MBA Hyderabad",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-24",
+            "venue": "Hyatt Place Hyderabad Banjara Hills",
+            "registration link": "https://www.eventbrite.co.uk/e/accelerate-your-career-with-an-mba-at-access-mba-hyderabad-tickets-1997686609425",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190878288%2F185222602399%2F1%2Foriginal.20260812-102916?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.03&fp-y=0.52&s=18be88203f9e05143aba6d428bd31724"
+        },
+        {
+            "id": 198,
+            "event name": "QURA",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-15",
+            "venue": "KLH University Bowrampet Hyderabad",
+            "registration link": "https://www.eventbrite.com/e/qura-tickets-1999265796817",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192274607%2F2260386052373%2F1%2Foriginal.20260831-133907?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.516&fp-y=0.5&s=9967211a0281771647a575cd809c44cd"
+        },
+        {
+            "id": 199,
+            "event name": "Industrial Pumps and Valves 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-12-03",
+            "venue": "HITEX EXHIBITION CENTER",
+            "registration link": "https://www.eventbrite.com/e/industrial-pumps-and-valves-2026-tickets-1989889217215",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184913758%2F3002551177954%2F1%2Foriginal.20260519-052338?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=33d80d2fbcf959560e3914998fd032d1"
+        },
+        {
+            "id": 200,
+            "event name": "Building Wealth for Every Passion",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-02",
+            "venue": "Gachibowli, Hyderabad",
+            "registration link": "https://www.eventbrite.com/e/building-wealth-for-every-passion-tickets-1978556722418",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 201,
+            "event name": "Global Hospitality Education Expo 2026 - Hyderabad",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-07",
+            "venue": "Taj Krishna, Hyderabad",
+            "registration link": "https://www.eventbrite.com/e/global-hospitality-education-expo-2026-hyderabad-tickets-1998528814483",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191576861%2F473615334511%2F1%2Foriginal.20260821-080034?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=280c9535766a5d349ac99bf6a773d006"
+        },
+        {
+            "id": 202,
+            "event name": "Valorant Masters - Hyderabad",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2029-12-31",
+            "venue": "Hyderabad",
+            "registration link": "https://www.eventbrite.com/e/entradas-valorant-masters-hyderabad-1418574828499",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1055574743%2F2808571711611%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=94b3ac46d8a7675b4dd198a4ddf080d9"
+        },
+        {
+            "id": 203,
+            "event name": "THE EMRAAN ERA ft. Emraan Hashmi & DJ Ganesh",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 08:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/the-emraan-era-ft-emraan-hashmi-and-dj-ganesh/3900030581547100",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 204,
+            "event name": "SPB Lives on SP Charan Live",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep, 2026 - 07:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/spb-lives-on-sp-charan-live/3900030234745853",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocKP10Em-CrbKaylg87DAqmfTzqdaAuu0HI80mWe2PosvfcQwgCS=s96-c?sz=200"
+        },
+        {
+            "id": 205,
+            "event name": "Federal Bank Bharat Surotsav",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 06:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/federal-bank-bharat-surotsav/3900030529514133",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 206,
+            "event name": "MICS MUSIC MARATHON - 2 SHOWS 5 LEGENDS (HYD)",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 02:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/mics-music-marathon-2-shows-5-legends-hyd/3900030477512357",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocJz1PzLGyYwrSvXFjZGT1rVMPdr92u5dDo2qlNnUefc-bJvetw=s96-c?sz=200"
+        },
+        {
+            "id": 207,
+            "event name": "Jewellery World Exhibition Hyderabad (Free Registration)",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 18 Sep, 2026 - 10:00 AM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/jewellery-world-exhibition-hyderabad-free-registration-tickets/80003239064443",
+            "image url": "https://www.gravatar.com/avatar/f871d8937692d6e8e2195b816e70f675?s=100&d=identicon&r=g"
+        },
+        {
+            "id": 208,
+            "event name": "Taylor Swift: The Night Of A Showgirl (Fan Event)",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 04:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/taylor-swift-the-night-of-a-showgirl-fan-event/3900030573885803",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 209,
+            "event name": "Dhanunjay seepana",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 11 Sep • 08:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/dhanunjay-seepana/3900030583359749",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 210,
+            "event name": "Jewellery World Exhibition Hyderabad",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 18 Sep • 10:00 AM + 2 more",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/jewellery-world-exhibition-hyderabad/3900030246556351",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocK__lEODkRBQO7UDOmtaW4kU6vNkqJLD2zkDVVcOM8TGWJkMIKp=s96-c?sz=200"
+        },
+        {
+            "id": 211,
+            "event name": "Design Democracy 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 18 Sep • 10:30 AM + 1 more",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/design-democracy-2026/3900030317042345",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 212,
+            "event name": "Quadrant Life Crisis- Stand Up Solo by Navin Kumar",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 07:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/quadrant-life-crisis-stand-up-solo-by-navin-kumar/3900030458006946",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 213,
+            "event name": "Cardiac Rehab Run",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 13 Sep, 2026 - 04:00 AM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/cardiac-rehab-run/3900030139137910",
+            "image url": "https://cdn-az.allevents.in/events9/banners/7c264b90-9413-11f1-b9f1-838473689728-rimg-w200-h200-dc787878-gmir"
+        },
+        {
+            "id": 214,
+            "event name": "Allow Me!: A Standup Comedy Show by Rahul Dua",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 03 Oct, 2026 - 07:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/allow-me-a-standup-comedy-show-by-rahul-dua/3900030185674846",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 215,
+            "event name": "Daniel Fernandes - Do You Know Who I Am?",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 05:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/daniel-fernandes-do-you-know-who-i-am/3900030623740459",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 216,
+            "event name": "JEWELLERY WORLD EXHIBITIONS HYDERABAD SEPT 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 18 Sep, 2026 - 10:00 AM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/jewellery-world-exhibitions-hyderabad-sept-2026/100001985131925026",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 217,
+            "event name": "Godawan Durbar Evenings - Orchestral Qawwali Project",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 20 Sep, 2026 - 07:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/godawan-durbar-evenings-orchestral-qawwali-project/4100030524666421",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 218,
+            "event name": "Join Biggest Community | Investors & Founders | Hyderabad | Online",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Thu, 03 Sep, 2026 - 04:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/join-biggest-community-investors-and-founders-hyderabad-online/100001351345874889",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocJreJQRZsFOIxaoFTJKnkALaDgtvPilTte8r0axduMIwG-hb42KSg=s96-c?sz=200"
+        },
+        {
+            "id": 219,
+            "event name": "RUHBARU - Orchestral Qawwali Project",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 20 Sep, 2026 - 07:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/ruhbaru-orchestral-qawwali-project/4100030247599320",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 220,
+            "event name": "Developer Event and Conference Hyderabad- ET DevNext",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 26 Sep, 2026 - 07:00 AM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/developer-event-and-conference-hyderabad-et-devnext/80004755752807",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocJVrbEVM7RmhNdyKqfi5CFz8CWBNfMmL9uPUo_auB39nlvtIw=s96-c?sz=200"
+        },
+        {
+            "id": 221,
+            "event name": "MOHANA BHOGARAJU LIVE AT VAVE PUB",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 08:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/mohana-bhogaraju-live-at-vave-pub/3900030562263122",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 222,
+            "event name": "Sanity in Diversity ft. Vivek Muralidharan",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 05:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/sanity-in-diversity-ft-vivek-muralidharan/3900030606632421",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 223,
+            "event name": "Abijit Ganguly Live",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 07:30 PM + 1 more",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/abijit-ganguly-live/3900030491177739",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 224,
+            "event name": "SALT AIR & SWIFTS FLAIR",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 04:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/salt-air-and-swifts-flair/3900030335135929",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 225,
+            "event name": "Weekend Jamming With Safar",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 05:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/weekend-jamming-with-safar/3900030603445436",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 226,
+            "event name": "Tribute to Queen Ft. Lusty Angels",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 09:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/tribute-to-queen-ft-lusty-angels/3900030617892915",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 227,
+            "event name": "Indexpo Hyderabad",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep, 2026 - 12:00 AM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/indexpo-hyderabad/200030194918300",
+            "image url": "https://www.gravatar.com/avatar/27161d8c8828a4b8873ff95248e84665?s=800&d=identicon&r=g"
+        },
+        {
+            "id": 228,
+            "event name": "Chinmayagitam Bhajan Jamming, Krishna Play",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 02:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/chinmayagitam-bhajan-jamming-krishna-play/3900030558747952",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 229,
+            "event name": "Corporate Majdoor By Anmol Garg",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 20 Sep • 05:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/corporate-majdoor-by-anmol-garg/3900030409779736",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 230,
+            "event name": "Grand Food Fest 2026 – South India's Greatest Food and Entertainment Festival",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 09 Oct, 2026 - 12:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/grand-food-fest-2026-south-indias-greatest-food-and-entertainment-festival/4100030503139415",
+            "image url": "https://www.gravatar.com/avatar/fc0309bbc47db70feeb2e05b33d31ba5?s=100&d=identicon&r=g"
+        },
+        {
+            "id": 231,
+            "event name": "Insecure by Gokul Kumar",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 07:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/insecure-by-gokul-kumar/3900030600423355",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 232,
+            "event name": "OG TOUR INDIA WITH THAMAN - LIVE IN HYDERABAD",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 24 Oct • 06:30 PM + 2 more",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/og-tour-india-with-thaman-live-in-hyderabad/3900030309338416",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocIQ3eQ80tKhat7UI8SBUGlVEbb99W0hs7akXX1knVDX7fw9BjU=s96-c?sz=200"
+        },
+        {
+            "id": 233,
+            "event name": "Fake Wedding",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 26 Sep • 04:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/fake-wedding/3900030395227439",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 234,
+            "event name": "Office chugli stand-up comedy crowd work show",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 20 Sep • 03:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/office-chugli-stand-up-comedy-crowd-work-show/3900030423144831",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 235,
+            "event name": "Grace Cancer Run Hyderabad 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 11 Oct, 2026 - 05:00 AM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/grace-cancer-run-hyderabad-2026/200030398540523",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocLiBk-Koh0jPZV4ejkcHZICqQU2tpXijc0Lnhqyph_kUZn3ZMXj=s96-c?sz=200"
+        },
+        {
+            "id": 236,
+            "event name": "Standing Up by Kunal Kamra",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 11 Oct • 03:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/standing-up-by-kunal-kamra/3900030389616633",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 237,
+            "event name": "Cry Daddy by Anirban Dasgupta",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 06:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/cry-daddy-by-anirban-dasgupta/3900030397612509",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 238,
+            "event name": "Namak Kam Hai By Vidit Sharma",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 13 Sep • 07:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/namak-kam-hai-by-vidit-sharma/3900030386805011",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 239,
+            "event name": "A Telugu Jam - Ananda Music Club at Grease Monkey",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 04:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/a-telugu-jam-ananda-music-club-at-grease-monkey/3900030622885125",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 240,
+            "event name": "UK & Germany Education Fair – Plan with Clarity",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep, 2026 - 10:00 AM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/uk-and-germany-education-fair-plan-with-clarity-tickets/80001048948486",
+            "image url": "https://cdn2.allevents.in/transup/c7/cbe65ef4d9420fbdb6e4a4f9cfb69d/fi_6797554trending.svg"
+        },
+        {
+            "id": 241,
+            "event name": "Halki Halki Fati? By Vikas Kush Sharma",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 07:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/halki-halki-fati-by-vikas-kush-sharma/3900030407839243",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 242,
+            "event name": "Bhajan Clubbing at Gachibowli Janmashtami Special",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 07:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/bhajan-clubbing-at-gachibowli-janmashtami-special/3900030550318848",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 243,
+            "event name": "Hyderabad Dance Championship",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 13 Sep • 03:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/hyderabad-dance-championship/3900030461279729",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocJYKY5OuopyYhp4EuM0PjfdapPSV_CaFVp4NW-1WH-gmIvdjW5I=s96-c?sz=200"
+        },
+        {
+            "id": 244,
+            "event name": "Evolution by Arvind Sunder",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 07:30 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/evolution-by-arvind-sunder/3900030595853048",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 245,
+            "event name": "Nirantaram Sanatanam- Krishnastami Bhajan Jamming",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 06:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/nirantaram-sanatanam-krishnastami-bhajan-jamming/3900030615507310",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 246,
+            "event name": "THE ROOM OF MEMORIES",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 10 Oct, 2026 - 11:00 AM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/the-room-of-memories-tickets/80002276877238",
+            "image url": "https://cdn-az.allevents.in/banners/2a8e0187a982adec182731321024efd0-rimg-w300-h300-gmir.png"
+        },
+        {
+            "id": 247,
+            "event name": "Sapan Verma Live - 2026 New Tour",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 10 Oct, 2026 - 07:00 PM",
+            "venue": "Hyderabad",
+            "registration link": "https://allevents.in/hyderabad/sapan-verma-live-2026-new-tour/3900030237573718",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 248,
+            "event name": "New Delhi's Big Business Tech & Entrepreneur Professional Networking Affair",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-07",
+            "venue": "Food Court - Pacific Mall Tagore Garden",
+            "registration link": "https://www.eventbrite.com/e/new-delhis-big-business-tech-entrepreneur-professional-networking-affair-tickets-140043603187",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F971651123%2F5509431938%2F1%2Foriginal.20250228-063241?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=34c7e98e72e8d67b9a69c079d0e7fd5b"
+        },
+        {
+            "id": 249,
+            "event name": "EXPAND YOUR BUSINESS. ACCESS EUROPE.",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-03",
+            "venue": "NOVOTEL NEW DELHI CITY CENTRE",
+            "registration link": "https://www.eventbrite.de/e/expand-your-business-access-europe-tickets-1996781385877",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190355525%2F2851994800291%2F1%2Foriginal.20260805-084302?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=577970ef85b36878c6607dbf5b1856ef"
+        },
+        {
+            "id": 250,
+            "event name": "Generative AI for Society and Workplace | Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-06",
+            "venue": "Delhi",
+            "registration link": "https://www.eventbrite.com.au/e/generative-ai-for-society-and-workplace-delhi-tickets-1147824707599",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1021649033%2F2314805913363%2F1%2Foriginal.20250502-081627?w=400&auto=format%2Ccompress&q=75&sharp=10&s=0cad1d8358c32c3bfd07c469c3f93ab4"
+        },
+        {
+            "id": 251,
+            "event name": "Aerocity Meetup",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-04",
+            "venue": "Worldmark 1",
+            "registration link": "https://www.eventbrite.de/e/aerocity-meetup-tickets-1996787646603",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191943332%2F1774661455253%2F1%2Foriginal.20260826-134648?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.247&fp-y=0.558&s=0572504b8fb5ee4e96f94277003e7963"
+        },
+        {
+            "id": 252,
+            "event name": "IICS Weekend Acting Course",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-10",
+            "venue": "Indian Institute of Creative Skills",
+            "registration link": "https://www.eventbrite.com/e/iics-weekend-acting-course-tickets-1996091919665",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189856328%2F3002811839904%2F1%2Foriginal.20260729-073013?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9c8cb6cd5545c07dacf709c50d35468c"
+        },
+        {
+            "id": 253,
+            "event name": "8th Aerospace & Defence MRO South Asia Summit 2027",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2027-03-03",
+            "venue": "IICC - Dwarka Sector 25 Metro",
+            "registration link": "https://www.eventbrite.com/e/8th-aerospace-defence-mro-south-asia-summit-2027-tickets-1989140553943",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184184495%2F1264450243333%2F1%2Foriginal.20260509-095510?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5c933d9e751f0f506a8a242968038604"
+        },
+        {
+            "id": 254,
+            "event name": "4th International Congress of ISAM – COSCON 2026 India",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-04",
+            "venue": "ILAMED",
+            "registration link": "https://www.eventbrite.com/e/4th-international-congress-of-isam-coscon-2026-india-tickets-1988302170315",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183099443%2F3000107341011%2F1%2Foriginal.20260427-064320?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.521&fp-y=0.501&s=8eb9bdb079cd2b62ed9b5355fa3409ce"
+        },
+        {
+            "id": 255,
+            "event name": "India test event",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-26",
+            "venue": "Delhi",
+            "registration link": "https://www.eventbrite.co.uk/e/india-test-event-tickets-1997458070860",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190711977%2F3006158487592%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=1dc6f84236dcde61faaebf4ccf9ebb75"
+        },
+        {
+            "id": 256,
+            "event name": "Spitty: Hello World Tour (New Delhi)",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-21",
+            "venue": "Depot48",
+            "registration link": "https://www.eventbrite.ca/e/spitty-hello-world-tour-new-delhi-tickets-1992782881242",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187496102%2F62652207837%2F1%2Foriginal.20260623-171439?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.493&fp-y=0.295&s=46d77b0166ed69bbb27698537bcd3d6f"
+        },
+        {
+            "id": 257,
+            "event name": "New Delhi 2026 Venture Capital World Summit",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-09",
+            "venue": "Barakhamba Tower",
+            "registration link": "https://www.eventbrite.com/e/new-delhi-2026-venture-capital-world-summit-tickets-1968718246271",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1170794950%2F626217048%2F1%2Foriginal.20251112-162559?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3200%2C1600&s=83a37436d9dff9f92e7da8b5d54e7372"
+        },
+        {
+            "id": 258,
+            "event name": "Prarambh-Foundational Music Vocal Program, IICS",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-06",
+            "venue": "Indian Institute of Creative Skills",
+            "registration link": "https://www.eventbrite.com/e/prarambh-foundational-music-vocal-program-iics-tickets-1996093140316",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189856596%2F3002811839904%2F1%2Foriginal.20260729-073845?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.014&fp-y=0.623&s=e475d430899db58b35caf20fc5856d4c"
+        },
+        {
+            "id": 259,
+            "event name": "Join Biggest Community | Investors & Founders | New Delhi | Online",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-03",
+            "venue": "New Delhi",
+            "registration link": "https://www.eventbrite.com/e/join-biggest-community-investors-founders-new-delhi-online-tickets-1374181797749",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179266575%2F2837456016251%2F1%2Foriginal.20260307-074641?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cc785b817b6401c932475de55db73ab5"
+        },
+        {
+            "id": 260,
+            "event name": "Meet Angel Investors in Dubai | In person - Online |Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-07",
+            "venue": "Delhi",
+            "registration link": "https://www.eventbrite.com/e/meet-angel-investors-in-dubai-in-person-online-delhi-tickets-1985792998314",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1117516523%2F2729436536051%2F1%2Foriginal.20250908-150218?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.494208494208&fp-y=0.0689222866431&s=e448a099a6a5cf65cfbc840bae038e5a"
+        },
+        {
+            "id": 261,
+            "event name": "Autostyle World Expo 2026 | Leading Automotive Aftermarket Expo",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-09",
+            "venue": "Pragati Maidan",
+            "registration link": "https://www.eventbrite.com/e/autostyle-world-expo-2026-leading-automotive-aftermarket-expo-tickets-1986425225322",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181187894%2F2997019318112%2F1%2Foriginal.20260401-122714?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=1.0&fp-y=0.327&s=cd50fc5eb522f0986eec84e8babd5089"
+        },
+        {
+            "id": 262,
+            "event name": "IREX2026, New Delhi: International Real Estate & Immigration Show",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-23",
+            "venue": "Le Meridien New Delhi",
+            "registration link": "https://www.eventbrite.com/e/irex2026-new-delhi-international-real-estate-immigration-show-tickets-1976691460369",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172216492%2F268635138348%2F1%2Foriginal.20251203-073152?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7b275dba6122c48a2e6fa654850de539"
+        },
+        {
+            "id": 263,
+            "event name": "LCI Group's International Universities Fair 2026 New Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-26",
+            "venue": "Le Méridien New Delhi",
+            "registration link": "https://www.eventbrite.hk/e/lci-groups-international-universities-fair-2026-new-delhi-tickets-1991349100766",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186380871%2F2354999412063%2F1%2Foriginal.20260608-075156?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a960d05a4e2f80792dcbb1ed341d1c76"
+        },
+        {
+            "id": 264,
+            "event name": "STEM Masters Festival - Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-20",
+            "venue": "The Lalit New Delhi",
+            "registration link": "https://www.eventbrite.co.uk/e/stem-masters-festival-delhi-tickets-1996092381045",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189955207%2F1360999036883%2F1%2Foriginal.20260730-131152?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9e206bb7cc79a7c42959e33c809c3140"
+        },
+        {
+            "id": 265,
+            "event name": "Transform Your Footwear: Premier Shoe Cleaning Service in Delhi NCR | ShoeC",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-01",
+            "venue": "Delhi",
+            "registration link": "https://www.eventbrite.com/e/transform-your-footwear-premier-shoe-cleaning-service-in-delhi-ncr-shoec-tickets-1361018917219",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1027503063%2F2418404798501%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=6cc3339b3ce1e1982d2feb990cf421a3"
+        },
+        {
+            "id": 266,
+            "event name": "Meet Top International Business Schools in New Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-21",
+            "venue": "The Lalit New Delhi",
+            "registration link": "https://www.eventbrite.co.uk/e/meet-top-international-business-schools-in-new-delhi-tickets-1997683779962",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190875480%2F185222602399%2F1%2Foriginal.20260812-092844?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.015&fp-y=0.696&s=38443a02ff83ee505b6bcc3a0bfab9c0"
+        },
+        {
+            "id": 267,
+            "event name": "Global Hospitality Education Expo 2026 - Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-10",
+            "venue": "Le Méridien New Delhi",
+            "registration link": "https://www.eventbrite.com/e/global-hospitality-education-expo-2026-delhi-tickets-1998530606844",
+            "image url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191578419%2F473615334511%2F1%2Foriginal.20260821-082953?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=71c683e5785431bb98e0acdfeed71fab"
+        },
+        {
+            "id": 268,
+            "event name": "Smaaash",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "4.9(2.1K)",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/things-to-do/smaaash-aida2v1ao?ref=cityhome",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 269,
+            "event name": "Timezone - Ambience Mall",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "4.9(1K)",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/things-to-do/timezone-ambience-mall-aida2thb2?ref=cityhome",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 270,
+            "event name": "The Neon Cafe & Bowl",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "3.9(150)",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/things-to-do/the-neon-cafe-and-bowl-aida220zh?ref=cityhome",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 271,
+            "event name": "Strike Bowling Alley",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "3.9(867)",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/things-to-do/strike-bowling-alley-aida2xcz6?ref=cityhome",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 272,
+            "event name": "EOD Adventure Park",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "3.3(14)",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/things-to-do/eod-adventure-park-aidaqw4tr?ref=cityhome",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 273,
+            "event name": "BLAAZE Lead The Thrill",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "4.4(148)",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/delhi/things-to-do/blaaze-lead-the-thrill-aidaqhrtq?ref=cityhome",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 274,
+            "event name": "Yes Minister",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "4.2(4.6K)",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/things-to-do/yes-minister-aidaqvf1f?ref=cityhome",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 275,
+            "event name": "Zoreko",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "4.8(2.7K)",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/things-to-do/zoreko-aida2uumz?ref=cityhome",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 276,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 277,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 278,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 279,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 280,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 281,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 282,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 283,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 284,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 285,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 286,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 287,
+            "event name": "",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "",
+            "venue": "",
+            "registration link": "data not provided/will be shared upon signup",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 288,
+            "event name": "Gurdas Maan in Delhi-NCR",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 03 Oct • 07:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/gurdas-maan-in-delhi-ncr/3300029508904816",
+            "image url": "https://lh3.googleusercontent.com/a/AItbvml1Z-no95pWIjz120zw8CZcDogZvK0woWNS0Vv3=s96-c?sz=200"
+        },
+        {
+            "id": 289,
+            "event name": "Nani Bai Ro Mayro",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Thu, 10 Sep • 03:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/nani-bai-ro-mayro/200030305316210",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 290,
+            "event name": "उत्तराखण्ड महोत्सव रोहिणी सीज़न-3",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Thu, 10 Sep • 11:30 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/उत्तराखण्ड-महोत्सव-रोहिणी-सीज़न-3/200030298920128",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 291,
+            "event name": "Candlelight: Queen vs. ABBA at Le Méridien | New Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 09:30 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/candlelight-queen-vs-abba-at-le-méridien-new-delhi/200030449461913",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 292,
+            "event name": "Kal Ki Chinta Nahi Karta ft.Ravi Gupta",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Mon, 14 Sep • 09:30 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/kal-ki-chinta-nahi-karta-ftravi-gupta/3900030385594654",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocKd1rhy6bLdNDmlocyA9Nqi07LMlWwNJyHWzbKCxiX1E7kVXgME=s96-c?sz=200"
+        },
+        {
+            "id": 293,
+            "event name": "Appurv Gupta LIVE -StandUp Comedy Show by Gupta Ji",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 05:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/appurv-gupta-live-standup-comedy-show-by-gupta-ji/3900030614292753",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 294,
+            "event name": "Spoiler Alert - A Standup Comedy Solo by Anshu Mor",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 09:30 PM + 1 more",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/spoiler-alert-a-standup-comedy-solo-by-anshu-mor/3900030386599407",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 295,
+            "event name": "Telling Lies By Aashish Solanki",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 08:30 PM + 1 more",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/telling-lies-by-aashish-solanki/3900030387575435",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 296,
+            "event name": "POWERGEN India & Indian Utility Week 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Ongoing (01 Sep, 10:00 AM - 03 Sep, 06:00 PM)",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/powergen-india-and-indian-utility-week-2026/200030623597153",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocKn880laAfX84_BUc_J6TkKbCQkktl7iHzshBfn679sS7h8Tg=s96-c?sz=200"
+        },
+        {
+            "id": 297,
+            "event name": "Global Ed Interaction In New Delhi 2026 - Free Entry",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 11:00 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/global-ed-interaction-in-new-delhi-2026-free-entry-tickets/80009397124847",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 298,
+            "event name": "Bharat Nutraverse Expo 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Mon, 07 Sep • 10:00 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/bharat-nutraverse-expo-2026/200030623597757",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 299,
+            "event name": "Edvoy Global Beyond Fair 2026: Delhi | Free Study Abroad Fair",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 11:00 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/edvoy-global-beyond-fair-2026-delhi-free-study-abroad-fair/100001998478607312",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 300,
+            "event name": "Sapna Choudhary Live - The Desi Queen at Underpass",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 11:30 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/sapna-choudhary-live-the-desi-queen-at-underpass/3900030621100622",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 301,
+            "event name": "TecPanda X Kenzani Live : Romeo Lane Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 09:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/tecpanda-x-kenzani-live-romeo-lane-delhi/3900030617024354",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 302,
+            "event name": "Mehfil-e-Sukoon",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 06:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/mehfil-e-sukoon/3900030607082721",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 303,
+            "event name": "Carvaan Live: Magic of Rafi at Ambassador",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 05:15 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/carvaan-live-magic-of-rafi-at-ambassador/3900030562140416",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 304,
+            "event name": "TOXIC - Abhishek Upmanyu Live",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 26 Sep • 05:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/toxic-abhishek-upmanyu-live/3900030586179658",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 305,
+            "event name": "Tab Tum Kahaan The? By Sundeep Sharma",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 07:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/tab-tum-kahaan-the-by-sundeep-sharma/3900030525928116",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 306,
+            "event name": "Naanum Foodie Dhaan by Praveen Kumar",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 05:30 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/naanum-foodie-dhaan-by-praveen-kumar/3900030437503845",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 307,
+            "event name": "Vipul Goyal-Unleashed",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 18 Sep • 07:15 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/vipul-goyal-unleashed/3900030491276928",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 308,
+            "event name": "Saturday Bollywood Night at SoHo Delhi | FOR BOOKING:- 9990831155",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 11:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/saturday-bollywood-night-at-soho-delhi-for-booking-9990831155/200030396405253",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocJfO-Kp3_3sk_zglo9XA7Xpe91hv6PXxvcfQ3ewnrFKGQiuSg=s96-c?sz=200"
+        },
+        {
+            "id": 309,
+            "event name": "Krishnagri",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Wed, 16 Sep • 07:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/krishnagri/3900030531959647",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocIu1FieWGARXfbwIpb0tDerr4t2shABNjqz197YKMcPkbQPMQ=s96-c?sz=200"
+        },
+        {
+            "id": 310,
+            "event name": "Bollywood Retro Night",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 08:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/bollywood-retro-night/3900030491664733",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocK08Jkt3ZVK5IX0_VzzV5T0x17KY4b1ihiRbjXHsbqN4-iOlg3pzg=s96-c?sz=200"
+        },
+        {
+            "id": 311,
+            "event name": "Filmy Friday's",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 06:42 PM + 11 more",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/filmy-fridays/3900030044173140",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 312,
+            "event name": "Paradox presents Mandragora - Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Thu, 10 Sep • 09:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/paradox-presents-mandragora-delhi/3900030316703519",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 313,
+            "event name": "MAHADEV",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 07:00 PM + 1 more",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/mahadev/3900030456471922",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 314,
+            "event name": "Great India Beer Fest",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 26 Sep • 12:30 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/great-india-beer-fest/4100030577802145",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 315,
+            "event name": "shankarvlogs",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 12:30 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/shankarvlogs/200030257082026",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 316,
+            "event name": "Silly Papa By Angad Singh Ranyal",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 08:30 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/silly-papa-by-angad-singh-ranyal/3900030456949625",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 317,
+            "event name": "Rupali Tyagi Live",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 06:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/rupali-tyagi-live/3900030019946449",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 318,
+            "event name": "Girls Only Soiree",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 05 Sep • 06:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/girls-only-soiree/3900030484937611",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 319,
+            "event name": "90's Special Bollywood Night",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 08:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/90s-special-bollywood-night/3900030389643147",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 320,
+            "event name": "Delhi Art Weekend",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 26 Sep • 11:00 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/delhi-art-weekend/3900030491011325",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 321,
+            "event name": "7th Edition ET TECH EXPO - New Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Tue, 22 Sep • 08:30 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/7th-edition-et-tech-expo-new-delhi/200030303283240",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 322,
+            "event name": "KALA CONNECT - STROKES & STRINGS",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 20 Sep • 04:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/kala-connect-strokes-and-strings/3900030611213907",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 323,
+            "event name": "LCI Group's International Universities Fair 2026 New Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 26 Sep • 11:00 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/lci-groups-international-universities-fair-2026-new-delhi/100001991349100766",
+            "image url": "https://cdn2.allevents.in/thumbs/attendeethumb66d4233b4eb9c.jpg"
+        },
+        {
+            "id": 324,
+            "event name": "The Friend Zone by OutStation",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 02:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/the-friend-zone-by-outstation/3900030604461214",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 325,
+            "event name": "Bhajan Jamming - Soul Strings ft. Nandy Sisters",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 19 Sep • 06:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/bhajan-jamming-soul-strings-ft-nandy-sisters/3900030502345117",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 326,
+            "event name": "Carvaan Live: Sing With Kishore at Ambassador",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 03:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/carvaan-live-sing-with-kishore-at-ambassador/3900030409012412",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 327,
+            "event name": "Sufi Symphony at The Terrace Ghaziabad",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sun, 06 Sep • 08:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/sufi-symphony-at-the-terrace-ghaziabad/3900030488566237",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 328,
+            "event name": "CRY DADDY By Anirban Dasgupta",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 04:00 PM + 1 more",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/cry-daddy-by-anirban-dasgupta/3900030385486409",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 329,
+            "event name": "Prime Engage Jr. Chess Championship",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 09:00 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/prime-engage-jr-chess-championship/3900030149982318",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 330,
+            "event name": "Brevet LOC 1000 Edition 18 Attari Rail Stn,Wagah Border, Golden Temple",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 05:00 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/brevet-loc-1000-edition-18-attari-rail-stnwagah-border-golden-temple/200030611367812",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 331,
+            "event name": "cric ZERO",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Wed, 09 Sep • 07:00 AM + 1 more",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/cric-zero/200030243150346",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 332,
+            "event name": "Sahayak Business Networking Meet",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 12 Sep • 10:00 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/sahayak-business-networking-meet/3900030599738430",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocK22HxEnVGK86G6_eRp7w1BqVkjJvSzTEe0qsiPXhbbew49nQ=s96-c?sz=200"
+        },
+        {
+            "id": 333,
+            "event name": "One Purpos India Forum 2026",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Mon, 26 Oct • 09:00 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/one-purpos-india-forum-2026/3900030340284934",
+            "image url": "https://lh3.googleusercontent.com/a/ACg8ocIzhMYvmG8A4U22ateQaSRqGlzzXZFomYSjZaueLnm77zkoXKWE=s96-c?sz=200"
+        },
+        {
+            "id": 334,
+            "event name": "Global Hospitality Education Expo 2026 - Delhi",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Sat, 10 Oct • 02:00 PM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/global-hospitality-education-expo-2026-delhi/100001998530606844",
+            "image url": "data not provided/will be shared upon signup"
+        },
+        {
+            "id": 335,
+            "event name": "Legal Dispute Events India - Commercial Disputes Conclave",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "Fri, 04 Sep • 09:00 AM",
+            "venue": "Delhi",
+            "registration link": "https://allevents.in/new-delhi/legal-dispute-events-india-commercial-disputes-conclave/80002050022632",
+            "image url": "data not provided/will be shared upon signup"
         }
     ]
 }
