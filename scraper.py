@@ -24,9 +24,9 @@ def scrape_events(city):
     city_slug = city_lower.replace(" ", "-")
     
     # 5-10 minute jitter to avoid bot detection fingerprints
-    jitter = random.randint(300, 600)
-    print(f"Applying {jitter}s jitter to avoid detection...")
-    time.sleep(jitter)
+    #jitter = random.randint(300, 600)
+    #print(f"Applying {jitter}s jitter to avoid detection...")
+    #time.sleep(jitter)
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
