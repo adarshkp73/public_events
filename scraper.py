@@ -13,10 +13,8 @@ def sanitize_link(raw_link, base_domain):
     """Ensures registration links are absolute and avoids empty/malformed values."""
     if not raw_link or raw_link == FALLBACK or raw_link.startswith("#"):
         return FALLBACK
-    # If it's already an absolute URL, return it
     if raw_link.startswith("http://") or raw_link.startswith("https://"):
         return raw_link
-    # Otherwise, join relative path with its proper base domain
     return urljoin(base_domain, raw_link)
 
 def scrape_events(city):
@@ -164,7 +162,7 @@ def scrape_events(city):
         print(f"AllEvents Error: {e}")
 
     # ==========================================
-    # 4. LUMA
+    # 4. LUMA (Fixed URL Parsing)
     # ==========================================
     try:
         print(f"Fetching Luma for {city}...")
@@ -184,8 +182,10 @@ def scrape_events(city):
             if res.status_code == 200:
                 for entry in res.json().get('entries', []):
                     event_info = entry.get('event', {})
-                    api_id = event_info.get('api_id', '')
-                    reg_link = f"{luma_base}/{api_id}" if api_id else FALLBACK
+                    # Prioritize the short slug/url key (e.g., 'r80gqn49') provided by Luma API
+                    slug = event_info.get('url') or event_info.get('slug') or event_info.get('api_id', '')
+                    reg_link = f"{luma_base}/{slug}" if slug else FALLBACK
+                    
                     events_data.append({
                         "id": current_id,
                         "event name": event_info.get('name', FALLBACK),
@@ -210,8 +210,8 @@ def scrape_events(city):
                         for entry in entries:
                             event_info = entry.get('event', {})
                             if event_info:
-                                api_id = event_info.get('api_id', '')
-                                reg_link = f"{luma_base}/{api_id}" if api_id else FALLBACK
+                                slug = event_info.get('url') or event_info.get('slug') or event_info.get('api_id', '')
+                                reg_link = f"{luma_base}/{slug}" if slug else FALLBACK
                                 events_data.append({
                                     "id": current_id,
                                     "event name": event_info.get('name', FALLBACK),
@@ -225,8 +225,15 @@ def scrape_events(city):
     except Exception as e:
         print(f"Luma Error: {e}")
 
+    # Wrapped JSON output with timestamp to force clean Git diff updates every day
+    output_payload = {
+        "last_updated": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
+        "total_events": len(events_data),
+        "events": events_data
+    }
+
     with open('events.json', 'w', encoding='utf-8') as f:
-        json.dump(events_data, f, indent=4, ensure_ascii=False)
+        json.dump(output_payload, f, indent=4, ensure_ascii=False)
         print(f"Successfully saved {len(events_data)} events for {city.title()} to events.json")
 
 if __name__ == "__main__":
