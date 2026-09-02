@@ -4,29 +4,36 @@ import time
 import os
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+from urllib.parse import urljoin, quote
 
 FALLBACK = "data not provided/will be shared upon signup"
-
-# Multi-city target array
 TARGET_CITIES = ["bengaluru", "chennai", "kolkata", "hyderabad", "delhi"] 
 
-def sanitize_link(raw_link, base_domain):
-    """Ensures registration links are absolute and avoids empty/malformed values."""
-    if not raw_link or raw_link == FALLBACK or raw_link.startswith("#"):
+def sanitize_link(raw_link, base_domain=""):
+    """Ensures registration and image links are fully qualified absolute URLs."""
+    if not raw_link or raw_link == FALLBACK or raw_link.startswith("#") or "base64" in raw_link:
         return FALLBACK
+    
+    # Fix protocol-relative URLs (e.g., "//img.evbuc.com/...")
+    if raw_link.startswith("//"):
+        return f"https:{raw_link}"
+        
     if raw_link.startswith("http://") or raw_link.startswith("https://"):
         return raw_link
-    return urljoin(base_domain, raw_link)
+        
+    if base_domain:
+        return urljoin(base_domain, raw_link)
+        
+    return raw_link
 
 def scrape_all_cities():
     events_data = []
     current_id = 1
     
-    # STARTUP JITTER: Stagger execution by 5 to 10 minutes (300 to 600 seconds)
-    #jitter = random.randint(300, 600)
-    #print(f"Applying startup jitter: Sleeping for {jitter} seconds to avoid cron footprints...")
-    #time.sleep(jitter)
+    # Startup jitter to mimic human execution footprints
+    jitter = random.randint(300, 600)
+    print(f"Applying startup jitter: Sleeping for {jitter} seconds...")
+    time.sleep(jitter)
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
@@ -69,7 +76,6 @@ def scrape_all_cities():
             hs_base = "https://www.headstart.in"
             hs_url = f"{hs_base}/{city_slug}"
             res = requests.get(hs_url, headers=headers, proxies=proxies, timeout=15)
-            print(f"Headstart Status Code: {res.status_code}")
             
             if res.status_code == 200:
                 soup = BeautifulSoup(res.text, 'html.parser')
@@ -85,6 +91,7 @@ def scrape_all_cities():
                             title = title_elem.get_text(strip=True) if title_elem else card.get_text(strip=True)
                             if len(title) > 3:
                                 img_elem = card.select_one('img')
+                                img_raw = img_elem.get('src') or img_elem.get('data-src') if img_elem else None
                                 date_elem = card.select_one('.date, .time, time')
                                 venue_elem = card.select_one('.location, .venue')
                                 
@@ -95,20 +102,19 @@ def scrape_all_cities():
                                     "date and time": date_elem.get_text(strip=True) if date_elem else FALLBACK,
                                     "venue": venue_elem.get_text(strip=True) if venue_elem else city.title(),
                                     "registration link": sanitize_link(href if href else card.get('href'), hs_base),
-                                    "image url": sanitize_link(img_elem.get('src') if img_elem else None, hs_base)
+                                    "image url": sanitize_link(img_raw, hs_base)
                                 })
                                 current_id += 1
         except Exception as e:
             print(f"Headstart Error ({city}): {e}")
 
         # ==========================================
-        # 2. EVENTBRITE
+        # 2. EVENTBRITE (Fixed Image Extraction)
         # ==========================================
         try:
             eb_base = "https://www.eventbrite.com"
             eb_url = f"{eb_base}/d/india--{city_slug}/all-events/"
             res = requests.get(eb_url, headers=eb_headers, proxies=proxies, timeout=15)
-            print(f"Eventbrite Status Code: {res.status_code}")
             
             if res.status_code == 200:
                 soup = BeautifulSoup(res.text, 'html.parser')
@@ -118,6 +124,10 @@ def scrape_all_cities():
                     eb_data = json.loads(json_str)
                     events = eb_data.get('search_data', {}).get('events', {}).get('results', [])
                     for event in events:
+                        # Eventbrite stores image inside nested objects safely
+                        img_dict = event.get('image') or {}
+                        img_raw = img_dict.get('url') or img_dict.get('original', {}).get('url')
+                        
                         events_data.append({
                             "id": current_id,
                             "event name": event.get('name', FALLBACK),
@@ -125,20 +135,19 @@ def scrape_all_cities():
                             "date and time": event.get('start_date', FALLBACK),
                             "venue": event.get('primary_venue', {}).get('name', FALLBACK),
                             "registration link": sanitize_link(event.get('url'), eb_base),
-                            "image url": sanitize_link(event.get('image', {}).get('url') if event.get('image') else None, eb_base)
+                            "image url": sanitize_link(img_raw, eb_base)
                         })
                         current_id += 1
         except Exception as e:
             print(f"Eventbrite Error ({city}): {e}")
 
         # ==========================================
-        # 3. ALLEVENTS
+        # 3. ALLEVENTS (Fixed Lazy-Load Image Extraction)
         # ==========================================
         try:
             ae_base = "https://allevents.in"
             ae_url = f"{ae_base}/{city_slug}/all"
             res = requests.get(ae_url, headers=headers, proxies=proxies, timeout=15)
-            print(f"AllEvents Status Code: {res.status_code}")
             
             if res.status_code == 200:
                 soup = BeautifulSoup(res.text, 'html.parser')
@@ -151,6 +160,20 @@ def scrape_all_cities():
                     if title_elem:
                         link_elem = card.select_one('a[href]')
                         img_elem = card.select_one('img')
+                        
+                        # Grab lazy-loaded attributes safely
+                        img_raw = None
+                        if img_elem:
+                            img_raw = (
+                                img_elem.get('data-src') or 
+                                img_elem.get('data-original') or 
+                                img_elem.get('srcset') or 
+                                img_elem.get('src')
+                            )
+                            # Handle srcset split if necessary (take first URL)
+                            if img_raw and ',' in img_raw:
+                                img_raw = img_raw.split(',')[0].strip().split(' ')[0]
+
                         date_elem = card.select_one('.date, .sub-title, time')
                         venue_elem = card.select_one('.venue, .subtitle-location')
                         
@@ -161,7 +184,7 @@ def scrape_all_cities():
                             "date and time": date_elem.get_text(strip=True) if date_elem else FALLBACK,
                             "venue": venue_elem.get_text(strip=True) if venue_elem else city.title(),
                             "registration link": sanitize_link(link_elem.get('href') if link_elem else None, ae_base),
-                            "image url": sanitize_link(img_elem.get('src') or img_elem.get('data-src') if img_elem else None, ae_base)
+                            "image url": sanitize_link(img_raw, ae_base)
                         })
                         current_id += 1
         except Exception as e:
@@ -172,50 +195,30 @@ def scrape_all_cities():
         # ==========================================
         try:
             luma_base = "https://lu.ma"
-            luma_place_ids = {
-                "bengaluru": "discplace-G0tGUVYwl7T17Sb",
-                "bangalore": "discplace-G0tGUVYwl7T17Sb",
-                "mumbai": "discplace-KzI8u1Jq7O0E2P6",
-                "delhi": "discplace-X4c9T5H1F3P4G8M",
-                "new-delhi": "discplace-X4c9T5H1F3P4G8M",
-                "hyderabad": "discplace-hyderabad-placeholder", # Will trigger fallback if invalid
-                "chennai": "discplace-chennai-placeholder",
-                "kolkata": "discplace-kolkata-placeholder"
-            }
-            
-            place_id = luma_place_ids.get(city_slug)
-            # Use universal Luma discovery search page for broad city support
-            luma_search_url = f"{luma_base}/discover/india/{city_slug}"
-            res = requests.get(luma_search_url, headers=headers, proxies=proxies, timeout=15)
-            print(f"Luma Status Code: {res.status_code}")
+            luma_api_url = f"https://api.luma.com/discover/get-paginated-events?location={quote(city.title())}&limit=30"
+            res = requests.get(luma_api_url, headers=headers, proxies=proxies, timeout=15)
             
             if res.status_code == 200:
-                soup = BeautifulSoup(res.text, 'html.parser')
-                next_data = soup.find('script', id='__NEXT_DATA__')
-                if next_data:
-                    luma_json = json.loads(next_data.string)
-                    queries = luma_json.get('props', {}).get('pageProps', {}).get('dehydratedState', {}).get('queries', [])
-                    for q in queries:
-                        entries = q.get('state', {}).get('data', {}).get('entries', [])
-                        for entry in entries:
-                            event_info = entry.get('event', {})
-                            if event_info:
-                                slug = event_info.get('url') or event_info.get('slug') or event_info.get('api_id', '')
-                                reg_link = f"{luma_base}/{slug}" if slug else FALLBACK
-                                events_data.append({
-                                    "id": current_id,
-                                    "event name": event_info.get('name', FALLBACK),
-                                    "host": event_info.get('hosts', [{'name': FALLBACK}])[0].get('name', FALLBACK),
-                                    "date and time": event_info.get('start_at', FALLBACK),
-                                    "venue": event_info.get('geo_address_info', {}).get('city', FALLBACK),
-                                    "registration link": reg_link,
-                                    "image url": sanitize_link(event_info.get('cover_url'), luma_base)
-                                })
-                                current_id += 1
+                luma_json = res.json()
+                for entry in luma_json.get('entries', []):
+                    event_info = entry.get('event', {})
+                    if event_info:
+                        slug = event_info.get('url') or event_info.get('slug') or event_info.get('api_id', '')
+                        reg_link = f"{luma_base}/{slug}" if slug else FALLBACK
+                        
+                        events_data.append({
+                            "id": current_id,
+                            "event name": event_info.get('name', FALLBACK),
+                            "host": event_info.get('hosts', [{'name': FALLBACK}])[0].get('name', FALLBACK),
+                            "date and time": event_info.get('start_at', FALLBACK),
+                            "venue": event_info.get('geo_address_info', {}).get('city', FALLBACK),
+                            "registration link": reg_link,
+                            "image url": sanitize_link(event_info.get('cover_url'), luma_base)
+                        })
+                        current_id += 1
         except Exception as e:
             print(f"Luma Error ({city}): {e}")
 
-        # Polite delay between city requests
         time.sleep(2)
 
     # Output clean JSON with timestamp wrapper
@@ -227,7 +230,7 @@ def scrape_all_cities():
 
     with open('events.json', 'w', encoding='utf-8') as f:
         json.dump(output_payload, f, indent=4, ensure_ascii=False)
-        print(f"\nSuccessfully compiled a total of {len(events_data)} events across all cities into events.json")
+        print(f"\nSuccessfully compiled a total of {len(events_data)} events into events.json")
 
 if __name__ == "__main__":
     scrape_all_cities()
