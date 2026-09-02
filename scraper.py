@@ -23,7 +23,8 @@ def scrape_events(city):
     city_lower = city.lower().strip()
     city_slug = city_lower.replace(" ", "-")
     
-    jitter = random.randint(300, 600)
+    #jitter = random.randint(300, 600)
+    jitter = 1
     print(f"Applying {jitter}s jitter to avoid detection...")
     time.sleep(jitter)
 
