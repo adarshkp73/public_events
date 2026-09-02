@@ -4,10 +4,18 @@ import time
 import os
 import re
 import requests
-from urllib.parse import quote
 
 FALLBACK = "data not provided/will be shared upon signup"
-TARGET_CITIES = ["bengaluru", "chennai", "kolkata", "hyderabad", "delhi"] 
+
+# Target cities supported by Luma's regional place indexing or fallback search
+TARGET_CITIES = [
+    {"name": "bengaluru", "slug": "bengaluru"},
+    {"name": "delhi", "slug": "delhi"},
+    {"name": "mumbai", "slug": "mumbai"},
+    {"name": "hyderabad", "slug": "hyderabad"},
+    {"name": "chennai", "slug": "chennai"},
+    {"name": "kolkata", "slug": "kolkata"}
+]
 
 # Strict tech keyword filter
 TECH_KEYWORDS = [
@@ -33,33 +41,26 @@ def is_tech_event(event_name):
                 return True
     return False
 
-def is_in_india(event_info, target_city):
-    """Strictly validates that the event is located in India / target city."""
+def is_valid_location(event_info, target_city_name):
+    """Ensures event is based in India and excludes foreign locations."""
     geo = event_info.get('geo_address_info', {}) or {}
     city_str = str(geo.get('city', '')).lower()
     country_str = str(geo.get('country', '')).lower()
     address_str = str(event_info.get('address', '')).lower()
-    name_str = str(event_info.get('name', '')).lower()
     
-    # Explicit international exclusion guardrails
-    international_markers = ['san francisco', 'sf', 'new york', 'nyc', 'london', 'tokyo', 'berlin', 'singapore', 'usa', 'united states', 'uk', 'germany', 'japan', 'canada', 'toronto', 'sydney', 'australia']
     combined_text = f"{city_str} {country_str} {address_str}"
     
-    for marker in international_markers:
-        # If an international city/country marker is explicitly in the address metadata, drop it unless our target city matches it
-        if marker in combined_text and target_city not in combined_text:
-            return False
-
-    # Must match target city or explicitly state India
-    if target_city in combined_text or 'india' in combined_text or 'ind' in country_str:
+    # Hard drop international major hubs if explicitly marked outside India
+    international_markers = ['san francisco', 'new york', 'london', 'tokyo', 'berlin', 'singapore', 'toronto', 'sydney', 'dubai']
+    if any(marker in combined_text for marker in international_markers) and target_city_name not in combined_text:
+        return False
+        
+    # If explicitly marked as India or matches local hubs, keep it
+    local_hubs = ['bengaluru', 'bangalore', 'chennai', 'kolkata', 'hyderabad', 'delhi', 'new delhi', 'gurugram', 'noida', 'mumbai', 'pune', 'india']
+    if any(hub in combined_text for hub in local_hubs) or not country_str:
         return True
         
-    # Fallback check if venue description mentions India or local tech hubs
-    local_hubs = ['bengaluru', 'bangalore', 'chennai', 'kolkata', 'hyderabad', 'delhi', 'new delhi', 'gurugram', 'noida', 'mumbai', 'pune']
-    if any(hub in combined_text for hub in local_hubs):
-        return True
-        
-    return False
+    return True
 
 def sanitize_link(raw_link):
     if not raw_link or raw_link == FALLBACK or raw_link.startswith("#") or "base64" in raw_link:
@@ -103,11 +104,16 @@ def scrape_all_cities():
 
     luma_base = "https://lu.ma"
 
-    for city in TARGET_CITIES:
-        print(f"\n--- Fetching strict India tech events for: {city.title()} ---")
+    for city_obj in TARGET_CITIES:
+        city_name = city_obj["name"]
+        city_slug = city_obj["slug"]
+        print(f"\n--- Fetching tech events for: {city_name.title()} ---")
+        
         try:
-            luma_api_url = f"https://api.luma.com/discover/get-paginated-events?location={quote(city.title())}&limit=50"
+            # Use Luma's native slug parameter endpoint
+            luma_api_url = f"https://api.luma.com/discover/get-paginated-events?slug={city_slug}&pagination_limit=50"
             res = requests.get(luma_api_url, headers=headers, proxies=proxies, timeout=15)
+            print(f"API Status Code for {city_name.title()}: {res.status_code}")
             
             if res.status_code == 200:
                 luma_json = res.json()
@@ -119,18 +125,18 @@ def scrape_all_cities():
                     if event_info:
                         title = event_info.get('name', FALLBACK)
                         
-                        # Apply strict Tech Filter AND Strict India Location Validator
-                        if is_tech_event(title) and is_in_india(event_info, city):
+                        # Apply tech filter and location validation
+                        if is_tech_event(title) and is_valid_location(event_info, city_name):
                             slug = event_info.get('url') or event_info.get('slug') or event_info.get('api_id', '')
                             reg_link = f"{luma_base}/{slug}" if slug else FALLBACK
                             
                             hosts_list = event_info.get('hosts', [])
                             host_name = hosts_list[0].get('name', FALLBACK) if hosts_list else FALLBACK
 
-                            # Prevent duplicate entries across overlapping city queries
-                            event_venue = event_info.get('geo_address_info', {}).get('city', city.title())
+                            event_venue = event_info.get('geo_address_info', {}).get('city', city_name.title())
                             reg_url = reg_link
                             
+                            # Prevent duplicates
                             if not any(e['registration link'] == reg_url for e in events_data):
                                 events_data.append({
                                     "id": current_id,
@@ -144,9 +150,9 @@ def scrape_all_cities():
                                 current_id += 1
                                 city_count += 1
                 
-                print(f"Successfully added {city_count} verified local events for {city.title()}.")
+                print(f"Successfully added {city_count} tech events for {city_name.title()}.")
         except Exception as e:
-            print(f"Error fetching {city}: {e}")
+            print(f"Error fetching {city_name}: {e}")
 
         time.sleep(2)
 
@@ -158,7 +164,7 @@ def scrape_all_cities():
 
     with open('events.json', 'w', encoding='utf-8') as f:
         json.dump(output_payload, f, indent=4, ensure_ascii=False)
-        print(f"\nPipeline Complete. Compiled {len(events_data)} verified India tech events into events.json")
+        print(f"\nPipeline Complete. Compiled {len(events_data)} total tech events into events.json")
 
 if __name__ == "__main__":
     scrape_all_cities()
