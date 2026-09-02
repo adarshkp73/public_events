@@ -23,8 +23,8 @@ def scrape_events(city):
     city_lower = city.lower().strip()
     city_slug = city_lower.replace(" ", "-")
     
-    #jitter = random.randint(300, 600)
-    jitter = 1
+    # 5-10 minute jitter to avoid bot detection fingerprints
+    jitter = random.randint(300, 600)
     print(f"Applying {jitter}s jitter to avoid detection...")
     time.sleep(jitter)
 
@@ -34,12 +34,14 @@ def scrape_events(city):
         "Accept-Language": "en-US,en;q=0.9"
     }
 
+    # Proxy configuration for requests
     proxies = None
     proxy_server_raw = os.getenv("PROXY_SERVER")
     if proxy_server_raw:
         proxy_list = [p.strip() for p in proxy_server_raw.split(",") if p.strip()]
         selected_proxy = random.choice(proxy_list)
-        if not selected_proxy.startswith("http"): selected_proxy = f"http://{selected_proxy}"
+        if not selected_proxy.startswith("http"): 
+            selected_proxy = f"http://{selected_proxy}"
         
         username = os.getenv("PROXY_USERNAME", "")
         password = os.getenv("PROXY_PASSWORD", "")
@@ -48,6 +50,7 @@ def scrape_events(city):
             proxies = {"http": auth_proxy, "https": auth_proxy}
         else:
             proxies = {"http": selected_proxy, "https": selected_proxy}
+        print(f"Proxy active: Using {selected_proxy}")
 
     # ==========================================
     # 1. HEADSTART
@@ -57,6 +60,7 @@ def scrape_events(city):
         hs_base = "https://www.headstart.in"
         hs_url = f"{hs_base}/{city_slug}"
         res = requests.get(hs_url, headers=headers, proxies=proxies, timeout=15)
+        print(f" -> Headstart Status Code: {res.status_code}")
         
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, 'html.parser')
@@ -111,6 +115,7 @@ def scrape_events(city):
         eb_base = "https://www.eventbrite.com"
         eb_url = f"{eb_base}/d/india--{city_slug}/all-events/"
         res = requests.get(eb_url, headers=headers, proxies=proxies, timeout=15)
+        print(f" -> Eventbrite Status Code: {res.status_code}")
         
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, 'html.parser')
@@ -141,6 +146,7 @@ def scrape_events(city):
         ae_base = "https://allevents.in"
         ae_url = f"{ae_base}/{city_slug}/all"
         res = requests.get(ae_url, headers=headers, proxies=proxies, timeout=15)
+        print(f" -> AllEvents Status Code: {res.status_code}")
         
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, 'html.parser')
@@ -163,7 +169,7 @@ def scrape_events(city):
         print(f"AllEvents Error: {e}")
 
     # ==========================================
-    # 4. LUMA (Fixed URL Parsing)
+    # 4. LUMA
     # ==========================================
     try:
         print(f"Fetching Luma for {city}...")
@@ -180,10 +186,11 @@ def scrape_events(city):
         if place_id:
             luma_url = f"https://api.lu.ma/discover/get-paginated-events?discover_place_api_id={place_id}&limit=30"
             res = requests.get(luma_url, headers=headers, proxies=proxies, timeout=15)
+            print(f" -> Luma API Status Code: {res.status_code}")
+            
             if res.status_code == 200:
                 for entry in res.json().get('entries', []):
                     event_info = entry.get('event', {})
-                    # Prioritize the short slug/url key (e.g., 'r80gqn49') provided by Luma API
                     slug = event_info.get('url') or event_info.get('slug') or event_info.get('api_id', '')
                     reg_link = f"{luma_base}/{slug}" if slug else FALLBACK
                     
@@ -200,6 +207,8 @@ def scrape_events(city):
         else:
             luma_search_url = f"{luma_base}/discover/india/{city_slug}"
             res = requests.get(luma_search_url, headers=headers, proxies=proxies, timeout=15)
+            print(f" -> Luma Web Status Code: {res.status_code}")
+            
             if res.status_code == 200:
                 soup = BeautifulSoup(res.text, 'html.parser')
                 next_data = soup.find('script', id='__NEXT_DATA__')
