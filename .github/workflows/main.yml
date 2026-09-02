@@ -2,8 +2,9 @@ name: Daily Event Scraper API
 
 on:
   schedule:
+    # 20:30 UTC is 2:00 AM IST
     - cron: '30 20 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual triggers from the GitHub UI
 
 permissions:
   contents: write
@@ -24,10 +25,8 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-          playwright install chromium --with-deps
 
       - name: Run Scraper
-        # Inject the GitHub Secrets as environment variables for Python
         env:
           PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
           PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
