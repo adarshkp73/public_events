@@ -7,9 +7,17 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 FALLBACK = "data not provided/will be shared upon signup"
-
-# You can change this to "mumbai", "delhi", "pune", "hyderabad", etc.
 TARGET_CITY = "bengaluru" 
+
+def sanitize_link(raw_link, base_domain):
+    """Ensures registration links are absolute and avoids empty/malformed values."""
+    if not raw_link or raw_link == FALLBACK or raw_link.startswith("#"):
+        return FALLBACK
+    # If it's already an absolute URL, return it
+    if raw_link.startswith("http://") or raw_link.startswith("https://"):
+        return raw_link
+    # Otherwise, join relative path with its proper base domain
+    return urljoin(base_domain, raw_link)
 
 def scrape_events(city):
     events_data = []
@@ -17,7 +25,6 @@ def scrape_events(city):
     city_lower = city.lower().strip()
     city_slug = city_lower.replace(" ", "-")
     
-    # 5-10 minute jitter to avoid exact cron footprints
     jitter = random.randint(300, 600)
     print(f"Applying {jitter}s jitter to avoid detection...")
     time.sleep(jitter)
@@ -44,11 +51,12 @@ def scrape_events(city):
             proxies = {"http": selected_proxy, "https": selected_proxy}
 
     # ==========================================
-    # 1. HEADSTART (JSON-LD & HTML Fallback)
+    # 1. HEADSTART
     # ==========================================
     try:
         print(f"Fetching Headstart for {city}...")
-        hs_url = f"https://www.headstart.in/{city_slug}"
+        hs_base = "https://www.headstart.in"
+        hs_url = f"{hs_base}/{city_slug}"
         res = requests.get(hs_url, headers=headers, proxies=proxies, timeout=15)
         
         if res.status_code == 200:
@@ -68,15 +76,14 @@ def scrape_events(city):
                                 "host": item.get('organizer', {}).get('name', 'Headstart India'),
                                 "date and time": item.get('startDate', FALLBACK),
                                 "venue": item.get('location', {}).get('name', city.title()),
-                                "registration link": item.get('url', hs_url),
-                                "image url": item.get('image', FALLBACK)
+                                "registration link": sanitize_link(item.get('url'), hs_base),
+                                "image url": sanitize_link(item.get('image'), hs_base)
                             })
                             current_id += 1
                             found_json = True
                 except:
                     continue
             
-            # HTML Fallback if no SEO schema exists
             if not found_json:
                 cards = soup.select('a[href*="/events/"]')
                 for card in cards:
@@ -90,19 +97,20 @@ def scrape_events(city):
                             "host": "Headstart India",
                             "date and time": FALLBACK,
                             "venue": city.title(),
-                            "registration link": urljoin("https://www.headstart.in", link),
-                            "image url": img_elem.get('src') if img_elem else FALLBACK
+                            "registration link": sanitize_link(link, hs_base),
+                            "image url": sanitize_link(img_elem.get('src') if img_elem else None, hs_base)
                         })
                         current_id += 1
     except Exception as e:
         print(f"Headstart Error: {e}")
 
     # ==========================================
-    # 2. EVENTBRITE (Server-Side Hydration JSON)
+    # 2. EVENTBRITE
     # ==========================================
     try:
         print(f"Fetching Eventbrite for {city}...")
-        eb_url = f"https://www.eventbrite.com/d/india--{city_slug}/all-events/"
+        eb_base = "https://www.eventbrite.com"
+        eb_url = f"{eb_base}/d/india--{city_slug}/all-events/"
         res = requests.get(eb_url, headers=headers, proxies=proxies, timeout=15)
         
         if res.status_code == 200:
@@ -119,19 +127,20 @@ def scrape_events(city):
                         "host": event.get('primary_organizer', {}).get('name', FALLBACK),
                         "date and time": event.get('start_date', FALLBACK),
                         "venue": event.get('primary_venue', {}).get('name', FALLBACK),
-                        "registration link": event.get('url', FALLBACK),
-                        "image url": event.get('image', {}).get('url', FALLBACK) if event.get('image') else FALLBACK
+                        "registration link": sanitize_link(event.get('url'), eb_base),
+                        "image url": sanitize_link(event.get('image', {}).get('url') if event.get('image') else None, eb_base)
                     })
                     current_id += 1
     except Exception as e:
         print(f"Eventbrite Error: {e}")
 
     # ==========================================
-    # 3. ALLEVENTS (Next.js Hydration JSON)
+    # 3. ALLEVENTS
     # ==========================================
     try:
         print(f"Fetching AllEvents for {city}...")
-        ae_url = f"https://allevents.in/{city_slug}/all"
+        ae_base = "https://allevents.in"
+        ae_url = f"{ae_base}/{city_slug}/all"
         res = requests.get(ae_url, headers=headers, proxies=proxies, timeout=15)
         
         if res.status_code == 200:
@@ -147,19 +156,19 @@ def scrape_events(city):
                         "host": event.get('organizer', FALLBACK),
                         "date and time": event.get('start_time', FALLBACK),
                         "venue": event.get('venue', {}).get('city', FALLBACK),
-                        "registration link": event.get('event_url', FALLBACK),
-                        "image url": event.get('banner_url', FALLBACK)
+                        "registration link": sanitize_link(event.get('event_url'), ae_base),
+                        "image url": sanitize_link(event.get('banner_url'), ae_base)
                     })
                     current_id += 1
     except Exception as e:
         print(f"AllEvents Error: {e}")
 
     # ==========================================
-    # 4. LUMA (Open API + Global Fallback)
+    # 4. LUMA
     # ==========================================
     try:
         print(f"Fetching Luma for {city}...")
-        # Luma assigns strict 'Place APIs' for heavily trafficked cities
+        luma_base = "https://lu.ma"
         luma_place_ids = {
             "bengaluru": "discplace-G0tGUVYwl7T17Sb",
             "bangalore": "discplace-G0tGUVYwl7T17Sb",
@@ -175,19 +184,20 @@ def scrape_events(city):
             if res.status_code == 200:
                 for entry in res.json().get('entries', []):
                     event_info = entry.get('event', {})
+                    api_id = event_info.get('api_id', '')
+                    reg_link = f"{luma_base}/{api_id}" if api_id else FALLBACK
                     events_data.append({
                         "id": current_id,
                         "event name": event_info.get('name', FALLBACK),
                         "host": event_info.get('hosts', [{'name': FALLBACK}])[0].get('name', FALLBACK),
                         "date and time": event_info.get('start_at', FALLBACK),
                         "venue": event_info.get('geo_address_info', {}).get('city', FALLBACK),
-                        "registration link": f"https://lu.ma/{event_info.get('api_id', '')}",
-                        "image url": event_info.get('cover_url', FALLBACK)
+                        "registration link": reg_link,
+                        "image url": sanitize_link(event_info.get('cover_url'), luma_base)
                     })
                     current_id += 1
         else:
-            # Fallback for ANY city not heavily indexed by Luma's Place API
-            luma_search_url = f"https://lu.ma/discover/india/{city_slug}"
+            luma_search_url = f"{luma_base}/discover/india/{city_slug}"
             res = requests.get(luma_search_url, headers=headers, proxies=proxies, timeout=15)
             if res.status_code == 200:
                 soup = BeautifulSoup(res.text, 'html.parser')
@@ -200,20 +210,21 @@ def scrape_events(city):
                         for entry in entries:
                             event_info = entry.get('event', {})
                             if event_info:
+                                api_id = event_info.get('api_id', '')
+                                reg_link = f"{luma_base}/{api_id}" if api_id else FALLBACK
                                 events_data.append({
                                     "id": current_id,
                                     "event name": event_info.get('name', FALLBACK),
                                     "host": event_info.get('hosts', [{'name': FALLBACK}])[0].get('name', FALLBACK),
                                     "date and time": event_info.get('start_at', FALLBACK),
                                     "venue": event_info.get('geo_address_info', {}).get('city', FALLBACK),
-                                    "registration link": f"https://lu.ma/{event_info.get('api_id', '')}",
-                                    "image url": event_info.get('cover_url', FALLBACK)
+                                    "registration link": reg_link,
+                                    "image url": sanitize_link(event_info.get('cover_url'), luma_base)
                                 })
                                 current_id += 1
     except Exception as e:
         print(f"Luma Error: {e}")
 
-    # Output clean JSON
     with open('events.json', 'w', encoding='utf-8') as f:
         json.dump(events_data, f, indent=4, ensure_ascii=False)
         print(f"Successfully saved {len(events_data)} events for {city.title()} to events.json")
