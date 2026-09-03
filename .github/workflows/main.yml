@@ -2,9 +2,8 @@ name: Luma Tech Events Scraper
 
 on:
   schedule:
-    # Runs at 00:00 UTC every day (Change this cron to your preference)
     - cron: '0 0 * * *'
-  workflow_dispatch: # Allows manual triggering from the Actions tab
+  workflow_dispatch:
 
 jobs:
   scrape-and-push:
@@ -28,47 +27,7 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}       # Optional
-          PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}   # Optional
-          PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}   # Optional
-        run: python scraper.pyname: Daily Event Scraper API
-
-on:
-  schedule:
-    # 20:30 UTC is 2:00 AM IST
-    - cron: '30 20 * * *'
-  workflow_dispatch: # Allows manual triggers from the GitHub UI
-
-permissions:
-  contents: write
-
-jobs:
-  scrape-and-publish:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: 'pip'
-
-      - name: Install Dependencies
-        run: |
-          pip install -r requirements.txt
-
-      - name: Run Scraper
-        env:
           PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
           PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
         run: python scraper.py
-
-      - name: Commit and Push JSON
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add events.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update: events.json" && git push)
