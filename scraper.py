@@ -1,22 +1,13 @@
+import json
+import random
+import time
 import os
 import re
-import time
-import random
 import requests
-from supabase import create_client, Client
 
-# Use None for SQL NULL compatibility instead of long strings
-FALLBACK = None
+FALLBACK = "data not provided/will be shared upon signup"
 
-# Supabase Initialization
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")  # Use the service_role key
-
-if not SUPABASE_URL or not SUPABASE_KEY:
-    raise ValueError("Missing Supabase credentials in environment variables.")
-
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
-
+# Target cities supported by Luma's regional place indexing or fallback search
 TARGET_CITIES = [
     {"name": "bengaluru", "slug": "bengaluru"},
     {"name": "delhi", "slug": "delhi"},
@@ -26,6 +17,7 @@ TARGET_CITIES = [
     {"name": "kolkata", "slug": "kolkata"}
 ]
 
+# Strict tech keyword filter
 TECH_KEYWORDS = [
     "ai", "artificial intelligence", "machine learning", "ml", "deep learning", "genai", "llm",
     "python", "javascript", "typescript", "react", "node", "java", "c++", "golang", "rust",
@@ -37,7 +29,7 @@ TECH_KEYWORDS = [
 ]
 
 def is_tech_event(event_name):
-    if not event_name:
+    if not event_name or event_name == FALLBACK:
         return False
     name_lower = event_name.lower()
     for kw in TECH_KEYWORDS:
@@ -50,6 +42,7 @@ def is_tech_event(event_name):
     return False
 
 def is_valid_location(event_info, target_city_name):
+    """Ensures event is based in India and excludes foreign locations."""
     geo = event_info.get('geo_address_info', {}) or {}
     city_str = str(geo.get('city', '')).lower()
     country_str = str(geo.get('country', '')).lower()
@@ -57,18 +50,26 @@ def is_valid_location(event_info, target_city_name):
     
     combined_text = f"{city_str} {country_str} {address_str}"
     
-    international_markers = ['san francisco', 'new york', 'london', 'tokyo', 'berlin', 'singapore', 'toronto', 'sydney', 'dubai']
-    if any(marker in combined_text for marker in international_markers) and target_city_name not in combined_text:
+    # Hard drop international major hubs if explicitly marked outside India
+    international_markers = [
+        'san francisco', 'new york', 'london', 'tokyo', 'berlin', 
+        'singapore', 'toronto', 'sydney', 'dubai'
+    ]
+    if any(marker in combined_text for marker in international_markers) and target_city_name.lower() not in combined_text:
         return False
         
-    local_hubs = ['bengaluru', 'bangalore', 'chennai', 'kolkata', 'hyderabad', 'delhi', 'new delhi', 'gurugram', 'noida', 'mumbai', 'pune', 'india']
+    # If explicitly marked as India or matches local hubs, keep it
+    local_hubs = [
+        'bengaluru', 'bangalore', 'chennai', 'kolkata', 'hyderabad', 
+        'delhi', 'new delhi', 'gurugram', 'noida', 'mumbai', 'pune', 'india'
+    ]
     if any(hub in combined_text for hub in local_hubs) or not country_str:
         return True
         
     return True
 
 def sanitize_link(raw_link):
-    if not raw_link or raw_link.startswith("#") or "base64" in raw_link:
+    if not raw_link or raw_link == FALLBACK or raw_link.startswith("#") or "base64" in raw_link:
         return FALLBACK
     if raw_link.startswith("//"):
         return f"https:{raw_link}"
@@ -78,10 +79,13 @@ def sanitize_link(raw_link):
 
 def scrape_all_cities():
     events_data = []
+    seen_links = set()  # Much faster tracking for duplicate prevention
+    current_id = 1
     
-    # Removed the 5-10 minute jitter delay to save GitHub Action minutes
-    # Added a smaller, reasonable delay (5-15 seconds) to avoid immediate bot detection
-    time.sleep(random.randint(5, 15))
+    # Startup jitter (5-10 mins) kept intact for anti-bot measures
+    jitter = random.randint(300, 600)
+    print(f"Applying startup jitter: Sleeping for {jitter} seconds...")
+    time.sleep(jitter)
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
@@ -93,17 +97,22 @@ def scrape_all_cities():
     proxy_server_raw = os.getenv("PROXY_SERVER")
     if proxy_server_raw:
         proxy_list = [p.strip() for p in proxy_server_raw.split(",") if p.strip()]
-        selected_proxy = random.choice(proxy_list)
-        if not selected_proxy.startswith("http"): 
-            selected_proxy = f"http://{selected_proxy}"
-        
-        username = os.getenv("PROXY_USERNAME", "")
-        password = os.getenv("PROXY_PASSWORD", "")
-        if username and password:
-            auth_proxy = selected_proxy.replace("http://", f"http://{username}:{password}@")
-            proxies = {"http": auth_proxy, "https": auth_proxy}
-        else:
-            proxies = {"http": selected_proxy, "https": selected_proxy}
+        if proxy_list:
+            selected_proxy = random.choice(proxy_list)
+            if not selected_proxy.startswith("http"): 
+                selected_proxy = f"http://{selected_proxy}"
+            
+            username = os.getenv("PROXY_USERNAME", "")
+            password = os.getenv("PROXY_PASSWORD", "")
+            if username and password:
+                # Safely handle both http and https for credential injection
+                if selected_proxy.startswith("https://"):
+                    auth_proxy = selected_proxy.replace("https://", f"https://{username}:{password}@")
+                else:
+                    auth_proxy = selected_proxy.replace("http://", f"http://{username}:{password}@")
+                proxies = {"http": auth_proxy, "https": auth_proxy}
+            else:
+                proxies = {"http": selected_proxy, "https": selected_proxy}
 
     luma_base = "https://lu.ma"
 
@@ -113,6 +122,7 @@ def scrape_all_cities():
         print(f"\n--- Fetching tech events for: {city_name.title()} ---")
         
         try:
+            # Use Luma's native slug parameter endpoint
             luma_api_url = f"https://api.luma.com/discover/get-paginated-events?slug={city_slug}&pagination_limit=50"
             res = requests.get(luma_api_url, headers=headers, proxies=proxies, timeout=15)
             print(f"API Status Code for {city_name.title()}: {res.status_code}")
@@ -125,51 +135,49 @@ def scrape_all_cities():
                 for entry in entries:
                     event_info = entry.get('event', {})
                     if event_info:
-                        title = event_info.get('name')
+                        title = event_info.get('name', FALLBACK)
                         
+                        # Apply tech filter and location validation
                         if is_tech_event(title) and is_valid_location(event_info, city_name):
                             slug = event_info.get('url') or event_info.get('slug') or event_info.get('api_id', '')
-                            reg_url = f"{luma_base}/{slug}" if slug else None
-                            
-                            if not reg_url: 
-                                continue # Skip if no registration link exists
+                            reg_link = f"{luma_base}/{slug}" if slug else FALLBACK
                             
                             hosts_list = event_info.get('hosts', [])
-                            host_name = hosts_list[0].get('name') if hosts_list else FALLBACK
+                            host_name = hosts_list[0].get('name', FALLBACK) if hosts_list else FALLBACK
 
                             event_venue = event_info.get('geo_address_info', {}).get('city', city_name.title())
-                            date_time = event_info.get('start_at') # Returns ISO format, perfect for SQL TIMESTAMPTZ
+                            reg_url = reg_link
                             
-                            # Deduplicate in memory before DB insertion
-                            if not any(e['registration_link'] == reg_url for e in events_data):
+                            # Prevent duplicates using the O(1) Set check
+                            if reg_url not in seen_links:
+                                seen_links.add(reg_url)
                                 events_data.append({
-                                    "event_name": title,
-                                    "host_name": host_name,
-                                    "date_and_time": date_time,
+                                    "id": current_id,
+                                    "event name": title,
+                                    "host": host_name,
+                                    "date and time": event_info.get('start_at', FALLBACK),
                                     "venue": event_venue,
-                                    "registration_link": reg_url,
-                                    "image_url": sanitize_link(event_info.get('cover_url'))
+                                    "registration link": reg_url,
+                                    "image url": sanitize_link(event_info.get('cover_url'))
                                 })
+                                current_id += 1
                                 city_count += 1
                 
-                print(f"Successfully collected {city_count} tech events for {city_name.title()}.")
+                print(f"Successfully added {city_count} tech events for {city_name.title()}.")
         except Exception as e:
             print(f"Error fetching {city_name}: {e}")
 
-        # Sleep between city requests to respect rate limits
-        time.sleep(3)
+        time.sleep(2)
 
-    # Database Insertion (Upsert to avoid duplicates based on unique registration_link)
-    if events_data:
-        try:
-            print(f"\nAttempting to push {len(events_data)} events to Supabase...")
-            # Upsert inserts new rows and updates existing ones if the unique constraint (registration_link) matches
-            response = supabase.table('tech_events').upsert(events_data).execute()
-            print(f"Successfully pushed data to Supabase!")
-        except Exception as e:
-            print(f"Error pushing data to Supabase: {e}")
-    else:
-        print("No tech events found to push.")
+    output_payload = {
+        "last_updated": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
+        "total_events": len(events_data),
+        "events": events_data
+    }
+
+    with open('events.json', 'w', encoding='utf-8') as f:
+        json.dump(output_payload, f, indent=4, ensure_ascii=False)
+        print(f"\nPipeline Complete. Compiled {len(events_data)} total tech events into events.json")
 
 if __name__ == "__main__":
     scrape_all_cities()
