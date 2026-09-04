@@ -83,9 +83,9 @@ def scrape_all_cities():
     current_id = 1
     
     # Startup jitter (5-10 mins) kept intact for anti-bot measures
-    jitter = random.randint(300, 600)
-    print(f"Applying startup jitter: Sleeping for {jitter} seconds...")
-    time.sleep(jitter)
+    #jitter = random.randint(300, 600)
+    #print(f"Applying startup jitter: Sleeping for {jitter} seconds...")
+    #time.sleep(jitter)
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
