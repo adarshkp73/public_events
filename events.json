@@ -1,81 +1,9 @@
 {
-    "last_updated": "2026-09-02 22:46:09 UTC",
-    "total_events": 28,
+    "last_updated": "2026-09-04 14:57:36 UTC",
+    "total_events": 18,
     "events": [
         {
             "id": 1,
-            "event name": "Let's Talk Open Source Security",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T09:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/pn41vece",
-            "image url": "https://images.lumacdn.com/uploads/de/6af489eb-e7ad-4ccc-806a-57d61e9f2f4a.png"
-        },
-        {
-            "id": 2,
-            "event name": "Codex Community Meetup - Bengaluru",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T11:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/xeulmg0q",
-            "image url": "https://images.lumacdn.com/event-covers/cj/f14c4661-f2dd-4ee3-9acf-827b97645fc1.png"
-        },
-        {
-            "id": 3,
-            "event name": "Product Roast at AI House: No AI Was Harmed (Just Embarrassed)",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T11:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/ProductRoastatAIHouse",
-            "image url": "https://images.lumacdn.com/uploads/4z/f0eb5988-f9fe-4804-b96a-7e7bb542bf6e.jpg"
-        },
-        {
-            "id": 4,
-            "event name": "AI in DeepTech | Bengaluru",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T12:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/the-rncj",
-            "image url": "https://images.lumacdn.com/uploads/lr/1ae95a75-18d4-4bbf-ae47-8fa3c1cb9d38.jpg"
-        },
-        {
-            "id": 5,
-            "event name": "GTM Engineering: Hackathon for Founders | Inkle x Aspire",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-03T12:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/inkle-gtm-hackathon",
-            "image url": "https://images.lumacdn.com/uploads/xx/1541de8e-1f5f-4e62-954a-d6b0ee298642.png"
-        },
-        {
-            "id": 6,
-            "event name": "The Hardware Club Bangalore - Robotics & Physical AI Showcase",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-04T11:00:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/84xsno2z",
-            "image url": "https://images.lumacdn.com/uploads/c0/7ef10d47-7f05-4d4a-84db-2693a1a08aaf.png"
-        },
-        {
-            "id": 7,
-            "event name": "Founders & Funders: VC Reverse Pitch",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-04T11:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/VCReversePitch",
-            "image url": "https://images.lumacdn.com/uploads/sn/40eb0bbc-4644-4f70-8ff8-cb1068ef3620.jpg"
-        },
-        {
-            "id": 8,
-            "event name": "Vibes In, Latency Out: A Voice AI Open Mic",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-04T11:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/8b23fhhm",
-            "image url": "https://images.lumacdn.com/uploads/ym/64fb78d4-cf9e-4431-bd09-0551c6fb2263.png"
-        },
-        {
-            "id": 9,
             "event name": "Building Production-Ready GenAI on AWS",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-04T13:00:00.000Z",
@@ -84,7 +12,7 @@
             "image url": "https://images.lumacdn.com/uploads/0t/68ba22c6-0625-4208-b45c-4a8466e17eac.png"
         },
         {
-            "id": 10,
+            "id": 2,
             "event name": "The Agent Autopsy - Breaking and Fixing AI Agents",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-04T13:00:00.000Z",
@@ -93,34 +21,25 @@
             "image url": "https://images.lumacdn.com/uploads/lz/a9f0350c-4f65-48c4-9da8-b869441f4b38.png"
         },
         {
-            "id": 11,
-            "event name": "Dev Days | Bengaluru, India",
+            "id": 3,
+            "event name": "Bengaluru Burrow | Bengaluru Tech Week",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T03:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/06l76kwv",
-            "image url": "https://images.lumacdn.com/uploads/qf/c8a882db-f657-4f34-a038-b0de84d232b8.png"
-        },
-        {
-            "id": 12,
-            "event name": "Awesome CodeRabbit | Bengaluru Tech Week",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T09:30:00.000Z",
+            "date and time": "2026-09-05T06:00:00.000Z",
             "venue": "Bengaluru",
             "registration link": "https://lu.ma/codera-klde",
             "image url": "https://images.lumacdn.com/uploads/ey/a8db93f7-2c17-464b-9041-a6c4bfddaa02.png"
         },
         {
-            "id": 13,
+            "id": 4,
             "event name": "Laravel Bengaluru: Tech Week Meetup",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T09:30:00.000Z",
+            "date and time": "2026-09-05T07:30:00.000Z",
             "venue": "Bengaluru",
             "registration link": "https://lu.ma/laravel-f4hn",
             "image url": "https://images.lumacdn.com/uploads/rt/16058729-abc4-4d78-9168-79dca6d2cae4.png"
         },
         {
-            "id": 14,
+            "id": 5,
             "event name": "AI in HealthTech | Bengaluru",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-05T12:30:00.000Z",
@@ -129,7 +48,7 @@
             "image url": "https://images.lumacdn.com/uploads/27/9d927b6d-a8e6-4881-a62c-b59ee0a85663.jpg"
         },
         {
-            "id": 15,
+            "id": 6,
             "event name": "AWFK - Bengaluru Tech Walk | Celebrating BTW",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-06T02:00:00.000Z",
@@ -138,7 +57,7 @@
             "image url": "https://images.lumacdn.com/uploads/kf/a9a1e03b-4c57-4690-bb7f-6e0795352a2a.png"
         },
         {
-            "id": 16,
+            "id": 7,
             "event name": "Poha-Jalebi Club x Bengaluru Tech Week",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-06T03:30:00.000Z",
@@ -147,7 +66,7 @@
             "image url": "https://images.lumacdn.com/uploads/0n/2bc418ea-b2e8-42b3-b7fb-0e7a526cf3e9.png"
         },
         {
-            "id": 17,
+            "id": 8,
             "event name": "The Writers' Room #14 | Bengaluru Tech Week Edition",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-06T06:30:00.000Z",
@@ -156,25 +75,25 @@
             "image url": "https://images.lumacdn.com/uploads/1y/f7c7d1d3-39dd-4e0d-bf47-6e47f006cd07.png"
         },
         {
-            "id": 18,
+            "id": 9,
             "event name": "The Local AI and Infra Meetup",
             "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-06T08:30:00.000Z",
+            "date and time": "2026-09-06T07:30:00.000Z",
             "venue": "Bengaluru",
             "registration link": "https://lu.ma/ttc50ovr",
             "image url": "https://images.lumacdn.com/uploads/lo/e2accdf5-92d3-4844-9477-7c9ba0b1865a.jpg"
         },
         {
-            "id": 19,
+            "id": 10,
             "event name": "Be with BitGo: Building Crypto in India",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-12T10:00:00.000Z",
             "venue": "Bengaluru",
             "registration link": "https://lu.ma/wzskhor8",
-            "image url": "https://images.lumacdn.com/uploads/8c/78fc7ddc-91b7-4f40-b46b-d4bd05762f59.png"
+            "image url": "https://images.lumacdn.com/uploads/2h/d28884fa-068d-4bbf-836d-6aeed3651023.png"
         },
         {
-            "id": 20,
+            "id": 11,
             "event name": "Brand Marketing 101 for Founders",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-12T12:00:00.000Z",
@@ -183,7 +102,7 @@
             "image url": "https://images.lumacdn.com/event-covers/fm/73fb2125-8dbc-4c36-8894-edb1acdeb831.png"
         },
         {
-            "id": 21,
+            "id": 12,
             "event name": "Product-led Growth for Startups",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-12T14:00:00.000Z",
@@ -192,7 +111,7 @@
             "image url": "https://images.lumacdn.com/uploads/ln/e50bd7eb-0690-4c72-b6fd-5e18e2d2caf8.png"
         },
         {
-            "id": 22,
+            "id": 13,
             "event name": "Unicorn AI Summit",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-21T10:30:00.000Z",
@@ -201,7 +120,7 @@
             "image url": "https://images.lumacdn.com/uploads/k0/9f73890e-6262-4291-b8a1-60b9903bbb87.png"
         },
         {
-            "id": 23,
+            "id": 14,
             "event name": "Bangalore Product Mixer #4 | Product Reactor",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T14:30:00.000Z",
@@ -210,16 +129,7 @@
             "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
         },
         {
-            "id": 24,
-            "event name": "Dev Days | Mumbai, India",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-05T03:30:00.000Z",
-            "venue": "Mumbai",
-            "registration link": "https://lu.ma/s1905j5v",
-            "image url": "https://images.lumacdn.com/uploads/40/5e183adb-cbb0-4131-b086-ddee336322cf.png"
-        },
-        {
-            "id": 25,
+            "id": 15,
             "event name": "Mumbai | CCCL Claude - From AI to ROI | Curated for Fintech Leaders",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-09T10:30:00.000Z",
@@ -228,7 +138,7 @@
             "image url": "https://images.lumacdn.com/api-uploads/er/70601ef4-e589-4a50-8e9e-98fcb25063cf.png"
         },
         {
-            "id": 26,
+            "id": 16,
             "event name": "Fintech Happy Hour presented by Playbook, Vobiz and Assurekit | Mumbai • 9th Sep 2026",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-09T12:30:00.000Z",
@@ -237,7 +147,7 @@
             "image url": "https://images.lumacdn.com/uploads/ec/dbaecfce-852d-4683-bb29-0cf22b31dc3d.jpg"
         },
         {
-            "id": 27,
+            "id": 17,
             "event name": "AI Sundowner | GFF 2026",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-10T13:30:00.000Z",
@@ -246,7 +156,7 @@
             "image url": "https://images.lumacdn.com/uploads/c9/bb12b00f-5b62-4e6f-bfc5-14024d8aa69e.png"
         },
         {
-            "id": 28,
+            "id": 18,
             "event name": "Elastic AI Connect: Mumbai",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-26T04:30:00.000Z",
