@@ -1,9 +1,18 @@
 {
-    "last_updated": "2026-09-13 22:33:22 UTC",
-    "total_events": 11,
+    "last_updated": "2026-09-14 23:20:26 UTC",
+    "total_events": 12,
     "events": [
         {
             "id": 1,
+            "event name": "Building self-improving AI systems",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-18T13:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/ob92ov60",
+            "image url": "https://images.lumacdn.com/uploads/t2/1bfffcc8-b27a-48a4-a788-920a808a741a.png"
+        },
+        {
+            "id": 2,
             "event name": "Founders Walk",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-19T03:00:00.000Z",
@@ -12,7 +21,7 @@
             "image url": "https://images.lumacdn.com/uploads/7h/1ce127c2-54f3-425e-8193-1347b55b58e6.png"
         },
         {
-            "id": 2,
+            "id": 3,
             "event name": "Getting Paid by US Customers: A Closed founders gathering with Payoneer + Ledgerline",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-19T05:00:00.000Z",
@@ -21,7 +30,7 @@
             "image url": "https://images.lumacdn.com/uploads/ls/17e3bd17-1967-44f0-b7cd-17d453a57b47.png"
         },
         {
-            "id": 3,
+            "id": 4,
             "event name": "AI Engineering: Under the Hood",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-20T04:30:00.000Z",
@@ -30,7 +39,7 @@
             "image url": "https://images.lumacdn.com/uploads/c1/a8749683-404c-49f2-92cd-82973f2a0da6.jpg"
         },
         {
-            "id": 4,
+            "id": 5,
             "event name": "Unicorn AI Summit",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-21T10:30:00.000Z",
@@ -39,7 +48,7 @@
             "image url": "https://images.lumacdn.com/uploads/k0/9f73890e-6262-4291-b8a1-60b9903bbb87.png"
         },
         {
-            "id": 5,
+            "id": 6,
             "event name": "AI@Adyen: Transforming the Fintech Landscape",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-22T11:30:00.000Z",
@@ -48,7 +57,7 @@
             "image url": "https://images.lumacdn.com/uploads/hx/9f569db8-cc9a-48e1-aceb-814c6de1fc7f.jpg"
         },
         {
-            "id": 6,
+            "id": 7,
             "event name": "Dev Days | Bangalore, India",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-26T07:30:00.000Z",
@@ -57,7 +66,7 @@
             "image url": "https://images.lumacdn.com/uploads/sc/41034b7b-78f9-4933-872e-038539df53e4.png"
         },
         {
-            "id": 7,
+            "id": 8,
             "event name": "Dev Days | Bengaluru, India",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-27T04:00:00.000Z",
@@ -66,7 +75,7 @@
             "image url": "https://images.lumacdn.com/uploads/um/7b179174-c5c9-4f8c-9292-9021167e3b6c.png"
         },
         {
-            "id": 8,
+            "id": 9,
             "event name": "Dev Days | Bangalore, India",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T04:30:00.000Z",
@@ -75,7 +84,7 @@
             "image url": "https://images.lumacdn.com/uploads/fl/2a83e496-94b6-45db-bfab-b2e42472d46e.png"
         },
         {
-            "id": 9,
+            "id": 10,
             "event name": "Bangalore Product Mixer #4 | Product Reactor",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T14:30:00.000Z",
@@ -84,7 +93,7 @@
             "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
         },
         {
-            "id": 10,
+            "id": 11,
             "event name": "Elastic AI Connect: Mumbai",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-26T04:30:00.000Z",
@@ -93,7 +102,7 @@
             "image url": "https://images.lumacdn.com/uploads/ot/6dcdc747-0870-4b62-9ba5-c7ed889da901.png"
         },
         {
-            "id": 11,
+            "id": 12,
             "event name": "Mumbai Meets AI 06 | AI x Tech Builders Meetup",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T05:30:00.000Z",
