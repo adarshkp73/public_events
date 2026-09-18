@@ -1,18 +1,9 @@
 {
-    "last_updated": "2026-09-17 22:59:43 UTC",
+    "last_updated": "2026-09-18 22:45:19 UTC",
     "total_events": 19,
     "events": [
         {
             "id": 1,
-            "event name": "Building self-improving AI systems",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-18T13:00:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/ob92ov60",
-            "image url": "https://images.lumacdn.com/uploads/t2/1bfffcc8-b27a-48a4-a788-920a808a741a.png"
-        },
-        {
-            "id": 2,
             "event name": "Founders Walk",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-19T03:00:00.000Z",
@@ -21,7 +12,7 @@
             "image url": "https://images.lumacdn.com/uploads/7h/1ce127c2-54f3-425e-8193-1347b55b58e6.png"
         },
         {
-            "id": 3,
+            "id": 2,
             "event name": "Getting Paid by US Customers: A Closed founders gathering with Payoneer + Ledgerline",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-19T04:30:00.000Z",
@@ -30,13 +21,22 @@
             "image url": "https://images.lumacdn.com/uploads/ls/17e3bd17-1967-44f0-b7cd-17d453a57b47.png"
         },
         {
-            "id": 4,
+            "id": 3,
             "event name": "Selling to Enterprise as an Early-Stage Startup",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-19T06:00:00.000Z",
             "venue": "Bengaluru",
             "registration link": "https://lu.ma/q1ydndih",
             "image url": "https://images.lumacdn.com/uploads/pq/96751b9e-a75d-4d9f-8f39-4691438ad27c.png"
+        },
+        {
+            "id": 4,
+            "event name": "The hirist Techground - Engineers Week Edition",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-19T06:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/t7vxjzpe",
+            "image url": "https://images.lumacdn.com/uploads/ox/39dcff4c-e82d-4c6b-a8f7-a6c4ed01217a.png"
         },
         {
             "id": 5,
