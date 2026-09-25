@@ -1,18 +1,9 @@
 {
-    "last_updated": "2026-09-24 23:19:06 UTC",
-    "total_events": 8,
+    "last_updated": "2026-09-25 23:26:29 UTC",
+    "total_events": 9,
     "events": [
         {
             "id": 1,
-            "event name": "GenAI in Production: Beyond the Hype",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-09-25T03:00:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/intuitossindsep2026",
-            "image url": "https://images.lumacdn.com/uploads/yu/62227edb-7b50-47ff-bbe1-1e24b88f558f.png"
-        },
-        {
-            "id": 2,
             "event name": "Dev Days | Bengaluru, India",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-27T04:00:00.000Z",
@@ -21,7 +12,25 @@
             "image url": "https://images.lumacdn.com/uploads/um/7b179174-c5c9-4f8c-9292-9021167e3b6c.png"
         },
         {
+            "id": 2,
+            "event name": "Tech Tuesdays: Building Advanced Manufacturing for the World",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-29T13:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/19n45ou8",
+            "image url": "https://images.lumacdn.com/uploads/2z/8ed6dcfc-1884-4106-bdf5-4789c26ee3a7.png"
+        },
+        {
             "id": 3,
+            "event name": "ElevenLabs x Activate: State of Voice AI Meetup",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-09-30T12:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/eleven-53e1",
+            "image url": "https://images.lumacdn.com/uploads/43/eee53950-464d-47b6-8f59-0be326ae59bf.jpg"
+        },
+        {
+            "id": 4,
             "event name": "Thursday After Work. - Founders Night — Reverse Network Meet",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-01T13:30:00.000Z",
@@ -30,7 +39,7 @@
             "image url": "https://images.lumacdn.com/api-uploads/dg/e79f461b-19cf-4b82-b0a1-83216d4c15d3.jpg"
         },
         {
-            "id": 4,
+            "id": 5,
             "event name": "Dev Days | Bangalore, India",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T04:30:00.000Z",
@@ -39,7 +48,7 @@
             "image url": "https://images.lumacdn.com/uploads/fl/2a83e496-94b6-45db-bfab-b2e42472d46e.png"
         },
         {
-            "id": 5,
+            "id": 6,
             "event name": "Qiskit Fall Fest 2026: Hands-On Quantum Programming with Qiskit",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-16T04:30:00.000Z",
@@ -48,7 +57,7 @@
             "image url": "https://images.lumacdn.com/uploads/j1/6c240a3e-134d-4b83-a03c-050d5e6c15c0.png"
         },
         {
-            "id": 6,
+            "id": 7,
             "event name": "Elastic AI Connect: Mumbai",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-26T04:30:00.000Z",
@@ -57,7 +66,7 @@
             "image url": "https://images.lumacdn.com/uploads/ot/6dcdc747-0870-4b62-9ba5-c7ed889da901.png"
         },
         {
-            "id": 7,
+            "id": 8,
             "event name": "Yes, AI Can Run on 8GB RAM and a Mobile GPU",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-09-26T04:30:00.000Z",
@@ -66,7 +75,7 @@
             "image url": "https://images.lumacdn.com/uploads/1p/8f9e9262-591c-418e-b01b-77de819d908e.png"
         },
         {
-            "id": 8,
+            "id": 9,
             "event name": "Mumbai Meets AI 06 | AI x Tech Builders Meetup",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T05:30:00.000Z",
