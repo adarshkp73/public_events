@@ -1,6 +1,6 @@
 {
-    "last_updated": "2026-09-27 23:18:31 UTC",
-    "total_events": 7,
+    "last_updated": "2026-09-29 00:29:10 UTC",
+    "total_events": 8,
     "events": [
         {
             "id": 1,
@@ -40,6 +40,15 @@
         },
         {
             "id": 5,
+            "event name": "DevDay Exchange Community Meetup & Hackathon Finale: Bengaluru",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-10T08:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/0bdmf0sw",
+            "image url": "https://images.lumacdn.com/uploads/o9/038a8e8a-bbe0-4c74-ab16-93321da4c4ef.jpg"
+        },
+        {
+            "id": 6,
             "event name": "Qiskit Fall Fest 2026: Hands-On Quantum Programming with Qiskit",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-16T04:30:00.000Z",
@@ -48,7 +57,7 @@
             "image url": "https://images.lumacdn.com/uploads/j1/6c240a3e-134d-4b83-a03c-050d5e6c15c0.png"
         },
         {
-            "id": 6,
+            "id": 7,
             "event name": "Bangalore Product Mixer #4 | Product Reactor",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-12-05T12:30:00.000Z",
@@ -57,7 +66,7 @@
             "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
         },
         {
-            "id": 7,
+            "id": 8,
             "event name": "Mumbai Meets AI 06 | AI x Tech Builders Meetup",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T05:30:00.000Z",
