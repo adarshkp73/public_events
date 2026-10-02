@@ -1,18 +1,9 @@
 {
-    "last_updated": "2026-10-01 00:05:56 UTC",
+    "last_updated": "2026-10-02 00:02:49 UTC",
     "total_events": 6,
     "events": [
         {
             "id": 1,
-            "event name": "Thursday After Work. - Founders Night — Reverse Network Meet",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-10-01T13:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/staaake-e0q4",
-            "image url": "https://images.lumacdn.com/api-uploads/dg/e79f461b-19cf-4b82-b0a1-83216d4c15d3.jpg"
-        },
-        {
-            "id": 2,
             "event name": "DevDay Exchange Community Meetup & Hackathon: Bengaluru",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T04:30:00.000Z",
@@ -21,13 +12,22 @@
             "image url": "https://images.lumacdn.com/uploads/o9/038a8e8a-bbe0-4c74-ab16-93321da4c4ef.jpg"
         },
         {
-            "id": 3,
+            "id": 2,
             "event name": "Dev Days | Bangalore, India",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T04:30:00.000Z",
             "venue": "Bengaluru",
             "registration link": "https://lu.ma/5ijuusjg",
             "image url": "https://images.lumacdn.com/uploads/fl/2a83e496-94b6-45db-bfab-b2e42472d46e.png"
+        },
+        {
+            "id": 3,
+            "event name": "Yapmaxxing: AI for productivity at work",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-10T10:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/u68vqslg",
+            "image url": "https://images.lumacdn.com/uploads/8u/c204aac0-b917-4f0a-83b8-a808f511bfd0.jpg"
         },
         {
             "id": 4,
