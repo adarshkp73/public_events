@@ -1,9 +1,18 @@
 {
-    "last_updated": "2026-10-02 23:57:35 UTC",
-    "total_events": 7,
+    "last_updated": "2026-10-03 23:16:16 UTC",
+    "total_events": 9,
     "events": [
         {
             "id": 1,
+            "event name": "AI Tuesdays: The State of AI Infrastructure, from Racks to Reasoning",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-06T13:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/c0sv23nk",
+            "image url": "https://images.lumacdn.com/uploads/d0/78f43fc1-5f9f-4e38-a741-252b3f2ee517.png"
+        },
+        {
+            "id": 2,
             "event name": "DevDay Exchange Community Meetup & Hackathon: Bengaluru",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T04:30:00.000Z",
@@ -12,7 +21,7 @@
             "image url": "https://images.lumacdn.com/uploads/o9/038a8e8a-bbe0-4c74-ab16-93321da4c4ef.jpg"
         },
         {
-            "id": 2,
+            "id": 3,
             "event name": "Dev Days | Bangalore, India",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T04:30:00.000Z",
@@ -21,7 +30,7 @@
             "image url": "https://images.lumacdn.com/uploads/fl/2a83e496-94b6-45db-bfab-b2e42472d46e.png"
         },
         {
-            "id": 3,
+            "id": 4,
             "event name": "Vibe Sprint Bangalore | The Product Folks x Scaler",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T06:30:00.000Z",
@@ -30,7 +39,7 @@
             "image url": "https://images.lumacdn.com/uploads/ty/efcd5ee2-2015-4a5b-83a6-a33887828d25.png"
         },
         {
-            "id": 4,
+            "id": 5,
             "event name": "Yapmaxxing: AI for productivity at work",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T10:00:00.000Z",
@@ -39,7 +48,7 @@
             "image url": "https://images.lumacdn.com/uploads/8u/c204aac0-b917-4f0a-83b8-a808f511bfd0.jpg"
         },
         {
-            "id": 5,
+            "id": 6,
             "event name": "Qiskit Fall Fest 2026: Hands-On Quantum Programming with Qiskit",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-16T04:30:00.000Z",
@@ -48,7 +57,7 @@
             "image url": "https://images.lumacdn.com/uploads/j1/6c240a3e-134d-4b83-a03c-050d5e6c15c0.png"
         },
         {
-            "id": 6,
+            "id": 7,
             "event name": "Bangalore Product Mixer #4 | Product Reactor",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-12-05T12:30:00.000Z",
@@ -57,7 +66,16 @@
             "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
         },
         {
-            "id": 7,
+            "id": 8,
+            "event name": "Crypto Worldfair's Buildstation — Mumbai",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-04T06:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/cwf-bs-mumbai",
+            "image url": "https://images.lumacdn.com/uploads/dw/f6eeb812-6488-45f1-af43-c18c0e3deeb4.jpg"
+        },
+        {
+            "id": 9,
             "event name": "Mumbai Meets AI 06 | AI x Tech Builders Meetup",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T05:30:00.000Z",
