@@ -1,6 +1,6 @@
 {
-    "last_updated": "2026-10-04 23:30:33 UTC",
-    "total_events": 11,
+    "last_updated": "2026-10-06 01:23:18 UTC",
+    "total_events": 12,
     "events": [
         {
             "id": 1,
@@ -67,15 +67,24 @@
         },
         {
             "id": 8,
-            "event name": "Qiskit Fall Fest 2026: Hands-On Quantum Programming with Qiskit",
+            "event name": "BitGo x Giottus: Crypto Custody in Action",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-24T10:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/39txuq8y",
+            "image url": "https://images.lumacdn.com/uploads/5k/eeae8b70-1f68-41ac-bd61-e1af9d06f853.png"
+        },
+        {
+            "id": 9,
+            "event name": "QFF 2026: Hands-On Quantum Programming with Qiskit",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-16T04:30:00.000Z",
             "venue": "Bengaluru",
             "registration link": "https://lu.ma/79i0vamg",
-            "image url": "https://images.lumacdn.com/uploads/j1/6c240a3e-134d-4b83-a03c-050d5e6c15c0.png"
+            "image url": "https://images.lumacdn.com/uploads/63/59ce1849-46f4-41b5-bf0d-72c3ed9774d9.png"
         },
         {
-            "id": 9,
+            "id": 10,
             "event name": "Bangalore Product Mixer #4 | Product Reactor",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-12-05T12:30:00.000Z",
@@ -84,7 +93,7 @@
             "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
         },
         {
-            "id": 10,
+            "id": 11,
             "event name": "Mumbai Meets AI 06 | AI x Tech Builders Meetup",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T05:30:00.000Z",
@@ -93,7 +102,7 @@
             "image url": "https://images.lumacdn.com/uploads/27/1bfe62d9-de60-4937-a710-c82748f17967.png"
         },
         {
-            "id": 11,
+            "id": 12,
             "event name": "Structuring the AI Way",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-24T04:30:00.000Z",
