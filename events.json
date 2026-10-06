@@ -1,18 +1,9 @@
 {
-    "last_updated": "2026-10-06 01:23:18 UTC",
-    "total_events": 12,
+    "last_updated": "2026-10-06 23:59:56 UTC",
+    "total_events": 11,
     "events": [
         {
             "id": 1,
-            "event name": "AI Tuesdays: The State of AI Infrastructure, from Racks to Reasoning",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-10-06T13:00:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/c0sv23nk",
-            "image url": "https://images.lumacdn.com/uploads/d0/78f43fc1-5f9f-4e38-a741-252b3f2ee517.png"
-        },
-        {
-            "id": 2,
             "event name": "DevDay Exchange Community Meetup & Hackathon: Bengaluru",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T04:30:00.000Z",
@@ -21,7 +12,7 @@
             "image url": "https://images.lumacdn.com/uploads/o9/038a8e8a-bbe0-4c74-ab16-93321da4c4ef.jpg"
         },
         {
-            "id": 3,
+            "id": 2,
             "event name": "Dev Days | Bangalore, India",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T04:30:00.000Z",
@@ -30,7 +21,7 @@
             "image url": "https://images.lumacdn.com/uploads/fl/2a83e496-94b6-45db-bfab-b2e42472d46e.png"
         },
         {
-            "id": 4,
+            "id": 3,
             "event name": "AgntID Hackathon",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T05:30:00.000Z",
@@ -39,7 +30,7 @@
             "image url": "https://images.lumacdn.com/uploads/dt/8acd83d7-6303-4fe0-a5b8-28edcf0d753b.png"
         },
         {
-            "id": 5,
+            "id": 4,
             "event name": "Vibe Sprint Bangalore | The Product Folks x Scaler",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T06:30:00.000Z",
@@ -48,7 +39,7 @@
             "image url": "https://images.lumacdn.com/uploads/ty/efcd5ee2-2015-4a5b-83a6-a33887828d25.png"
         },
         {
-            "id": 6,
+            "id": 5,
             "event name": "Yapmaxxing: AI for productivity at work",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T10:00:00.000Z",
@@ -57,7 +48,7 @@
             "image url": "https://images.lumacdn.com/uploads/8u/c204aac0-b917-4f0a-83b8-a808f511bfd0.jpg"
         },
         {
-            "id": 7,
+            "id": 6,
             "event name": "Embedded Swift: From Code to Hardware",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-24T04:00:00.000Z",
@@ -66,7 +57,7 @@
             "image url": "https://images.lumacdn.com/uploads/k5/35985186-a5f8-4ea4-afc9-678aa060e303.png"
         },
         {
-            "id": 8,
+            "id": 7,
             "event name": "BitGo x Giottus: Crypto Custody in Action",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-24T10:00:00.000Z",
@@ -75,7 +66,7 @@
             "image url": "https://images.lumacdn.com/uploads/5k/eeae8b70-1f68-41ac-bd61-e1af9d06f853.png"
         },
         {
-            "id": 9,
+            "id": 8,
             "event name": "QFF 2026: Hands-On Quantum Programming with Qiskit",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-16T04:30:00.000Z",
@@ -84,7 +75,7 @@
             "image url": "https://images.lumacdn.com/uploads/63/59ce1849-46f4-41b5-bf0d-72c3ed9774d9.png"
         },
         {
-            "id": 10,
+            "id": 9,
             "event name": "Bangalore Product Mixer #4 | Product Reactor",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-12-05T12:30:00.000Z",
@@ -93,7 +84,7 @@
             "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
         },
         {
-            "id": 11,
+            "id": 10,
             "event name": "Mumbai Meets AI 06 | AI x Tech Builders Meetup",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T05:30:00.000Z",
@@ -102,7 +93,7 @@
             "image url": "https://images.lumacdn.com/uploads/27/1bfe62d9-de60-4937-a710-c82748f17967.png"
         },
         {
-            "id": 12,
+            "id": 11,
             "event name": "Structuring the AI Way",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-24T04:30:00.000Z",
