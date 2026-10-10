@@ -1,6 +1,6 @@
 {
-    "last_updated": "2026-10-09 00:34:45 UTC",
-    "total_events": 18,
+    "last_updated": "2026-10-10 00:14:12 UTC",
+    "total_events": 19,
     "events": [
         {
             "id": 1,
@@ -76,6 +76,15 @@
         },
         {
             "id": 9,
+            "event name": "Reimagining education in the age of AI with Dr. Prathosh A.P. (IISc)",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-15T13:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/5lto2b0m",
+            "image url": "https://images.lumacdn.com/uploads/yy/f9f77b7f-8ed6-4787-a0a0-564df78c82f4.png"
+        },
+        {
+            "id": 10,
             "event name": "Embedded Swift: From Code to Hardware",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-24T04:00:00.000Z",
@@ -84,7 +93,7 @@
             "image url": "https://images.lumacdn.com/uploads/k5/35985186-a5f8-4ea4-afc9-678aa060e303.png"
         },
         {
-            "id": 10,
+            "id": 11,
             "event name": "BitGo x Giottus: Crypto Custody in Action",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-24T10:00:00.000Z",
@@ -93,8 +102,8 @@
             "image url": "https://images.lumacdn.com/uploads/5k/eeae8b70-1f68-41ac-bd61-e1af9d06f853.png"
         },
         {
-            "id": 11,
-            "event name": "Physical AI Demo Night: Beyond the Screen",
+            "id": 12,
+            "event name": "Physical AI Demo Night: Beyond the Screen (SPC in Partnership with Elevation Capital)",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-28T11:30:00.000Z",
             "venue": "Bengaluru",
@@ -102,7 +111,7 @@
             "image url": "https://images.lumacdn.com/uploads/8m/364e924d-e901-4232-90a1-8bfaed341466.png"
         },
         {
-            "id": 12,
+            "id": 13,
             "event name": "Okta Developer Connect Bengaluru",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-04T06:00:00.000Z",
@@ -111,7 +120,7 @@
             "image url": "https://images.lumacdn.com/uploads/st/a3b3ae2e-f862-4807-8f4f-6f8a39d793b3.png"
         },
         {
-            "id": 13,
+            "id": 14,
             "event name": "QFF 2026: Hands-On Quantum Programming with Qiskit",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-16T04:30:00.000Z",
@@ -120,7 +129,7 @@
             "image url": "https://images.lumacdn.com/uploads/63/59ce1849-46f4-41b5-bf0d-72c3ed9774d9.png"
         },
         {
-            "id": 14,
+            "id": 15,
             "event name": "Bangalore Product Mixer #4 | Product Reactor",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-12-05T12:30:00.000Z",
@@ -129,7 +138,7 @@
             "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
         },
         {
-            "id": 15,
+            "id": 16,
             "event name": "Mumbai Meets AI 06 | AI x Tech Builders Meetup",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-10T05:30:00.000Z",
@@ -138,7 +147,7 @@
             "image url": "https://images.lumacdn.com/uploads/27/1bfe62d9-de60-4937-a710-c82748f17967.png"
         },
         {
-            "id": 16,
+            "id": 17,
             "event name": "Durable DevOps Tech Meetup",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-17T12:30:00.000Z",
@@ -147,7 +156,7 @@
             "image url": "https://images.lumacdn.com/uploads/kh/3e4581e3-450e-4f3a-84a4-ee43bd3da9c9.jpg"
         },
         {
-            "id": 17,
+            "id": 18,
             "event name": "Structuring the AI Way",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-10-24T04:30:00.000Z",
@@ -156,7 +165,7 @@
             "image url": "https://images.lumacdn.com/uploads/f2/7e5a808a-918d-4205-9068-d730ec608bf8.png"
         },
         {
-            "id": 18,
+            "id": 19,
             "event name": "Ship Safe: Devcon Mumbai Security Sessions by QuillAudits",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-06T10:30:00.000Z",
