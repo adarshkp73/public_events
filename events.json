@@ -1,5 +1,177 @@
 {
-    "last_updated": "2026-10-15 23:12:16 UTC",
-    "total_events": 0,
-    "events": []
+    "last_updated": "2026-10-16 22:57:38 UTC",
+    "total_events": 19,
+    "events": [
+        {
+            "id": 1,
+            "event name": "The First 5 Sales Hires: Should They Be Closers, SDRs, or Technical Experts? How to Build Your Initial GTM Team.",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-17T05:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/g44lx0tq",
+            "image url": "https://images.lumacdn.com/uploads/ia/6d869953-d808-4ccf-a358-1637f2a48228.png"
+        },
+        {
+            "id": 2,
+            "event name": "Recognisable in 3 Seconds: Building Distinctive Brand Codes",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-17T06:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/wqm2mnvy",
+            "image url": "https://images.lumacdn.com/uploads/mr/5dd7051b-6daa-4041-b19b-08cf510c3aea.png"
+        },
+        {
+            "id": 3,
+            "event name": "Personal Branding for Founders & Agency Owners",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-17T08:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/vekatcd6",
+            "image url": "https://images.lumacdn.com/uploads/np/871c01c9-e2c0-4a87-9955-a6053a70f418.png"
+        },
+        {
+            "id": 4,
+            "event name": "Explanet Social · Bangalore Tech · Indiranagar Side (#10)",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-17T11:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/jenv5r7j",
+            "image url": "https://images.lumacdn.com/uploads/6d/9e07f185-6cd0-4574-bdaf-ac8da8d4429b.png"
+        },
+        {
+            "id": 5,
+            "event name": "Voice AI Buildathon: Build an AI That Can Interview",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-18T08:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/jmp402e7",
+            "image url": "https://images.lumacdn.com/uploads/xf/bc4b56dd-46bd-414b-aa5e-e0782a16cc9c.png"
+        },
+        {
+            "id": 6,
+            "event name": "Embedded Swift: From Code to Hardware",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-24T04:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/lbm2afcr",
+            "image url": "https://images.lumacdn.com/uploads/k5/35985186-a5f8-4ea4-afc9-678aa060e303.png"
+        },
+        {
+            "id": 7,
+            "event name": "BitGo x Giottus: Crypto Custody in Action",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-24T10:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/39txuq8y",
+            "image url": "https://images.lumacdn.com/uploads/dn/54b09849-96d4-449f-9c54-f45abb066ebb.png"
+        },
+        {
+            "id": 8,
+            "event name": "Physical AI Demo Night (SPC in partnership with Elevation Capital)",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-28T11:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/physicalaidemonight",
+            "image url": "https://images.lumacdn.com/uploads/be/16b25dcb-1e8c-402a-9c97-3f6dfe742893.png"
+        },
+        {
+            "id": 9,
+            "event name": "Code Meets Animation - Bangalore",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-31T08:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/okk23geo",
+            "image url": "https://images.lumacdn.com/uploads/lg/e6751474-68ec-4f06-813d-b584bd27da38.png"
+        },
+        {
+            "id": 10,
+            "event name": "Okta Developer Connect Bengaluru",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-04T06:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/2mgw9sne",
+            "image url": "https://images.lumacdn.com/uploads/st/a3b3ae2e-f862-4807-8f4f-6f8a39d793b3.png"
+        },
+        {
+            "id": 11,
+            "event name": "QFF 2026: Hands-On Quantum Programming with Qiskit",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-16T04:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/79i0vamg",
+            "image url": "https://images.lumacdn.com/uploads/63/59ce1849-46f4-41b5-bf0d-72c3ed9774d9.png"
+        },
+        {
+            "id": 12,
+            "event name": "Bangalore Product Mixer #4 | Product Reactor",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-12-05T12:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/232qy3xn",
+            "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
+        },
+        {
+            "id": 13,
+            "event name": "Inside LLM Inference: From Model Weights to Tokens at Scale",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-17T04:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/fi0qgdzs",
+            "image url": "https://images.lumacdn.com/uploads/w0/580affc0-9bbe-417e-92bd-39724bdafb66.jpg"
+        },
+        {
+            "id": 14,
+            "event name": "Hands-on Workshop - On-device AI with Gemma 4",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-24T04:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/w8n2jaa4",
+            "image url": "https://images.lumacdn.com/uploads/i4/45d17b1d-ea4d-4d40-8111-e3c04068547e.jpg"
+        },
+        {
+            "id": 15,
+            "event name": "Structuring the AI Way",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-24T04:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/c6v1qjx0",
+            "image url": "https://images.lumacdn.com/uploads/f2/7e5a808a-918d-4205-9068-d730ec608bf8.png"
+        },
+        {
+            "id": 16,
+            "event name": "Agriculture AI on WhatsApp",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-27T04:30:00.000Z",
+            "venue": "मुंबई",
+            "registration link": "https://lu.ma/uorbqle5",
+            "image url": "https://images.lumacdn.com/uploads/ln/61fccf87-b882-48fb-81e7-cdbd02791ea3.png"
+        },
+        {
+            "id": 17,
+            "event name": "Agentic Commerce: How the best consumer brands put AI to work",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-30T07:00:00.000Z",
+            "venue": "मुंबई",
+            "registration link": "https://lu.ma/203soxl1",
+            "image url": "https://images.lumacdn.com/uploads/rr/9cb19f0a-680e-488e-954a-d03ea4f51d13.png"
+        },
+        {
+            "id": 18,
+            "event name": "Ship Safe: Devcon Mumbai Security Sessions by QuillAudits",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-06T10:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/quilla-rvp4",
+            "image url": "https://images.lumacdn.com/uploads/3o/316a6b7e-0cdb-4571-bf02-947f86b92129.png"
+        },
+        {
+            "id": 19,
+            "event name": "Cloud Community Days 2026 Mumbai",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-15T03:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/tsbs46dq",
+            "image url": "https://images.lumacdn.com/uploads/qo/9904b2ad-9576-4dda-a496-7ada17d7e914.png"
+        }
+    ]
 }
