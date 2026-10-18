@@ -1,5 +1,150 @@
 {
-    "last_updated": "2026-10-17 22:35:03 UTC",
-    "total_events": 0,
-    "events": []
+    "last_updated": "2026-10-18 22:32:13 UTC",
+    "total_events": 16,
+    "events": [
+        {
+            "id": 1,
+            "event name": "Embedded Swift: From Code to Hardware",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-24T04:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/lbm2afcr",
+            "image url": "https://images.lumacdn.com/uploads/k5/35985186-a5f8-4ea4-afc9-678aa060e303.png"
+        },
+        {
+            "id": 2,
+            "event name": "AI Design-a-thon - Edition 5",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-24T06:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/1pg4ufwb",
+            "image url": "https://images.lumacdn.com/uploads/7n/51a3d63a-d68e-4414-a693-cbbf27d1a026.jpg"
+        },
+        {
+            "id": 3,
+            "event name": "BitGo x Giottus: Crypto Custody in Action",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-24T10:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/39txuq8y",
+            "image url": "https://images.lumacdn.com/uploads/dn/54b09849-96d4-449f-9c54-f45abb066ebb.png"
+        },
+        {
+            "id": 4,
+            "event name": "Physical AI Demo Night (SPC in partnership with Elevation Capital)",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-28T11:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/physicalaidemonight",
+            "image url": "https://images.lumacdn.com/uploads/be/16b25dcb-1e8c-402a-9c97-3f6dfe742893.png"
+        },
+        {
+            "id": 5,
+            "event name": "Code Meets Animation - Bangalore",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-31T08:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/okk23geo",
+            "image url": "https://images.lumacdn.com/uploads/lg/e6751474-68ec-4f06-813d-b584bd27da38.png"
+        },
+        {
+            "id": 6,
+            "event name": "Kaggle meets LeetCode. Challenge accepted? Win Rewards",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-31T08:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/KagglemeetsLeetCode",
+            "image url": "https://images.lumacdn.com/uploads/6y/53831afc-85bc-4df7-b93e-649f1f817123.jpg"
+        },
+        {
+            "id": 7,
+            "event name": "Okta Developer Connect Bengaluru",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-04T06:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/2mgw9sne",
+            "image url": "https://images.lumacdn.com/uploads/st/a3b3ae2e-f862-4807-8f4f-6f8a39d793b3.png"
+        },
+        {
+            "id": 8,
+            "event name": "QFF 2026: Hands-On Quantum Programming with Qiskit",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-16T04:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/79i0vamg",
+            "image url": "https://images.lumacdn.com/uploads/63/59ce1849-46f4-41b5-bf0d-72c3ed9774d9.png"
+        },
+        {
+            "id": 9,
+            "event name": "Bangalore Product Mixer #4 | Product Reactor",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-12-05T12:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/232qy3xn",
+            "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
+        },
+        {
+            "id": 10,
+            "event name": "Building Mumbai’s AI Talent | Launch of the Google Mumbai Data Challenge",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-23T14:00:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/h3hq02qb",
+            "image url": "https://images.lumacdn.com/uploads/13/11791c81-58d4-4396-974e-c5232cc9dd3a.png"
+        },
+        {
+            "id": 11,
+            "event name": "Hands-on Workshop - On-device AI with Gemma 4",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-24T04:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/w8n2jaa4",
+            "image url": "https://images.lumacdn.com/uploads/i4/45d17b1d-ea4d-4d40-8111-e3c04068547e.jpg"
+        },
+        {
+            "id": 12,
+            "event name": "Structuring the AI Way",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-24T04:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/c6v1qjx0",
+            "image url": "https://images.lumacdn.com/uploads/f2/7e5a808a-918d-4205-9068-d730ec608bf8.png"
+        },
+        {
+            "id": 13,
+            "event name": "Agriculture AI on WhatsApp",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-27T04:30:00.000Z",
+            "venue": "मुंबई",
+            "registration link": "https://lu.ma/uorbqle5",
+            "image url": "https://images.lumacdn.com/uploads/ln/61fccf87-b882-48fb-81e7-cdbd02791ea3.png"
+        },
+        {
+            "id": 14,
+            "event name": "Agentic Commerce: How the best consumer brands put AI to work",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-30T07:00:00.000Z",
+            "venue": "मुंबई",
+            "registration link": "https://lu.ma/203soxl1",
+            "image url": "https://images.lumacdn.com/uploads/rr/9cb19f0a-680e-488e-954a-d03ea4f51d13.png"
+        },
+        {
+            "id": 15,
+            "event name": "Ship Safe: Devcon Mumbai Security Sessions by QuillAudits",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-06T10:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/quilla-rvp4",
+            "image url": "https://images.lumacdn.com/uploads/3o/316a6b7e-0cdb-4571-bf02-947f86b92129.png"
+        },
+        {
+            "id": 16,
+            "event name": "Cloud Community Days 2026 Mumbai",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-15T03:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/tsbs46dq",
+            "image url": "https://images.lumacdn.com/uploads/qo/9904b2ad-9576-4dda-a496-7ada17d7e914.png"
+        }
+    ]
 }
