@@ -1,6 +1,6 @@
 {
-    "last_updated": "2026-10-20 23:18:14 UTC",
-    "total_events": 18,
+    "last_updated": "2026-10-21 23:32:42 UTC",
+    "total_events": 17,
     "events": [
         {
             "id": 1,
@@ -139,15 +139,6 @@
         },
         {
             "id": 16,
-            "event name": "Agentic Commerce: How the best consumer brands put AI to work",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-10-30T07:00:00.000Z",
-            "venue": "मुंबई",
-            "registration link": "https://lu.ma/203soxl1",
-            "image url": "https://images.lumacdn.com/uploads/rr/9cb19f0a-680e-488e-954a-d03ea4f51d13.png"
-        },
-        {
-            "id": 17,
             "event name": "Ship Safe: Devcon Mumbai Security Sessions by QuillAudits",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-06T10:30:00.000Z",
@@ -156,7 +147,7 @@
             "image url": "https://images.lumacdn.com/uploads/3o/316a6b7e-0cdb-4571-bf02-947f86b92129.png"
         },
         {
-            "id": 18,
+            "id": 17,
             "event name": "Cloud Community Days 2026 Mumbai",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-15T03:30:00.000Z",
