@@ -1,5 +1,132 @@
 {
-    "last_updated": "2026-10-27 23:55:38 UTC",
-    "total_events": 0,
-    "events": []
+    "last_updated": "2026-10-29 00:13:28 UTC",
+    "total_events": 14,
+    "events": [
+        {
+            "id": 1,
+            "event name": "Armature AI Labs Launch Night",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-30T11:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/dqrw1knd",
+            "image url": "https://images.lumacdn.com/uploads/lq/1b28f91c-25c8-4612-9b29-779a0b15ea4b.png"
+        },
+        {
+            "id": 2,
+            "event name": "Beyond LLMs: A Glimpse of World Models & Physical AI! - Circles - Physical AI Edition",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-31T05:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/lwzwhpz5",
+            "image url": "https://images.lumacdn.com/gallery-images/2v/1f9271dd-6813-445a-8c00-e45f4e4b0ceb.png"
+        },
+        {
+            "id": 3,
+            "event name": "Behind the Loop: Bringing The Invisible Labour Powering AI into Focus",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-31T05:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/ec14nbzm",
+            "image url": "https://images.lumacdn.com/uploads/es/9a887271-17a1-4ddf-a71e-cb293ab6b1b4.jpg"
+        },
+        {
+            "id": 4,
+            "event name": "Code Meets Animation - Bangalore",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-31T08:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/okk23geo",
+            "image url": "https://images.lumacdn.com/uploads/lg/e6751474-68ec-4f06-813d-b584bd27da38.png"
+        },
+        {
+            "id": 5,
+            "event name": "Kaggle meets LeetCode. Challenge accepted? Win Rewards",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-10-31T08:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/KagglemeetsLeetCode",
+            "image url": "https://images.lumacdn.com/uploads/6y/53831afc-85bc-4df7-b93e-649f1f817123.jpg"
+        },
+        {
+            "id": 6,
+            "event name": "Agentic Mixer | State of Agentic AI",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-01T11:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/7cbnj5li",
+            "image url": "https://images.lumacdn.com/uploads/uu/fa4ea370-1b69-44b4-bb31-2a3ebbae2db5.png"
+        },
+        {
+            "id": 7,
+            "event name": "Okta Developer Connect Bengaluru",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-04T06:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/2mgw9sne",
+            "image url": "https://images.lumacdn.com/uploads/st/a3b3ae2e-f862-4807-8f4f-6f8a39d793b3.png"
+        },
+        {
+            "id": 8,
+            "event name": "QFF 2026: Hands-On Quantum Programming with Qiskit",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-16T04:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/79i0vamg",
+            "image url": "https://images.lumacdn.com/uploads/63/59ce1849-46f4-41b5-bf0d-72c3ed9774d9.png"
+        },
+        {
+            "id": 9,
+            "event name": "Build with Agora - Bengaluru 2026 | Voice AI Hackathon",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-21T03:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/2g5vcgrr",
+            "image url": "https://images.lumacdn.com/uploads/5f/5d389e1e-8714-4f5d-a6b8-85b6ddc783a9.png"
+        },
+        {
+            "id": 10,
+            "event name": "AI Tools that Earn: a hackathon by Apify",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-22T02:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/apify-yc12",
+            "image url": "https://images.lumacdn.com/uploads/s3/2d146e15-717e-4c15-bb29-4b024c1b49cb.png"
+        },
+        {
+            "id": 11,
+            "event name": "Bangalore Product Mixer #4 | Product Reactor",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-12-05T12:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/232qy3xn",
+            "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
+        },
+        {
+            "id": 12,
+            "event name": "Ship Safe: Devcon Mumbai Security Sessions by QuillAudits",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-06T10:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/quilla-rvp4",
+            "image url": "https://images.lumacdn.com/uploads/3o/316a6b7e-0cdb-4571-bf02-947f86b92129.png"
+        },
+        {
+            "id": 13,
+            "event name": "Cloud Community Days 2026 Mumbai",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-15T03:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/tsbs46dq",
+            "image url": "https://images.lumacdn.com/uploads/qo/9904b2ad-9576-4dda-a496-7ada17d7e914.png"
+        },
+        {
+            "id": 14,
+            "event name": "[Pre-DevFest] Tech Trivia Night",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-25T10:00:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/sdvi6bs6",
+            "image url": "https://images.lumacdn.com/uploads/wr/f1bdae32-4593-4d2c-b888-e598c60b7dac.png"
+        }
+    ]
 }
