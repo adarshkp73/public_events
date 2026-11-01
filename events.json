@@ -1,5 +1,96 @@
 {
-    "last_updated": "2026-10-31 23:33:59 UTC",
-    "total_events": 0,
-    "events": []
+    "last_updated": "2026-11-01 23:48:12 UTC",
+    "total_events": 10,
+    "events": [
+        {
+            "id": 1,
+            "event name": "Okta Developer Connect Bengaluru",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-04T06:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/2mgw9sne",
+            "image url": "https://images.lumacdn.com/uploads/pc/51ee37ba-86b8-4d32-a6d2-dc111afb9f36.png"
+        },
+        {
+            "id": 2,
+            "event name": "QFF 2026: Hands-On Quantum Programming with Qiskit",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-16T04:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/79i0vamg",
+            "image url": "https://images.lumacdn.com/uploads/63/59ce1849-46f4-41b5-bf0d-72c3ed9774d9.png"
+        },
+        {
+            "id": 3,
+            "event name": "Symphony: India's Flagship Voice AI Summit",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-20T04:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/670rdx1k",
+            "image url": "https://images.lumacdn.com/uploads/63/cb2bcfb3-5c39-4afe-a137-74ada2486868.png"
+        },
+        {
+            "id": 4,
+            "event name": "Build with Agora - Bengaluru 2026 | Voice AI Hackathon",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-21T03:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/2g5vcgrr",
+            "image url": "https://images.lumacdn.com/uploads/5f/5d389e1e-8714-4f5d-a6b8-85b6ddc783a9.png"
+        },
+        {
+            "id": 5,
+            "event name": "AI Tools that Earn: a hackathon by Apify",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-22T02:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/apify-yc12",
+            "image url": "https://images.lumacdn.com/uploads/s3/2d146e15-717e-4c15-bb29-4b024c1b49cb.png"
+        },
+        {
+            "id": 6,
+            "event name": "Bangalore Product Mixer #4 | Product Reactor",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-12-05T12:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/232qy3xn",
+            "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
+        },
+        {
+            "id": 7,
+            "event name": "Ship Safe: Devcon Mumbai Security Sessions by QuillAudits",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-06T10:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/quilla-rvp4",
+            "image url": "https://images.lumacdn.com/uploads/3o/316a6b7e-0cdb-4571-bf02-947f86b92129.png"
+        },
+        {
+            "id": 8,
+            "event name": "Cloud Community Days 2026 Mumbai",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-15T03:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/tsbs46dq",
+            "image url": "https://images.lumacdn.com/uploads/qo/9904b2ad-9576-4dda-a496-7ada17d7e914.png"
+        },
+        {
+            "id": 9,
+            "event name": "[Pre-DevFest] Tech Trivia Night",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-25T10:00:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/sdvi6bs6",
+            "image url": "https://images.lumacdn.com/uploads/wr/f1bdae32-4593-4d2c-b888-e598c60b7dac.png"
+        },
+        {
+            "id": 10,
+            "event name": "[Pre-DevFest] Startup Founders' Mixer",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-28T11:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/6upa54ie",
+            "image url": "https://images.lumacdn.com/uploads/jv/0fcc544f-64d1-429f-bbf7-c1528c04f236.png"
+        }
+    ]
 }
