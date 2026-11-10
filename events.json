@@ -1,6 +1,6 @@
 {
-    "last_updated": "2026-11-08 23:55:28 UTC",
-    "total_events": 11,
+    "last_updated": "2026-11-10 02:51:32 UTC",
+    "total_events": 12,
     "events": [
         {
             "id": 1,
@@ -49,6 +49,15 @@
         },
         {
             "id": 6,
+            "event name": "Cashfree × Sarvam AI Buildathon",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-21T06:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/azuhrzuj",
+            "image url": "https://images.lumacdn.com/uploads/pz/3511a822-d928-4cf8-b912-7819107bd522.png"
+        },
+        {
+            "id": 7,
             "event name": "AI Tools that Earn: a hackathon by Apify",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-22T02:30:00.000Z",
@@ -57,7 +66,7 @@
             "image url": "https://images.lumacdn.com/uploads/s3/2d146e15-717e-4c15-bb29-4b024c1b49cb.png"
         },
         {
-            "id": 7,
+            "id": 8,
             "event name": "Bangalore Product Mixer #4 | Product Reactor",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-12-05T12:30:00.000Z",
@@ -66,7 +75,7 @@
             "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
         },
         {
-            "id": 8,
+            "id": 9,
             "event name": "Cloud Community Days 2026 Mumbai",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-15T03:30:00.000Z",
@@ -75,7 +84,7 @@
             "image url": "https://images.lumacdn.com/uploads/qo/9904b2ad-9576-4dda-a496-7ada17d7e914.png"
         },
         {
-            "id": 9,
+            "id": 10,
             "event name": "AI Engineering Under The Hood",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-21T04:30:00.000Z",
@@ -84,7 +93,7 @@
             "image url": "https://images.lumacdn.com/uploads/a8/d7198917-63b1-4d89-8c7c-b0702912f7a3.png"
         },
         {
-            "id": 10,
+            "id": 11,
             "event name": "[Pre-DevFest] Tech Trivia Night",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-25T10:00:00.000Z",
@@ -93,7 +102,7 @@
             "image url": "https://images.lumacdn.com/uploads/wr/f1bdae32-4593-4d2c-b888-e598c60b7dac.png"
         },
         {
-            "id": 11,
+            "id": 12,
             "event name": "[Pre-DevFest] Startup Founders' Mixer",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-28T11:30:00.000Z",
