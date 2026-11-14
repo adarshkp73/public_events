@@ -1,9 +1,27 @@
 {
-    "last_updated": "2026-11-13 01:22:39 UTC",
-    "total_events": 12,
+    "last_updated": "2026-11-14 00:58:28 UTC",
+    "total_events": 14,
     "events": [
         {
             "id": 1,
+            "event name": "Builders and Backers : Panel Conversation and Startup Showcase",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-14T05:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/jf2sl1x7",
+            "image url": "https://images.lumacdn.com/event-covers/nv/fc16e75d-29a2-47ba-89e9-b3c6fdb69d85"
+        },
+        {
+            "id": 2,
+            "event name": "The Model Shift : Software Factory Edition",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-14T05:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/6tgm6d8u",
+            "image url": "https://images.lumacdn.com/uploads/9l/00b78539-129d-4444-985a-e206df1f6fb8.png"
+        },
+        {
+            "id": 3,
             "event name": "Design School S2: AI took my brief, not my job",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-14T06:30:00.000Z",
@@ -12,7 +30,7 @@
             "image url": "https://images.lumacdn.com/uploads/nd/8d8e7499-16a4-4988-a253-253d4038b2f9.png"
         },
         {
-            "id": 2,
+            "id": 4,
             "event name": "Build Out Loud: A Wispr Flow × Bolna Hackathon",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-15T06:30:00.000Z",
@@ -21,7 +39,7 @@
             "image url": "https://images.lumacdn.com/uploads/t7/50610fd0-c64f-4dfb-b052-fd63001314a5.png"
         },
         {
-            "id": 3,
+            "id": 5,
             "event name": "QFF 2026: Hands-On Quantum Programming with Qiskit",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-16T04:30:00.000Z",
@@ -30,7 +48,7 @@
             "image url": "https://images.lumacdn.com/uploads/63/59ce1849-46f4-41b5-bf0d-72c3ed9774d9.png"
         },
         {
-            "id": 4,
+            "id": 6,
             "event name": "Symphony: India's Flagship Voice AI Summit",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-20T04:00:00.000Z",
@@ -39,7 +57,7 @@
             "image url": "https://images.lumacdn.com/uploads/63/cb2bcfb3-5c39-4afe-a137-74ada2486868.png"
         },
         {
-            "id": 5,
+            "id": 7,
             "event name": "Build with Agora - Bengaluru 2026 | Voice AI Hackathon",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-21T03:00:00.000Z",
@@ -48,7 +66,7 @@
             "image url": "https://images.lumacdn.com/uploads/5f/5d389e1e-8714-4f5d-a6b8-85b6ddc783a9.png"
         },
         {
-            "id": 6,
+            "id": 8,
             "event name": "Cashfree × Sarvam AI Buildathon",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-21T06:00:00.000Z",
@@ -57,7 +75,7 @@
             "image url": "https://images.lumacdn.com/uploads/pz/3511a822-d928-4cf8-b912-7819107bd522.png"
         },
         {
-            "id": 7,
+            "id": 9,
             "event name": "AI Tools that Earn: a hackathon by Apify",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-22T02:30:00.000Z",
@@ -66,7 +84,7 @@
             "image url": "https://images.lumacdn.com/uploads/s3/2d146e15-717e-4c15-bb29-4b024c1b49cb.png"
         },
         {
-            "id": 8,
+            "id": 10,
             "event name": "Bangalore Product Mixer #4 | Product Reactor",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-12-05T12:30:00.000Z",
@@ -75,7 +93,7 @@
             "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
         },
         {
-            "id": 9,
+            "id": 11,
             "event name": "Cloud Community Days 2026 Mumbai",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-15T03:30:00.000Z",
@@ -84,16 +102,16 @@
             "image url": "https://images.lumacdn.com/uploads/qo/9904b2ad-9576-4dda-a496-7ada17d7e914.png"
         },
         {
-            "id": 10,
-            "event name": "AI Engineering Under The Hood",
+            "id": 12,
+            "event name": "[Pre-DevFest] Behind the Code",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-21T04:30:00.000Z",
-            "venue": "Mumbai",
-            "registration link": "https://lu.ma/p1vuqekd",
-            "image url": "https://images.lumacdn.com/uploads/a8/d7198917-63b1-4d89-8c7c-b0702912f7a3.png"
+            "venue": "Andheri",
+            "registration link": "https://lu.ma/w9n0h2dc",
+            "image url": "https://images.lumacdn.com/uploads/p0/fb661431-0c3f-4903-862b-e3acb26e86f4.png"
         },
         {
-            "id": 11,
+            "id": 13,
             "event name": "[Pre-DevFest] Tech Trivia Night",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-25T10:00:00.000Z",
@@ -102,7 +120,7 @@
             "image url": "https://images.lumacdn.com/uploads/wr/f1bdae32-4593-4d2c-b888-e598c60b7dac.png"
         },
         {
-            "id": 12,
+            "id": 14,
             "event name": "[Pre-DevFest] Startup Founders' Mixer",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-28T11:30:00.000Z",
