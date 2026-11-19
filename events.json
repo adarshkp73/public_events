@@ -1,5 +1,123 @@
 {
-    "last_updated": "2026-11-18 02:31:59 UTC",
-    "total_events": 0,
-    "events": []
+    "last_updated": "2026-11-19 01:57:30 UTC",
+    "total_events": 13,
+    "events": [
+        {
+            "id": 1,
+            "event name": "Symphony: India's Flagship Voice AI Summit",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-20T04:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/670rdx1k",
+            "image url": "https://images.lumacdn.com/uploads/63/cb2bcfb3-5c39-4afe-a137-74ada2486868.png"
+        },
+        {
+            "id": 2,
+            "event name": "Build with Agora - Bengaluru 2026 | Voice AI Hackathon",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-21T03:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/2g5vcgrr",
+            "image url": "https://images.lumacdn.com/uploads/5f/5d389e1e-8714-4f5d-a6b8-85b6ddc783a9.png"
+        },
+        {
+            "id": 3,
+            "event name": "Architecting Resilient Agents: Workflows, MCP & AWS",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-21T04:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/rvaw7bgu",
+            "image url": "https://images.lumacdn.com/uploads/gh/0f1ff6f8-0704-4648-b6b9-2e5dac47a621.png"
+        },
+        {
+            "id": 4,
+            "event name": "AI Tools that Earn: a hackathon by Apify",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-22T02:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/apify-yc12",
+            "image url": "https://images.lumacdn.com/uploads/s3/2d146e15-717e-4c15-bb29-4b024c1b49cb.png"
+        },
+        {
+            "id": 5,
+            "event name": "Manus Fellow Event | Build with Manus AI @ Quad Bangalore",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-28T08:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/0d2dgzm6",
+            "image url": "https://images.lumacdn.com/uploads/x7/0b33bed5-50a1-4317-8dce-08cf5d16326b.png"
+        },
+        {
+            "id": 6,
+            "event name": "the unbundling: AI in enterprise financial services",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-30T04:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/yq5ckix6",
+            "image url": "https://images.lumacdn.com/uploads/61/3fb43c6e-680a-4516-a51e-fced163e32b4.jpg"
+        },
+        {
+            "id": 7,
+            "event name": "Turing in Bengaluru: India at the AI Frontier",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-12-02T12:00:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/bkkfqqer",
+            "image url": "https://images.lumacdn.com/uploads/3u/ac966c13-cdd6-4115-82b7-5c52746863e5.png"
+        },
+        {
+            "id": 8,
+            "event name": "Bangalore Product Mixer #4 | Product Reactor",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-12-05T12:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/232qy3xn",
+            "image url": "https://images.lumacdn.com/uploads/1u/8a1c42db-2417-4ac9-92ab-364b696243b6.png"
+        },
+        {
+            "id": 9,
+            "event name": "Founders Day",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-12-19T08:30:00.000Z",
+            "venue": "Bengaluru",
+            "registration link": "https://lu.ma/f1ru037d",
+            "image url": "https://images.lumacdn.com/uploads/1e/d8b1bfb5-c803-4a70-bb1c-3d328576674d.png"
+        },
+        {
+            "id": 10,
+            "event name": "[Pre-DevFest] Behind the Code",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-21T04:30:00.000Z",
+            "venue": "Andheri",
+            "registration link": "https://lu.ma/w9n0h2dc",
+            "image url": "https://images.lumacdn.com/uploads/p0/fb661431-0c3f-4903-862b-e3acb26e86f4.png"
+        },
+        {
+            "id": 11,
+            "event name": "[Pre-DevFest] Tech Trivia Night",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-25T10:00:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/sdvi6bs6",
+            "image url": "https://images.lumacdn.com/uploads/wr/f1bdae32-4593-4d2c-b888-e598c60b7dac.png"
+        },
+        {
+            "id": 12,
+            "event name": "[Pre-DevFest] Startup Founders' Mixer",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-28T11:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/6upa54ie",
+            "image url": "https://images.lumacdn.com/uploads/qm/4ab8558e-18ac-454b-b1f1-7aa5b8b6bb18.png"
+        },
+        {
+            "id": 13,
+            "event name": "DeepTech Builders of Bombay",
+            "host": "data not provided/will be shared upon signup",
+            "date and time": "2026-11-29T08:30:00.000Z",
+            "venue": "Mumbai",
+            "registration link": "https://lu.ma/46u5sb9w",
+            "image url": "https://images.lumacdn.com/uploads/2e/a107b139-d077-4c3c-9b4c-f4b37f875c48.png"
+        }
+    ]
 }
