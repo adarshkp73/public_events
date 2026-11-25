@@ -1,6 +1,6 @@
 {
-    "last_updated": "2026-11-24 04:55:36 UTC",
-    "total_events": 8,
+    "last_updated": "2026-11-25 03:41:18 UTC",
+    "total_events": 7,
     "events": [
         {
             "id": 1,
@@ -40,15 +40,6 @@
         },
         {
             "id": 5,
-            "event name": "Founders Day",
-            "host": "data not provided/will be shared upon signup",
-            "date and time": "2026-12-19T08:30:00.000Z",
-            "venue": "Bengaluru",
-            "registration link": "https://lu.ma/f1ru037d",
-            "image url": "https://images.lumacdn.com/uploads/1e/d8b1bfb5-c803-4a70-bb1c-3d328576674d.png"
-        },
-        {
-            "id": 6,
             "event name": "[Pre-DevFest] Tech Trivia Night",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-25T10:00:00.000Z",
@@ -57,7 +48,7 @@
             "image url": "https://images.lumacdn.com/uploads/wr/f1bdae32-4593-4d2c-b888-e598c60b7dac.png"
         },
         {
-            "id": 7,
+            "id": 6,
             "event name": "[Pre-DevFest] Startup Founders' Mixer",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-28T11:30:00.000Z",
@@ -66,7 +57,7 @@
             "image url": "https://images.lumacdn.com/uploads/qm/4ab8558e-18ac-454b-b1f1-7aa5b8b6bb18.png"
         },
         {
-            "id": 8,
+            "id": 7,
             "event name": "DeepTech Builders of Bombay",
             "host": "data not provided/will be shared upon signup",
             "date and time": "2026-11-29T08:30:00.000Z",
